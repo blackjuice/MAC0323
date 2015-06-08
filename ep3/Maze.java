@@ -24,19 +24,13 @@ public class Maze {
     private boolean[][] visited;
     private boolean done = false;
     // extras para definir semente
-/*
-    private final int       seed     = N;
-    private final Random    randomnum   = new Random(seed);
-    private int       seed     = N;
-    private final int seed = seed;// = args[1];
-    private Random    randomnum   = new Random(seed);
-    private Random    randomnum   = new Random(seed);
-    private Random randomnum = new Random(seed);
-    private final int seed;
-    private Random randomnum;
-*/
-    private static Random random;    // pseudo-random number generator
-    private static long seed;        // pseudo-random number generator seed
+    private static Random random;
+    private static long seed;
+
+    private int startX;
+    private int startY;
+    private int endX;
+    private int endY;
 
     public static void setSeed(long s) {
         seed   = s;
@@ -56,7 +50,6 @@ public class Maze {
         visited = new boolean[N+2][N+2];
         for (int x = 0; x < N+2; x++) visited[x][0] = visited[x][N+1] = true;
         for (int y = 0; y < N+2; y++) visited[0][y] = visited[N+1][y] = true;
-
 
         // initialze all walls as present
         north = new boolean[N+2][N+2];
@@ -80,32 +73,30 @@ public class Maze {
             while (true) {
 
                 // gerando r a partir da seed
-                /*
-                //double r = randomnum.nextDouble();
-                StdOut.println("seed = " + seed);
-                StdOut.println("N = " + N);
-                StdOut.println("r = " + r);
-                */
                 double r = random.nextDouble();
-
 
                 if (r < 0.25 && !visited[x][y+1]) {
                     north[x][y] = south[x][y+1] = false;
+                    //StdOut.println("north["+x+"]["+y+"] + south["+x+"]["+ (y+1) +"]");
+                    //north[x][y] = south[x][y+1] = true;
                     generate(x, y + 1);
                     break;
                 }
                 else if (r >= 0.25 && r < 0.50 && !visited[x+1][y]) {
                     east[x][y] = west[x+1][y] = false;
+                    //east[x][y] = west[x+1][y] = true;
                     generate(x+1, y);
                     break;
                 }
                 else if (r >= 0.5 && r < 0.75 && !visited[x][y-1]) {
                     south[x][y] = north[x][y-1] = false;
+                    //south[x][y] = north[x][y-1] = true;
                     generate(x, y-1);
                     break;
                 }
                 else if (r >= 0.75 && r < 1.00 && !visited[x-1][y]) {
                     west[x][y] = east[x-1][y] = false;
+                    //west[x][y] = east[x-1][y] = true;
                     generate(x-1, y);
                     break;
                 }
@@ -115,7 +106,6 @@ public class Maze {
 
     // generate the maze starting from lower left
     private void generate() {
-        //Random randomnum = new Random(seed);
         generate(1, 1);
 
 /*
@@ -196,20 +186,34 @@ public class Maze {
     public static void main(String[] args) {
         int N = Integer.parseInt(args[0]);
         // recolhendo semente
-        //int seed = Integer.parseInt(args[1]);
-        //Random randomnum = new Random(seed);
         Maze.setSeed(Long.parseLong(args[1]));
-        //StdOut.println("seed = " + seed);
-        //Random randomnum = new Random(seed);
+
+        String[] posicoes = StdIn.readAllStrings();
+        int n_posicoes = posicoes.length;
 
 
-        Maze maze = new Maze(N);
-        StdDraw.show(0);
-        maze.draw();
-        //maze.solve();
-        
+        for (int i = 0; i < n_posicoes; i++) {
+            int startX = Integer.parseInt(posicoes[i]);
+            int startY = Integer.parseInt(posicoes[++i]);
+            int endX = Integer.parseInt(posicoes[++i]);
+            int endY = Integer.parseInt(posicoes[++i]);
 
-        //StdOut.println("seed = " + args[1]);
+            StdOut.println("x = " + startX + " y = " + startY + " endx = " + endX + " endy = " + endY);
+
+
+            Maze maze = new Maze(N);
+            StdDraw.show(0);
+            maze.draw();
+
+
+            // intervalo de tempo entre uma solução e outra
+            try {
+                Thread.sleep(1000); 
+            }catch(InterruptedException ex) {
+                Thread.currentThread().interrupt();
+            }
+        }        
+
     }
 
 }
