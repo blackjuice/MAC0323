@@ -1,16 +1,24 @@
 /*************************************************************************
- *  Compilation:  javac Maze.java
- *  Execution:    java Maze.java N
- *  Dependecies:  StdDraw.java
  *
- *  Generates a perfect N-by-N maze using depth-first search with a stack.
+ *  nome:           LUCAS SUNG JUN HONG
+ *  n.USP:          812 432 9
  *
- *  % java Maze 62
+ *  exercise:       EP3
+ *  Compilation:    javac-algs4 Maze.java
+ *  Execution:      java-algs4 Maze N [seed] < input.txt
+ *  Dependencies:   
  *
- *  % java Maze 61
  *
- *  Note: this program generalizes nicely to finding a random tree
- *        in a graph.
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  *
  *************************************************************************/
 import java.util.Random;
@@ -24,18 +32,24 @@ public class Maze {
     private boolean[][] visited;
     private boolean done = false;
     // extras para definir semente
-    private static Random random;
-    private static long seed;
+    private static Random   random;
+    private static long     seed;
+    // extras para definir as coordenadas de inicio e fim
+    private static int      startX;
+    private static int      startY;
+    private static int      endX;
+    private static int      endY;
 
-    private int startX;
-    private int startY;
-    private int endX;
-    private int endY;
-
+    // gerador com semente
     public static void setSeed(long s) {
-        seed   = s;
-        random = new Random(seed);
+        seed    = s;
+        random  = new Random(seed);
     }
+    // coordenadas para o inicio e fim do caminho
+    public static void setStartX(int s) { startX  = s; }
+    public static void setStartY(int s) { startY  = s; }
+    public static void setEndX(int s)   { endX    = s; }
+    public static void setEndY(int s)   { endY    = s; }
 
     public Maze(int N) {
         this.N = N;
@@ -138,8 +152,9 @@ public class Maze {
         StdDraw.filledCircle(x + 0.5, y + 0.5, 0.25);
         StdDraw.show(30);
 
-        // reached middle
+        // ponto de chegada alcançada
         if (x == N/2 && y == N/2) done = true;
+        //if (x == endX && y == endY) done = true;
 
         if (!north[x][y]) solve(x, y + 1);
         if (!east[x][y])  solve(x + 1, y);
@@ -159,6 +174,7 @@ public class Maze {
             for (int y = 1; y <= N; y++)
                 visited[x][y] = false;
         done = false;
+        //solve(startX, startY);
         solve(1, 1);
     }
 
@@ -181,7 +197,6 @@ public class Maze {
     }
 
 
-
     // a test client
     public static void main(String[] args) {
         int N = Integer.parseInt(args[0]);
@@ -193,26 +208,33 @@ public class Maze {
 
 
         for (int i = 0; i < n_posicoes; i++) {
+            // definindo posicoes de inicio e fim
             int startX = Integer.parseInt(posicoes[i]);
             int startY = Integer.parseInt(posicoes[++i]);
             int endX = Integer.parseInt(posicoes[++i]);
             int endY = Integer.parseInt(posicoes[++i]);
-
-            StdOut.println("x = " + startX + " y = " + startY + " endx = " + endX + " endy = " + endY);
-
+            Maze.setStartX(startX);
+            Maze.setStartY(startY);
+            Maze.setEndX(endX);
+            Maze.setEndY(endY);
 
             Maze maze = new Maze(N);
             StdDraw.show(0);
             maze.draw();
+            maze.solve();
+            StdDraw.clear();
+            /*
+            */
 
-
-            // intervalo de tempo entre uma solução e outra
+            // intervalo de tempo entre uma solução e outra (definido 3s)
             try {
-                Thread.sleep(1000); 
+                Thread.sleep(500);
+                //Thread.sleep(3000);
             }catch(InterruptedException ex) {
                 Thread.currentThread().interrupt();
             }
-        }        
+        }
+        StdOut.println("FIM DO PROGRAMA");       
 
     }
 
