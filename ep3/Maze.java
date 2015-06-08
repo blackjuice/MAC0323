@@ -13,6 +13,7 @@
  *        in a graph.
  *
  *************************************************************************/
+import java.util.Random;
 
 public class Maze {
     private int N;                 // dimension of maze
@@ -22,6 +23,14 @@ public class Maze {
     private boolean[][] west;
     private boolean[][] visited;
     private boolean done = false;
+
+/*
+    private Random  generator;
+    private int     semente;
+*/
+    private final int semente = N;
+    private final Random generator = new Random(semente);
+    //private final Random generator = new Random();
 
     public Maze(int N) {
         this.N = N;
@@ -58,7 +67,12 @@ public class Maze {
 
             // pick random neighbor (could use Knuth's trick instead)
             while (true) {
-                double r = Math.random();
+
+                //double r = Math.random();
+                //Random generator = new Random(semente);
+                double r = generator.nextDouble();
+                StdOut.println(r);
+
                 if (r < 0.25 && !visited[x][y+1]) {
                     north[x][y] = south[x][y+1] = false;
                     generate(x, y + 1);
@@ -164,6 +178,14 @@ public class Maze {
     // a test client
     public static void main(String[] args) {
         int N = Integer.parseInt(args[0]);
+        // recolhendo semente
+        int semente = Integer.parseInt(args[1]);
+        Random generator = new Random(semente);
+        //Random generator = new Random();
+        //generator.setSeed(semente);
+        //StdOut.println(generator.nextDouble());
+
+
         Maze maze = new Maze(N);
         StdDraw.show(0);
         maze.draw();
