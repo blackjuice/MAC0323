@@ -65,7 +65,7 @@ public class Maze {
         for (int x = 0; x < N+2; x++) visited[x][0] = visited[x][N+1] = true;
         for (int y = 0; y < N+2; y++) visited[0][y] = visited[N+1][y] = true;
 
-        // initialze all walls as present
+        // initialize all walls as present
         north = new boolean[N+2][N+2];
         east  = new boolean[N+2][N+2];
         south = new boolean[N+2][N+2];
@@ -120,27 +120,8 @@ public class Maze {
 
     // generate the maze starting from lower left
     private void generate() {
-        generate(1, 1);
-
-/*
-        // delete some random walls
-        for (int i = 0; i < N; i++) {
-            int x = (int) (1 + Math.random() * (N-1));
-            int y = (int) (1 + Math.random() * (N-1));
-            north[x][y] = south[x][y+1] = false;
-        }
-
-        // add some random walls
-        for (int i = 0; i < 10; i++) {
-            int x = (int) (N / 2 + Math.random() * (N / 2));
-            int y = (int) (N / 2 + Math.random() * (N / 2));
-            east[x][y] = west[x+1][y] = true;
-        }
-*/
-     
+        generate(1, 1); 
     }
-
-
 
     // solve the maze using depth-first search
     private void solve(int x, int y) {
@@ -153,8 +134,8 @@ public class Maze {
         StdDraw.show(30);
 
         // ponto de chegada alcançada
-        if (x == N/2 && y == N/2) done = true;
-        //if (x == endX && y == endY) done = true;
+        //if (x == N/2 && y == N/2) done = true;
+        if (x == endX && y == endY) done = true;
 
         if (!north[x][y]) solve(x, y + 1);
         if (!east[x][y])  solve(x + 1, y);
@@ -174,16 +155,15 @@ public class Maze {
             for (int y = 1; y <= N; y++)
                 visited[x][y] = false;
         done = false;
-        //solve(startX, startY);
-        solve(1, 1);
+        solve(startX, startY);
+        //solve(1, 1);
     }
 
     // draw the maze
     public void draw() {
         StdDraw.setPenColor(StdDraw.RED);
-        StdDraw.filledCircle(N/2.0 + 0.5, N/2.0 + 0.5, 0.375);
-        StdDraw.filledCircle(1.5, 1.5, 0.375);
-
+        StdDraw.filledCircle(endX + 0.5, endY + 0.5, 0.375);
+        StdDraw.filledCircle(startX + 0.5, startY + 0.5, 0.375);
         StdDraw.setPenColor(StdDraw.BLACK);
         for (int x = 1; x <= N; x++) {
             for (int y = 1; y <= N; y++) {
