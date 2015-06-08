@@ -134,7 +134,6 @@ public class Maze {
         StdDraw.show(30);
 
         // ponto de chegada alcançada
-        //if (x == N/2 && y == N/2) done = true;
         if (x == endX && y == endY) done = true;
 
         if (!north[x][y]) solve(x, y + 1);
@@ -156,7 +155,6 @@ public class Maze {
                 visited[x][y] = false;
         done = false;
         solve(startX, startY);
-        //solve(1, 1);
     }
 
     // draw the maze
@@ -182,10 +180,9 @@ public class Maze {
         int N = Integer.parseInt(args[0]);
         // recolhendo semente
         Maze.setSeed(Long.parseLong(args[1]));
-
+        // leitura do arquivo .txt
         String[] posicoes = StdIn.readAllStrings();
         int n_posicoes = posicoes.length;
-
 
         for (int i = 0; i < n_posicoes; i++) {
             // definindo posicoes de inicio e fim
@@ -203,8 +200,6 @@ public class Maze {
             maze.draw();
             maze.solve();
             StdDraw.clear();
-            /*
-            */
 
             // intervalo de tempo entre uma solução e outra (definido 3s)
             try {
@@ -214,7 +209,7 @@ public class Maze {
                 Thread.currentThread().interrupt();
             }
         }
-        StdOut.println("FIM DO PROGRAMA");       
+        StdOut.println(" * FIM DO PROGRAMA *");       
 
     }
 
