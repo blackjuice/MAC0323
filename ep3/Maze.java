@@ -23,14 +23,25 @@ public class Maze {
     private boolean[][] west;
     private boolean[][] visited;
     private boolean done = false;
-
+    // extras para definir semente
 /*
-    private Random  generator;
-    private int     semente;
+    private final int       seed     = N;
+    private final Random    randomnum   = new Random(seed);
+    private int       seed     = N;
+    private final int seed = seed;// = args[1];
+    private Random    randomnum   = new Random(seed);
+    private Random    randomnum   = new Random(seed);
+    private Random randomnum = new Random(seed);
+    private final int seed;
+    private Random randomnum;
 */
-    private final int semente = N;
-    private final Random generator = new Random(semente);
-    //private final Random generator = new Random();
+    private static Random random;    // pseudo-random number generator
+    private static long seed;        // pseudo-random number generator seed
+
+    public static void setSeed(long s) {
+        seed   = s;
+        random = new Random(seed);
+    }
 
     public Maze(int N) {
         this.N = N;
@@ -68,10 +79,15 @@ public class Maze {
             // pick random neighbor (could use Knuth's trick instead)
             while (true) {
 
-                //double r = Math.random();
-                //Random generator = new Random(semente);
-                double r = generator.nextDouble();
-                StdOut.println(r);
+                // gerando r a partir da seed
+                /*
+                //double r = randomnum.nextDouble();
+                StdOut.println("seed = " + seed);
+                StdOut.println("N = " + N);
+                StdOut.println("r = " + r);
+                */
+                double r = random.nextDouble();
+
 
                 if (r < 0.25 && !visited[x][y+1]) {
                     north[x][y] = south[x][y+1] = false;
@@ -99,6 +115,7 @@ public class Maze {
 
     // generate the maze starting from lower left
     private void generate() {
+        //Random randomnum = new Random(seed);
         generate(1, 1);
 
 /*
@@ -179,17 +196,20 @@ public class Maze {
     public static void main(String[] args) {
         int N = Integer.parseInt(args[0]);
         // recolhendo semente
-        int semente = Integer.parseInt(args[1]);
-        Random generator = new Random(semente);
-        //Random generator = new Random();
-        //generator.setSeed(semente);
-        //StdOut.println(generator.nextDouble());
+        //int seed = Integer.parseInt(args[1]);
+        //Random randomnum = new Random(seed);
+        Maze.setSeed(Long.parseLong(args[1]));
+        //StdOut.println("seed = " + seed);
+        //Random randomnum = new Random(seed);
 
 
         Maze maze = new Maze(N);
         StdDraw.show(0);
         maze.draw();
-        maze.solve();
+        //maze.solve();
+        
+
+        //StdOut.println("seed = " + args[1]);
     }
 
 }
