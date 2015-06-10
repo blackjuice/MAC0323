@@ -20,6 +20,23 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
     private long    inicioInt;
     private long    fimInt;
     private String  address;
+    private int count;
+
+    public class SortedIlicit {
+        int count;
+        long ipCorrespondente;
+
+        public SortedIlicit (int count, int ipCorrespondente) {
+            this.count = count;
+            this.ipCorrespondente = ipCorrespondente;
+        }
+
+    }
+
+    public static void setCount(int s) {
+        SortedIlicit obj = new SortedIlicit();
+        obj.count = s;
+    }
   
     /*  IPLookUpDeLuxeST possui dois long: long inicioInt, long fimInt
      *  long inicioInt: guarda valor inteiro do IP inicial
@@ -40,20 +57,12 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
      */
     public static long ipToInt(String address) {
         String[] parts = address.split("\\."); // retiramos "." do IP do arquivo IPs (entrada)
-        String part1 = parts[0];
-        String part2 = parts[1];
-        String part3 = parts[2];
-        String part4 = parts[3];
-        // convertemos String para Integer e guardamos seus respectivos valores
-        int partInteger1 = Integer.parseInt(part1);
-        int partInteger2 = Integer.parseInt(part2);
-        int partInteger3 = Integer.parseInt(part3);
-        int partInteger4 = Integer.parseInt(part4);
+
         // representamos o IP como um inteiro do tipo long
-        long ipnum =    ( (long)16777216 * partInteger1 )
-                    +   (    (long)65536 * partInteger2 )
-                    +   (      (long)256 * partInteger3 )
-                    +                (long)partInteger4;
+        long ipnum =    ( (long)16777216 * Integer.parseInt(parts[0]) )
+                    +   (    (long)65536 * Integer.parseInt(parts[1]) )
+                    +   (      (long)256 * Integer.parseInt(parts[2]) )
+                    +   (            (long)Integer.parseInt(parts[3]) );
 
         // retornamos o IP representado como inteiro
         return ipnum;
@@ -82,44 +91,27 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
         try
         {
             String line = "";
-            //Create the file reader
             fileReader = new BufferedReader(new FileReader(fileToParse));
              
-            //Read the file line by line
+            // leitura linha por linha
             while ((line = fileReader.readLine()) != null)
             {
                 //Get all tokens available in line
                 String[] tokens = line.split(DELIMITER);
                 tokens[0] = tokens[0].replace("\"",""); // inicio do IP
-                //System.out.print(tokens[0]);
                 tokens[1] = tokens[1].replace("\"",""); // fim do IP
-                //System.out.print(" , " + tokens[1]);
                 tokens[2] = tokens[2].replace("\"",""); // codePais (codigo do Pais)
-                //System.out.print(" , " + tokens[2]);
                 tokens[3] = tokens[3].replace("\"",""); // cityI
-                //System.out.print(" , " + tokens[3]);
                 tokens[4] = tokens[4].replace("\"",""); // cityO
-                //System.out.print(" , " + tokens[4]);
 
                 long longInicio = ipToInt(tokens[0]);
                 long longFim = ipToInt(tokens[1]);
                 String location = tokens[4] + ", " + tokens[3] + ", " + tokens[2];
-                //StdOut.println(inicio);
-                //StdOut.println(location);
 
-                //IPLookUpDeLuxeST    address     = new IPLookUpDeLuxeST(longInicio, longFim);
-                //st.put(address, location);
+                IPLookUpDeLuxeST  address = new IPLookUpDeLuxeST(longInicio, longFim);
+                st.put(address, location);
 
-                StdOut.println(longInicio + " " + longFim + " " + location);
-                    /*
-                for(String token : tokens)
-                {
-                    //Print all tokens
-                    //inicio = inicio.replace("\"","");
-                    token = token.replace("\"","");
-                    System.out.println("(fim)" + token);
-                }
-                    */
+                //StdOut.println(longInicio + " " + longFim + " " + location);
             }
         }
         catch (Exception e) {
@@ -134,7 +126,102 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
             }
         }
 
+        // sem argumento extra
+        if (args.length == 1) {
+            // impressao do pais correspondente ao IP
+            while (!StdIn.isEmpty()) {
+                String      address     = StdIn.readString();
+                long        ipAsInteger = ipToInt(address);
+                IPLookUpDeLuxeST    ipLocation  = new IPLookUpDeLuxeST(ipAsInteger, ipAsInteger);
+
+                if (st.contains(ipLocation))    StdOut.println(st.get(ipLocation));
+                else                            StdOut.println("Not found");
+            }
+
+        }
+
+        // leitura do arquivo com dados de usuarios ilicitos
+        else {
+            ST<IPLookUpDeLuxeST, Integer> st_counter = new ST<IPLookUpDeLuxeST, Integer>();
+            //ST<Integer, Long> st_counter_sort = new ST<Integer, Long>();
+            //<Integer, Long> st_counter_sort = new ST<Integer, Long>();
+            //int x;
+            while (!StdIn.isEmpty()) {
+                // lemos apenas o IP do arquivo .log
+                String linhaLida = StdIn.readLine();
+                // conversao do IP para um inteiro
+                long ipIlicito = ipToInt(linhaLida.substring(linhaLida.lastIndexOf(" ") + 1)) ;
+                
+                IPLookUpDeLuxeST  address = new IPLookUpDeLuxeST(ipIlicito, ipIlicito);
+                if (!st_counter.contains(address)) {
+                    st_counter.put(address, 1);
+                    //StdOut.println(">> not added " + st_counter.get(address));
+                }
+                else {
+                    st_counter.put(address, st_counter.get(address) + 1);
+                    //StdOut.println("added >>" + st_counter.get(address));
+                    
+                }
+
+
+                    //st_counter.put(address, x++);
+                    //x++;
+                    //ipIlicito++;
+                    //st_counter.put((address.count)++, "*");
+                    //(address.count)++;
+                    //StdOut.println(">>" + address.count);
+//                    st_counter.put(address, 0);
+                //for (String s : st_counter.keys())
+                //    StdOut.println(s + " " + st_counter.get(s));
+
+                    //st_counter.put( (address.count)++ , "");
+
+                //(ipLocation.count)++;
+                //StdOut.println(" ** * " + (ipLocation.count)) ;
+            }
+
+            SortedIlicit[] listSort = new SortedIlicit[st_counter.size()];
+            int i = 0;
+            for (IPLookUpDeLuxeST s : st_counter.keys()) {
+                listSort[i].count = st_counter.get(s);
+                //int x = st_counter.get(s);
+                //listSort[i].count = 1;
+                //listSort[i].ipCorrespondente = s.inicioInt;
+                StdOut.println(x + " " + i + " "+ s.inicioInt + " " + st_counter.get(s));
+                i++;
+                //st_counter_sort.put(st_counter.get(s) , s.inicioInt);
+
+            }
+            StdOut.println();
+
+
+            //StdOut.println("size sort = "+st_counter_sort.size());
+            StdOut.println("size normal = "+st_counter.size());
+
+
+
+
 /*
+            for (int i = 0; i < st_counter_sort.size(); i++) {
+            //for (Integer s : st_counter_sort.keys()) {
+                //StdOut.println(s + " " + st_counter_sort.get(s));
+                StdOut.println(i + " " + st_counter_sort.get(i));
+                //st_counter_sort.put( st_counter.get(s) , s.inicioInt);
+
+            }
+            StdOut.println();
+                for (int i; i < st_counter.size(); i++)
+                    StdOut.println(st_counter.get(i));
+*/
+
+
+            
+        }
+
+/*
+                //String ipIlicito = linhaLida.substring(linhaLida.lastIndexOf(" ") + 1);
+                //StdOut.println(coisa + " >> " + ipIlicito);
+                //StdOut.println(" >> " + ipIlicito);
         In in = new In(args[0]);
         String[] database = in.readAllLines();
         Scanner scanner = new Scanner(new File(args[0]));
