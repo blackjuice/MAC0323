@@ -22,21 +22,22 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
     private String  address;
     private int count;
 
+
+/*
     public class SortedIlicit {
         int count;
         long ipCorrespondente;
 
+    }
         public SortedIlicit (int count, int ipCorrespondente) {
             this.count = count;
             this.ipCorrespondente = ipCorrespondente;
         }
-
-    }
-
     public static void setCount(int s) {
-        SortedIlicit obj = new SortedIlicit();
+        //SortedIlicit obj = new SortedIlicit();
         obj.count = s;
     }
+*/
   
     /*  IPLookUpDeLuxeST possui dois long: long inicioInt, long fimInt
      *  long inicioInt: guarda valor inteiro do IP inicial
@@ -98,20 +99,21 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
             {
                 //Get all tokens available in line
                 String[] tokens = line.split(DELIMITER);
-                tokens[0] = tokens[0].replace("\"",""); // inicio do IP
-                tokens[1] = tokens[1].replace("\"",""); // fim do IP
-                tokens[2] = tokens[2].replace("\"",""); // codePais (codigo do Pais)
-                tokens[3] = tokens[3].replace("\"",""); // cityI
-                tokens[4] = tokens[4].replace("\"",""); // cityO
+                //tokens[0] = tokens[0].replace("\"",""); // inicio do IP
+                //tokens[1] = tokens[1].replace("\"",""); // fim do IP
+                //tokens[2] = tokens[2].replace("\"",""); // codePais (codigo do Pais)
+                //tokens[3] = tokens[3].replace("\"",""); // cityI
+                //tokens[4] = tokens[4].replace("\"",""); // cityO
 
-                long longInicio = ipToInt(tokens[0]);
-                long longFim = ipToInt(tokens[1]);
-                String location = tokens[4] + ", " + tokens[3] + ", " + tokens[2];
+                long longInicio = ipToInt(tokens[0].replace("\"",""));
+                long longFim = ipToInt(tokens[1].replace("\"",""));
+                //String location = tokens[4] + ", " + tokens[3] + ", " + tokens[2];
+                String location = tokens[4].replace("\"","") + ", " //cityO
+                                + tokens[3].replace("\"","") + ", " //cityI
+                                + tokens[2].replace("\"","");       //codePais
 
                 IPLookUpDeLuxeST  address = new IPLookUpDeLuxeST(longInicio, longFim);
                 st.put(address, location);
-
-                //StdOut.println(longInicio + " " + longFim + " " + location);
             }
         }
         catch (Exception e) {
@@ -143,9 +145,7 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
         // leitura do arquivo com dados de usuarios ilicitos
         else {
             ST<IPLookUpDeLuxeST, Integer> st_counter = new ST<IPLookUpDeLuxeST, Integer>();
-            //ST<Integer, Long> st_counter_sort = new ST<Integer, Long>();
-            //<Integer, Long> st_counter_sort = new ST<Integer, Long>();
-            //int x;
+
             while (!StdIn.isEmpty()) {
                 // lemos apenas o IP do arquivo .log
                 String linhaLida = StdIn.readLine();
@@ -155,178 +155,44 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
                 IPLookUpDeLuxeST  address = new IPLookUpDeLuxeST(ipIlicito, ipIlicito);
                 if (!st_counter.contains(address)) {
                     st_counter.put(address, 1);
-                    //StdOut.println(">> not added " + st_counter.get(address));
+
                 }
                 else {
                     st_counter.put(address, st_counter.get(address) + 1);
-                    //StdOut.println("added >>" + st_counter.get(address));
                     
                 }
 
-
-                    //st_counter.put(address, x++);
-                    //x++;
-                    //ipIlicito++;
-                    //st_counter.put((address.count)++, "*");
-                    //(address.count)++;
-                    //StdOut.println(">>" + address.count);
-//                    st_counter.put(address, 0);
-                //for (String s : st_counter.keys())
-                //    StdOut.println(s + " " + st_counter.get(s));
-
-                    //st_counter.put( (address.count)++ , "");
-
-                //(ipLocation.count)++;
-                //StdOut.println(" ** * " + (ipLocation.count)) ;
             }
 
-            SortedIlicit[] listSort = new SortedIlicit[st_counter.size()];
+            //SortedIlicit[] listSort = new SortedIlicit[st_counter.size()];
             int i = 0;
             for (IPLookUpDeLuxeST s : st_counter.keys()) {
-                listSort[i].count = st_counter.get(s);
-                //int x = st_counter.get(s);
-                //listSort[i].count = 1;
-                //listSort[i].ipCorrespondente = s.inicioInt;
-                StdOut.println(x + " " + i + " "+ s.inicioInt + " " + st_counter.get(s));
+                //listSort[i].count = st_counter.get(s);
+
+                //StdOut.println(x + " " + i + " "+ s.inicioInt + " " + st_counter.get(s));
                 i++;
-                //st_counter_sort.put(st_counter.get(s) , s.inicioInt);
+
 
             }
             StdOut.println();
 
 
-            //StdOut.println("size sort = "+st_counter_sort.size());
+
             StdOut.println("size normal = "+st_counter.size());
 
-
-
-
 /*
-            for (int i = 0; i < st_counter_sort.size(); i++) {
-            //for (Integer s : st_counter_sort.keys()) {
-                //StdOut.println(s + " " + st_counter_sort.get(s));
-                StdOut.println(i + " " + st_counter_sort.get(i));
-                //st_counter_sort.put( st_counter.get(s) , s.inicioInt);
 
-            }
-            StdOut.println();
-                for (int i; i < st_counter.size(); i++)
-                    StdOut.println(st_counter.get(i));
-*/
-
-
-            
+*/            
         }
 
 /*
-                //String ipIlicito = linhaLida.substring(linhaLida.lastIndexOf(" ") + 1);
-                //StdOut.println(coisa + " >> " + ipIlicito);
-                //StdOut.println(" >> " + ipIlicito);
-        In in = new In(args[0]);
-        String[] database = in.readAllLines();
-        Scanner scanner = new Scanner(new File(args[0]));
-        //scanner.useDelimiter("\"(,\")");
-        scanner.useDelimiter(",");
 
-
-        while (scanner.hasNext())
-        {
-            String inicio           = scanner.next();
-            StdOut.println( "(ini) " + inicio + " | ");
-        }
-         
-        //Do not forget to close the scanner 
-        scanner.close();
 */
-            /*
-            System.out.print(scanner.nextLine() + "|");
-            String inicio           = scanner.nextLine();
-            String fim              = scanner.next();
-            String codePais         = scanner.next();
-            String cityI            = scanner.next();
-            String cityO            = scanner.next();
-            fim = fim.replace("\"","");
-            codePais = codePais.replace("\"","");
-            cityI = cityI.replace("\"","");
-            cityO = cityO.replace("\"","");
-            StdOut.println( "(ini) " + inicio + " | (fim) " + fim + " | (codePais) "  + codePais + " | (cityI) "  + cityI + " | (cityO) " + cityO + " ");
-            */
+/*
 
-
-
-
-
-
-
+*/
 
 /*
-        for (int i = 0; i < database.length; i++) {
-            String[] tokens         = database[i].split("\"(,\")");
-            //String[] tokens         = database[i].split(",(?=([^\"]*\"[^\"]*\")*(?![^\"]*\"))");
-            //String[] tokens         = database[i].split(",");
-            //\"?,(?=(?:(?:[^\"]*\"){2})*[^\"]*$)\"?    "\""
-            //String[] tokens         = database[i].split("\"?,(?=(?:(?:[^\"]*\"){2})*[^\"]*$)\"?");
-            //String stringInicial    = tokens[2];
-            //String stringFim        = tokens[3];
-            // retiramos quotes da String lida do arquivo GeoIPCountryWhois.csv
-            //stringInicial           = stringInicial.replace("\"","");
-            //stringFim               = stringFim.replace("\"","");
-            //pais                    = pais.replace("\"","");
-            // inserimos os ips, convertidos em inteiros sem quotes em st
-            //long        longInicial = Long.parseLong(stringInicial);
-            //long        longFim     = Long.parseLong(stringFim);
-            //long        longInicio = Long.parseLong(stringInicio);
-            //long        longFim = Long.parseLong(stringFim);
-            long        longInicio = ipToInt(inicio);
-            long        longFim = ipToInt(fim);
-            String location = cityO + ", " + cityI + ", " + codePais;
-            //StdOut.println(inicio);
-            //StdOut.println(location);
-
-            IPLookUpDeLuxeST    address     = new IPLookUpDeLuxeST(longInicio, longFim);
-            st.put(address, location);
-        }
-        //--------------------------------------------------------------------------
-
-
-        // sem argumento extra
-        if (args.length == 1) {
-            // impressao do pais correspondente ao IP
-            while (!StdIn.isEmpty()) {
-                String      address     = StdIn.readString();
-                long        ipAsInteger = ipToInt(address);
-                IPLookUpDeLuxeST    ipLocation  = new IPLookUpDeLuxeST(ipAsInteger, ipAsInteger);
-
-                if (st.contains(ipLocation))    StdOut.println(st.get(ipLocation));
-                else                            StdOut.println("Not found");
-            }
-
-
-
-        }
-
-        // leitura do arquivo com dados de usuarios ilicitos
-        else {
-            StdOut.println("FUCK");
-
-            while (!StdIn.isEmpty()) {
-                String      address     = StdIn.readString();
-                long        ipAsInteger = ipToInt(address);
-                IPLookUpDeLuxeST    ipLocation  = new IPLookUpDeLuxeST(ipAsInteger, ipAsInteger);
-
-                if (st.contains(ipLocation))    StdOut.println(st.get(ipLocation));
-                else                            StdOut.println("Not found");
-            }
-            
-        }
-*/
-
-
-
-
-
-
-
         /*
         */
 
