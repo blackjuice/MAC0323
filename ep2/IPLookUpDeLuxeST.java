@@ -10,10 +10,10 @@
  *
  *************************************************************************/
 
-// utilização de Scanner para a leitura do arquivo .csv
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
+// utilização de Splitter para a leitura do arquivo .csv
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
 
@@ -68,18 +68,75 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
      *  e verificamos em qual intervalo esse inteiro pertence. O intervalo correspondente
      *  equivale ao pais.
      */
-    public static void main(String[] args)  throws FileNotFoundException {
+    public static void main(String[] args) {
         Stopwatch timer = new Stopwatch();
         ST<IPLookUpDeLuxeST, String> st = new ST<IPLookUpDeLuxeST, String>();
         //--------------------------------------------------------------------------
         // leitura de GeoIPCountryWhois.csv
         //---------------------------------
+        String fileToParse = args[0];
+        BufferedReader fileReader = null;
+         
+        // Delimitador usado em CSV
+        final String DELIMITER = ",";
+        try
+        {
+            String line = "";
+            //Create the file reader
+            fileReader = new BufferedReader(new FileReader(fileToParse));
+             
+            //Read the file line by line
+            while ((line = fileReader.readLine()) != null)
+            {
+                //Get all tokens available in line
+                String[] tokens = line.split(DELIMITER);
+                tokens[0] = tokens[0].replace("\"",""); // inicio do IP
+                //System.out.print(tokens[0]);
+                tokens[1] = tokens[1].replace("\"",""); // fim do IP
+                //System.out.print(" , " + tokens[1]);
+                tokens[2] = tokens[2].replace("\"",""); // codePais (codigo do Pais)
+                //System.out.print(" , " + tokens[2]);
+                tokens[3] = tokens[3].replace("\"",""); // cityI
+                //System.out.print(" , " + tokens[3]);
+                tokens[4] = tokens[4].replace("\"",""); // cityO
+                //System.out.print(" , " + tokens[4]);
+
+                long longInicio = ipToInt(tokens[0]);
+                long longFim = ipToInt(tokens[1]);
+                String location = tokens[4] + ", " + tokens[3] + ", " + tokens[2];
+                //StdOut.println(inicio);
+                //StdOut.println(location);
+
+                //IPLookUpDeLuxeST    address     = new IPLookUpDeLuxeST(longInicio, longFim);
+                //st.put(address, location);
+
+                StdOut.println(longInicio + " " + longFim + " " + location);
+                    /*
+                for(String token : tokens)
+                {
+                    //Print all tokens
+                    //inicio = inicio.replace("\"","");
+                    token = token.replace("\"","");
+                    System.out.println("(fim)" + token);
+                }
+                    */
+            }
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally
+        {
+            try {
+                fileReader.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
 /*
         In in = new In(args[0]);
         String[] database = in.readAllLines();
-*/
-
         Scanner scanner = new Scanner(new File(args[0]));
         //scanner.useDelimiter("\"(,\")");
         scanner.useDelimiter(",");
@@ -89,6 +146,11 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
         {
             String inicio           = scanner.next();
             StdOut.println( "(ini) " + inicio + " | ");
+        }
+         
+        //Do not forget to close the scanner 
+        scanner.close();
+*/
             /*
             System.out.print(scanner.nextLine() + "|");
             String inicio           = scanner.nextLine();
@@ -96,17 +158,13 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
             String codePais         = scanner.next();
             String cityI            = scanner.next();
             String cityO            = scanner.next();
-            inicio = inicio.replace("\"","");
             fim = fim.replace("\"","");
             codePais = codePais.replace("\"","");
             cityI = cityI.replace("\"","");
             cityO = cityO.replace("\"","");
             StdOut.println( "(ini) " + inicio + " | (fim) " + fim + " | (codePais) "  + codePais + " | (cityI) "  + cityI + " | (cityO) " + cityO + " ");
             */
-        }
-         
-        //Do not forget to close the scanner 
-        scanner.close();
+
 
 
 
