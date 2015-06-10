@@ -10,6 +10,11 @@
  *
  *************************************************************************/
 
+// utilização de Scanner para a leitura do arquivo .csv
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
 
     private long    inicioInt;
@@ -63,39 +68,65 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
      *  e verificamos em qual intervalo esse inteiro pertence. O intervalo correspondente
      *  equivale ao pais.
      */
-    public static void main(String[] args) {
+    public static void main(String[] args)  throws FileNotFoundException {
         Stopwatch timer = new Stopwatch();
         ST<IPLookUpDeLuxeST, String> st = new ST<IPLookUpDeLuxeST, String>();
         //--------------------------------------------------------------------------
         // leitura de GeoIPCountryWhois.csv
         //---------------------------------
+
+/*
         In in = new In(args[0]);
         String[] database = in.readAllLines();
+*/
 
+        Scanner scanner = new Scanner(new File(args[0]));
+        //scanner.useDelimiter("\"(,\")");
+        scanner.useDelimiter(",");
+
+
+        while (scanner.hasNext())
+        {
+            String inicio           = scanner.next();
+            StdOut.println( "(ini) " + inicio + " | ");
+            /*
+            System.out.print(scanner.nextLine() + "|");
+            String inicio           = scanner.nextLine();
+            String fim              = scanner.next();
+            String codePais         = scanner.next();
+            String cityI            = scanner.next();
+            String cityO            = scanner.next();
+            inicio = inicio.replace("\"","");
+            fim = fim.replace("\"","");
+            codePais = codePais.replace("\"","");
+            cityI = cityI.replace("\"","");
+            cityO = cityO.replace("\"","");
+            StdOut.println( "(ini) " + inicio + " | (fim) " + fim + " | (codePais) "  + codePais + " | (cityI) "  + cityI + " | (cityO) " + cityO + " ");
+            */
+        }
+         
+        //Do not forget to close the scanner 
+        scanner.close();
+
+
+
+
+
+
+
+/*
         for (int i = 0; i < database.length; i++) {
             String[] tokens         = database[i].split("\"(,\")");
             //String[] tokens         = database[i].split(",(?=([^\"]*\"[^\"]*\")*(?![^\"]*\"))");
             //String[] tokens         = database[i].split(",");
             //\"?,(?=(?:(?:[^\"]*\"){2})*[^\"]*$)\"?    "\""
             //String[] tokens         = database[i].split("\"?,(?=(?:(?:[^\"]*\"){2})*[^\"]*$)\"?");
-            /*
-            */
-            String inicio           = tokens[0];
-            String fim              = tokens[1];
-            String codePais         = tokens[2];
-            String cityI             = tokens[3];
-            String cityO          = tokens[4];
             //String stringInicial    = tokens[2];
             //String stringFim        = tokens[3];
             // retiramos quotes da String lida do arquivo GeoIPCountryWhois.csv
             //stringInicial           = stringInicial.replace("\"","");
             //stringFim               = stringFim.replace("\"","");
             //pais                    = pais.replace("\"","");
-            inicio           = inicio.replace("\"","");
-            fim           = fim.replace("\"","");
-            codePais           = codePais.replace("\"","");
-            cityI           = cityI.replace("\"","");
-            cityO          = cityO.replace("\"","");
             // inserimos os ips, convertidos em inteiros sem quotes em st
             //long        longInicial = Long.parseLong(stringInicial);
             //long        longFim     = Long.parseLong(stringFim);
@@ -125,7 +156,7 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
                 else                            StdOut.println("Not found");
             }
 
-            
+
 
         }
 
@@ -143,6 +174,8 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
             }
             
         }
+*/
+
 
 
 
