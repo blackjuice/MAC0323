@@ -64,7 +64,7 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
      *  equivale ao pais.
      */
     public static void main(String[] args) {
-
+        Stopwatch timer = new Stopwatch();
         ST<IPLookUpDeLuxeST, String> st = new ST<IPLookUpDeLuxeST, String>();
         //--------------------------------------------------------------------------
         // leitura de GeoIPCountryWhois.csv
@@ -112,14 +112,46 @@ public class IPLookUpDeLuxeST implements Comparable<IPLookUpDeLuxeST>{
         }
         //--------------------------------------------------------------------------
 
-        // impressao do pais correspondente ao IP
-        while (!StdIn.isEmpty()) {
-            String      address     = StdIn.readString();
-            long        ipAsInteger = ipToInt(address);
-            IPLookUpDeLuxeST    ipLocation  = new IPLookUpDeLuxeST(ipAsInteger, ipAsInteger);
 
-            if (st.contains(ipLocation))    StdOut.println(st.get(ipLocation));
-            else                            StdOut.println("Not found");
+        // sem argumento extra
+        if (args.length == 1) {
+            // impressao do pais correspondente ao IP
+            while (!StdIn.isEmpty()) {
+                String      address     = StdIn.readString();
+                long        ipAsInteger = ipToInt(address);
+                IPLookUpDeLuxeST    ipLocation  = new IPLookUpDeLuxeST(ipAsInteger, ipAsInteger);
+
+                if (st.contains(ipLocation))    StdOut.println(st.get(ipLocation));
+                else                            StdOut.println("Not found");
+            }
+
+            
+
         }
+
+        // leitura do arquivo com dados de usuarios ilicitos
+        else {
+            StdOut.println("FUCK");
+
+            while (!StdIn.isEmpty()) {
+                String      address     = StdIn.readString();
+                long        ipAsInteger = ipToInt(address);
+                IPLookUpDeLuxeST    ipLocation  = new IPLookUpDeLuxeST(ipAsInteger, ipAsInteger);
+
+                if (st.contains(ipLocation))    StdOut.println(st.get(ipLocation));
+                else                            StdOut.println("Not found");
+            }
+            
+        }
+
+
+
+
+
+
+        /*
+        */
+
+        StdOut.println("Elapsed Time: " + timer.elapsedTime());
     }
 }
