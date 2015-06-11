@@ -10,12 +10,18 @@
  *
  *************************************************************************/
 
+// utilização de Splitter para a leitura do arquivo .csv
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Arrays;
+
 public class IPLookUpDeLuxeBST implements Comparable<IPLookUpDeLuxeBST>{
 
     private long    inicioInt;
     private long    fimInt;
     private String  address;
-  
+
     /*  IPLookUpDeLuxeBST possui dois long: long inicioInt, long fimInt
      *  long inicioInt: guarda valor inteiro do IP inicial
      *  long fimInt:    guarda valor inteiro do IP final
@@ -35,20 +41,12 @@ public class IPLookUpDeLuxeBST implements Comparable<IPLookUpDeLuxeBST>{
      */
     public static long ipToInt(String address) {
         String[] parts = address.split("\\."); // retiramos "." do IP do arquivo IPs (entrada)
-        String part1 = parts[0];
-        String part2 = parts[1];
-        String part3 = parts[2];
-        String part4 = parts[3];
-        // convertemos String para Integer e guardamos seus respectivos valores
-        int partInteger1 = Integer.parseInt(part1);
-        int partInteger2 = Integer.parseInt(part2);
-        int partInteger3 = Integer.parseInt(part3);
-        int partInteger4 = Integer.parseInt(part4);
+
         // representamos o IP como um inteiro do tipo long
-        long ipnum =    ( (long)16777216 * partInteger1 )
-                    +   (    (long)65536 * partInteger2 )
-                    +   (      (long)256 * partInteger3 )
-                    +                (long)partInteger4;
+        long ipnum =    ( (long)16777216 * Integer.parseInt(parts[0]) )
+                    +   (    (long)65536 * Integer.parseInt(parts[1]) )
+                    +   (      (long)256 * Integer.parseInt(parts[2]) )
+                    +   (            (long)Integer.parseInt(parts[3]) );
 
         // retornamos o IP representado como inteiro
         return ipnum;
@@ -65,65 +63,149 @@ public class IPLookUpDeLuxeBST implements Comparable<IPLookUpDeLuxeBST>{
      */
     public static void main(String[] args) {
         Stopwatch timer = new Stopwatch();
-        BST<IPLookUpDeLuxeBST, String> st = new BST<IPLookUpDeLuxeBST, String>();
+        ST<IPLookUpDeLuxeBST, String> st = new ST<IPLookUpDeLuxeBST, String>();
         //--------------------------------------------------------------------------
         // leitura de GeoIPCountryWhois.csv
         //---------------------------------
-        In in = new In(args[0]);
-        String[] database = in.readAllLines();
+        String fileToParse = args[0];
+        BufferedReader fileReader = null;
+        try
+        {
+            String line = "";
+            fileReader = new BufferedReader(new FileReader(fileToParse));
+            // leitura linha por linha
+            while ((line = fileReader.readLine()) != null)
+            {
+                String[] tokens = line.split(",");
+                long longInicio = ipToInt(tokens[0].replace("\"",""));  // inicio do IP
+                long longFim    = ipToInt(tokens[1].replace("\"",""));  // fim do IP
+                String location = tokens[4].replace("\"","") + ", "     //cityO
+                                + tokens[3].replace("\"","") + ", "     //cityI
+                                + tokens[2].replace("\"","");           //codePais
 
-        for (int i = 0; i < database.length; i++) {
-            String[] tokens         = database[i].split("\"(,\")");
-            //String[] tokens         = database[i].split(",(?=([^\"]*\"[^\"]*\")*(?![^\"]*\"))");
-            //String[] tokens         = database[i].split(",");
-            //\"?,(?=(?:(?:[^\"]*\"){2})*[^\"]*$)\"?    "\""
-            //String[] tokens         = database[i].split("\"?,(?=(?:(?:[^\"]*\"){2})*[^\"]*$)\"?");
-            /*
-            */
-            String inicio           = tokens[0];
-            String fim              = tokens[1];
-            String codePais         = tokens[2];
-            String cityI             = tokens[3];
-            String cityO          = tokens[4];
-            //String stringInicial    = tokens[2];
-            //String stringFim        = tokens[3];
-            // retiramos quotes da String lida do arquivo GeoIPCountryWhois.csv
-            //stringInicial           = stringInicial.replace("\"","");
-            //stringFim               = stringFim.replace("\"","");
-            //pais                    = pais.replace("\"","");
-            inicio           = inicio.replace("\"","");
-            fim           = fim.replace("\"","");
-            codePais           = codePais.replace("\"","");
-            cityI           = cityI.replace("\"","");
-            cityO          = cityO.replace("\"","");
-            // inserimos os ips, convertidos em inteiros sem quotes em st
-            //long        longInicial = Long.parseLong(stringInicial);
-            //long        longFim     = Long.parseLong(stringFim);
-            //long        longInicio = Long.parseLong(stringInicio);
-            //long        longFim = Long.parseLong(stringFim);
-            long        longInicio = ipToInt(inicio);
-            long        longFim = ipToInt(fim);
-            String location = cityO + ", " + cityI + ", " + codePais;
-            //StdOut.println(inicio);
-            //StdOut.println(location);
-
-            IPLookUpDeLuxeBST    address     = new IPLookUpDeLuxeBST(longInicio, longFim);
-            st.put(address, location);
+                IPLookUpDeLuxeBST  address = new IPLookUpDeLuxeBST(longInicio, longFim);
+                st.put(address, location);
+            }
         }
-        //--------------------------------------------------------------------------
-
-
-        // impressao do pais correspondente ao IP
-        while (!StdIn.isEmpty()) {
-            String      address     = StdIn.readString();
-            long        ipAsInteger = ipToInt(address);
-            IPLookUpDeLuxeBST    ipLocation  = new IPLookUpDeLuxeBST(ipAsInteger, ipAsInteger);
-
-            if (st.contains(ipLocation))    StdOut.println(st.get(ipLocation));
-            else                            StdOut.println("Not found");
+        catch (Exception e) {
+            e.printStackTrace();
         }
-        /*
+        finally
+        {
+            try {
+                fileReader.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        // Lemos o arquivo que contem os IPs que devem ser localizados
+        if (args.length == 1) {
+            // impressao do pais correspondente ao IP
+            while (!StdIn.isEmpty()) {
+                String      address     = StdIn.readString();
+                long        ipAsInteger = ipToInt(address);
+                IPLookUpDeLuxeBST    ipLocation  = new IPLookUpDeLuxeBST(ipAsInteger, ipAsInteger);
+
+                if (st.contains(ipLocation))    StdOut.println(st.get(ipLocation));
+                else                            StdOut.println("Not found");
+            }
+
+        }
+
+        /* Lemos apenas o IP do arquivo .log e inserimos em st_counter
+        *  assim, st_counter contem lista dos IPs ilicitos.
+        *  Incrementamos o valor dessa tabela, que indica # tentativas de acesso
+        *  caso for identificado um mesmo IP
         */
+        else {
+            ST<IPLookUpDeLuxeBST, Integer> st_counter = new ST<IPLookUpDeLuxeBST, Integer>();
+
+            while (!StdIn.isEmpty()) {
+                String linhaLida = StdIn.readLine();
+                // conversao do IP ilicito para um inteiro
+                long ipIlicito = ipToInt(linhaLida.substring(linhaLida.lastIndexOf(" ") + 1)) ;
+                IPLookUpDeLuxeBST  address = new IPLookUpDeLuxeBST(ipIlicito, ipIlicito);
+                if (!st_counter.contains(address))  st_counter.put(address, 1);
+                else                                st_counter.put(address, st_counter.get(address) + 1);
+            }
+
+            // percorremos st_counter que contem uma lista de IPs ilicitos
+            // e verificamos se ela esta em .csv
+            String[] impressao = new String[st_counter.size()];
+            int i = 0;
+            for (IPLookUpDeLuxeBST s : st_counter.keys()) {
+                IPLookUpDeLuxeBST    ipLocation  = new IPLookUpDeLuxeBST(s.inicioInt, s.inicioInt);
+                if (st.contains(ipLocation))    {
+                    impressao[i] = String.valueOf( st_counter.get(s) ) + " " + st.get(ipLocation);
+                    i++;
+                }
+                else StdOut.println("Not found");
+            }
+
+            // ordenacao por numero de tentivas
+            Arrays.sort(impressao);
+            for(int x = 0; x < impressao.length; x++)
+            {
+                for (int y = x + 1 ; y < impressao.length; y++)
+                {
+                    String[] partsX = impressao[x].split(" ", 2);
+                    String[] partsY = impressao[y].split(" ", 2);
+
+                    if( Integer.parseInt(partsY[0]) > Integer.parseInt(partsX[0]))
+                    {
+                        String temp = impressao[x];
+                        impressao[x] = impressao[y]; 
+                        impressao[y] = temp;
+                    }
+                }
+            }    
+            // retiramos semelhantes
+            for(int x = 0; x < impressao.length; x++)
+            {
+                String novaImpressao = new String();
+                String novaImpressao2 = new String();
+                for (int y = x + 1 ; y < impressao.length; y++)
+                {
+                    String[] partsX = impressao[x].split(" ", 2);
+                    String[] partsY = impressao[y].split(" ", 2);
+
+                    if ( partsX[1].compareTo(partsY[1]) == 0) {
+                        int present = Integer.parseInt(partsX[0]);
+                        int past = Integer.parseInt(partsY[0]);
+                        present += past;
+                        String novaPartX = new String();
+                        novaPartX = novaPartX.valueOf(present);
+                        impressao[x] = novaPartX + " " + partsX[1];
+
+                        String velhaPartY = new String();
+                        velhaPartY = velhaPartY.valueOf(0);
+                        impressao[y] = velhaPartY + " " + partsY[1];
+                    }
+                    else impressao[x] = partsX[0] + " " + partsX[1];
+                }
+            }
+            // ordenamos novamente
+            for(int x = 0; x < impressao.length; x++)
+            {
+                for (int y = x + 1 ; y < impressao.length; y++)
+                {
+                    String[] partsX = impressao[x].split(" ", 2);
+                    String[] partsY = impressao[y].split(" ", 2);
+
+                    if( Integer.parseInt(partsY[0]) > Integer.parseInt(partsX[0]))
+                    {
+                        String temp = impressao[x];
+                        impressao[x] = impressao[y]; 
+                        impressao[y] = temp;
+                    }
+                }
+                String[] seforZero = impressao[x].split(" ", 2);
+                if (!seforZero[0].equals("0"))
+                    StdOut.println(impressao[x]);
+            }
+        }
+
 
         StdOut.println("Elapsed Time: " + timer.elapsedTime());
     }
