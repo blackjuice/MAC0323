@@ -1,0 +1,32 @@
+128.112.136.35
+null
+209.123.16.34
+
+ceil(www.simpsonr.com) = www.simpsons.com
+ceil(www.simpsons.com) = www.simpsons.com
+ceil(www.simpsont.com) = www.slashdot.com
+floor(www.simpsonr.com) = www.princeton.edu
+floor(www.simpsons.com) = www.simpsons.com
+floor(www.simpsont.com) = www.simpsons.com
+
+min key: www.amazon.com
+max key: www.yale.edu
+size:    17
+
+www.amazon.com 207.171.163.90
+www.apple.com 17.254.0.91
+www.cnn.com 64.236.16.20
+www.cs.princeton.edu 128.112.136.35
+www.espn.com 199.181.132.250
+www.google.com 64.233.161.99
+www.ibm.com 129.42.16.99
+www.iitb.ac.in 202.68.145.210
+www.math.princeton.edu 128.112.18.11
+www.movies.com 199.181.132.250
+www.princeton.edu 128.112.130.211
+www.simpsons.com 209.123.16.34
+www.slashdot.com 66.35.250.150
+www.snopes.com 66.165.133.65
+www.stanford.edu 171.67.16.120
+www.whitehouse.gov 204.153.49.136
+www.yale.edu 130.132.51.8

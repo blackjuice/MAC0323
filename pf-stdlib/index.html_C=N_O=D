@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~pf/sedgewick-wayne/stdlib</title>
+ </head>
+ <body>
+<h1>Index of /~pf/sedgewick-wayne/stdlib</h1>
+<table><tr><th><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr><tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[DIR]"></td><td><a href="/~pf/sedgewick-wayne/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="documentation/">documentation/</a></td><td align="right">12-Aug-2014 07:09  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Stopwatch.java">Stopwatch.java</a></td><td align="right">17-Jan-2014 11:47  </td><td align="right">960 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StdStats.java">StdStats.java</a></td><td align="right">02-Feb-2014 10:52  </td><td align="right"> 10K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StdRandom.java">StdRandom.java</a></td><td align="right">21-Apr-2014 11:21  </td><td align="right"> 12K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StdOut.java">StdOut.java</a></td><td align="right">21-Jan-2014 08:37  </td><td align="right">5.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StdInTest.java">StdInTest.java</a></td><td align="right">02-Feb-2014 08:49  </td><td align="right"> 13K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StdIn.java">StdIn.java</a></td><td align="right">22-Jan-2014 11:07  </td><td align="right">9.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StdDraw3D.java">StdDraw3D.java</a></td><td align="right">17-Jan-2014 11:47  </td><td align="right">154K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StdDraw.java">StdDraw.java</a></td><td align="right">02-Feb-2014 11:01  </td><td align="right"> 41K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StdAudio.java">StdAudio.java</a></td><td align="right">17-Jan-2014 11:47  </td><td align="right">9.2K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StdArrayIO.java">StdArrayIO.java</a></td><td align="right">17-Jan-2014 11:47  </td><td align="right">6.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Picture.java">Picture.java</a></td><td align="right">18-Dec-2013 09:15  </td><td align="right">9.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Out.java">Out.java</a></td><td align="right">17-Jan-2014 11:47  </td><td align="right">5.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="In.java">In.java</a></td><td align="right">22-Jul-2014 06:31  </td><td align="right"> 17K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="DrawListener.java">DrawListener.java</a></td><td align="right">17-Jan-2014 11:47  </td><td align="right">223 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Draw.java">Draw.java</a></td><td align="right">17-Jan-2014 11:47  </td><td align="right"> 40K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="BinaryStdOut.java">BinaryStdOut.java</a></td><td align="right">17-Jan-2014 11:47  </td><td align="right">7.8K</td><td>&nbsp;</td></tr>
+<tr><td valign=

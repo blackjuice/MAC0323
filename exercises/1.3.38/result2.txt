@@ -1,0 +1,139 @@
+***********BEGIN: n_words = 28
+1 - q[0] : 3 6 16 20 23 26 
+1 - q[1] : 4 18 22 27 
+
+2 - q[0] : 3 6 16 20 23 26 
+2 - q[1] : 4 18 22 27 
+dequeue -> lo = hi = 3
+*2 - q[0] : 6 16 20 23 26 
+*2 - q[1] : 4 18 22 27 
+
+for (int j = 1; j < n_args; j++)     &&    queues[1].peek() (4) <= hi(3)
+
+    if(!queues[1].isEmpty())
+        hi = 4 | lo = 3 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[1]
+
+hi(4) - lo(3) < besthi(28) - bestlo(-1))
+    besthi = 28| bestlo = -1 | 
+
+if (!done && hi(4) - lo(3) < besthi(4) - bestlo(3))
+    besthi = 4| bestlo = 3 | 
+
+3 - q[0] : 6 16 20 23 26 
+3 - q[1] : 4 18 22 27 
+///////end of while///////
+
+2 - q[0] : 6 16 20 23 26 
+2 - q[1] : 4 18 22 27 
+dequeue -> lo = hi = 6
+*2 - q[0] : 16 20 23 26 
+*2 - q[1] : 4 18 22 27 
+
+for (int j = 1; j < n_args; j++)     &&    queues[1].peek() (4) <= hi(6)
+    while (!queues[1].isEmpty() && queues[1].peek() <= hi(6))      /**temos queues[1].peek() (4) <= hi(6)
+        queues[1].dequeue();
+after dequeue() -> 2 - q[0] : 16 20 23 26 
+after dequeue() -> 2 - q[1] : 18 22 27 
+
+
+    if(!queues[1].isEmpty())
+        hi = 18 | lo = 6 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[1]
+
+hi(18) - lo(6) < besthi(4) - bestlo(3))
+    besthi = 4| bestlo = 3 | 
+
+
+3 - q[0] : 16 20 23 26 
+3 - q[1] : 18 22 27 
+///////end of while///////
+
+2 - q[0] : 16 20 23 26 
+2 - q[1] : 18 22 27 
+dequeue -> lo = hi = 16
+*2 - q[0] : 20 23 26 
+*2 - q[1] : 18 22 27 
+
+for (int j = 1; j < n_args; j++)     &&    queues[1].peek() (18) <= hi(16)
+
+    if(!queues[1].isEmpty())
+        hi = 18 | lo = 16 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[1]
+
+hi(18) - lo(16) < besthi(4) - bestlo(3))
+    besthi = 4| bestlo = 3 | 
+
+
+3 - q[0] : 20 23 26 
+3 - q[1] : 18 22 27 
+///////end of while///////
+
+2 - q[0] : 20 23 26 
+2 - q[1] : 18 22 27 
+dequeue -> lo = hi = 20
+*2 - q[0] : 23 26 
+*2 - q[1] : 18 22 27 
+
+for (int j = 1; j < n_args; j++)     &&    queues[1].peek() (18) <= hi(20)
+    while (!queues[1].isEmpty() && queues[1].peek() <= hi(20))      /**temos queues[1].peek() (18) <= hi(20)
+        queues[1].dequeue();
+after dequeue() -> 2 - q[0] : 23 26 
+after dequeue() -> 2 - q[1] : 22 27 
+
+
+    if(!queues[1].isEmpty())
+        hi = 22 | lo = 20 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[1]
+
+hi(22) - lo(20) < besthi(4) - bestlo(3))
+    besthi = 4| bestlo = 3 | 
+
+
+3 - q[0] : 23 26 
+3 - q[1] : 22 27 
+///////end of while///////
+
+2 - q[0] : 23 26 
+2 - q[1] : 22 27 
+dequeue -> lo = hi = 23
+*2 - q[0] : 26 
+*2 - q[1] : 22 27 
+
+for (int j = 1; j < n_args; j++)     &&    queues[1].peek() (22) <= hi(23)
+    while (!queues[1].isEmpty() && queues[1].peek() <= hi(23))      /**temos queues[1].peek() (22) <= hi(23)
+        queues[1].dequeue();
+after dequeue() -> 2 - q[0] : 26 
+after dequeue() -> 2 - q[1] : 27 
+
+
+    if(!queues[1].isEmpty())
+        hi = 27 | lo = 23 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[1]
+
+hi(27) - lo(23) < besthi(4) - bestlo(3))
+    besthi = 4| bestlo = 3 | 
+
+
+3 - q[0] : 26 
+3 - q[1] : 27 
+///////end of while///////
+
+2 - q[0] : 26 
+2 - q[1] : 27 
+dequeue -> lo = hi = 26
+*2 - q[0] : 
+*2 - q[1] : 27 
+
+for (int j = 1; j < n_args; j++)     &&    queues[1].peek() (27) <= hi(26)
+
+    if(!queues[1].isEmpty())
+        hi = 27 | lo = 26 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[1]
+
+hi(27) - lo(26) < besthi(4) - bestlo(3))
+    besthi = 4| bestlo = 3 | 
+
+
+3 - q[0] : 
+3 - q[1] : 27 
+///////end of while///////
+
+bestlo(3)| besthi(4)
+on track 
+time = 0.042
+timeCPU = 0.027623654

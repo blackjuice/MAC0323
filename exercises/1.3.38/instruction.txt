@@ -1,0 +1,27 @@
+Estude o Web Exercise 1.3.38 em
+
+http://algs4.cs.princeton.edu/13stacks/
+
+Naquele exercício, procuram-se as palavras q[1],..., q[k], nesta ordem. Resolva a variante em que essas k palavras podem ocorrer em qualquer ordem. Uma possível solução é usar a solução do "caso ordenado" k! vezes e ver qual ordem dá o melhor resultado (intervalo mais curto).  Sua solução deve ser melhor (mais eficiente) que essa solução.
+
+Para experimentar com entradas maiores, use os textos do projeto Gutenberg:
+
+http://www.gutenberg.org
+
+Alguns arquivos encontram-se localmente em
+
+http://www.ime.usp.br/~yoshi/TMP/DATA/Gutenberg/
+
+Use o seguinte script para "limpar" esses arquivos:
+
+#!/bin/bash
+tr -cs A-Za-z '
+' | tr A-Z a-z
+
+To run clean text:
+
+./script < input.txt > output.txt
+
+
+
+javac-algs4 MultiwordSearch.java && java-algs4 MultiwordSearch on jeans < test.txt 

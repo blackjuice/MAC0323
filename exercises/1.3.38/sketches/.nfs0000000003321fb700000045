@@ -1,0 +1,34 @@
+public class MultiwordSearch {
+    public static void main(String[] args) {
+
+    String[]    words       = StdIn.readAllStrings();
+    int         n_words     = words.length;
+    int         n_args      = args.length;
+
+    ///////////////////////////////////////
+    StdOut.println("***********BEGIN: n_words = " + n_words);
+    ///////////////////////////////////////
+
+    // construct queues[j] = sequence of positions of jth query word
+    Queue<Integer>[] queues = (Queue<Integer>[]) new Queue[args.length];
+    for (int j = 0; j < n_args; j++)
+        queues[j] = new Queue<Integer>();
+
+    for (int i = 0; i < n_words; i++)
+        for (int j = 0; j < n_args; j++)
+            if (words[i].equals(args[j]))
+                queues[j].enqueue(i);
+
+    ///////////////////////////////////////////////
+    for (int j = 0; j < n_args; j++) {
+        StdOut.println("1 - q[" + j + "] : " + queues[j]);
+    }
+    StdOut.println();
+    ///////////////////////////////////////////////
+
+
+
+
+    }
+}
+

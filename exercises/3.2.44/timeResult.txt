@@ -1,0 +1,70 @@
+----ST----
+args[0] = 2
+the 116512
+distinct = 144199
+words    = 2062726
+time = 3.38
+
+----ST----
+args[0] = 3
+the 116512
+distinct = 143561
+words    = 1748274
+time = 3.189
+
+----ST----
+args[0] = 4
+that 18797
+distinct = 139583
+words    = 1369960
+time = 3.046
+
+----ST----
+args[0] = 5
+would 5950
+distinct = 130567
+words    = 1061951
+time = 2.826
+
+----ST----
+args[0] = 10
+government 2549
+distinct = 38468
+words    = 160340
+time = 1.948
+
+----BST----
+args[0] = 2
+the 116512
+distinct = 144199
+words    = 2062726
+time = 3.602
+
+----BST----
+args[0] = 3
+the 116512
+distinct = 143561
+words    = 1748274
+time = 3.409
+
+----BST----
+args[0] = 4
+that 18797
+distinct = 139583
+words    = 1369960
+time = 3.26
+
+----BST----
+args[0] = 5
+would 5950
+distinct = 130567
+words    = 1061951
+time = 3.144
+
+----BST----
+args[0] = 10
+government 2549
+distinct = 38468
+words    = 160340
+time = 1.993
+

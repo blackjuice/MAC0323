@@ -1,0 +1,10 @@
+* NewtonChaos
+
+Discutimos brevemente o [[http://introcs.cs.princeton.edu/java/32class/][Creative Exercise 3.2.15]] no fim da aula
+passada.  A solução fornecida =NewtonChaos.java= tem um pequeno erro
+(além de um comentário no código também incorreto (que vem de um
+cut-and-paste)).  Encontre este erro.  /Dica./ Execute o programa e
+examine as cores na saída.  Dêem um tempinho para todos pensarem, mas
+depois sintam-se à vontade para fazer um post com a resposta.
+
+

@@ -1,0 +1,4 @@
+http://articles.leetcode.com/2010/11/finding-minimum-window-in-s-which.html
+
+
+http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/

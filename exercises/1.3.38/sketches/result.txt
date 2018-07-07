@@ -1,0 +1,4508 @@
+***********BEGIN: n_words = 576736
+queues[0].peek() -> (188) < low(576735)
+***low = 188
+queues[0].peek() -> (188) < low(576735)
+***low = 188
+queues[1].peek() -> (334) < low(188)
+queues[0].peek() -> (1868) < low(576735)
+***low = 1868
+queues[1].peek() -> (334) < low(1868)
+***low = 334
+queues[0].peek() -> (1868) < low(576735)
+***low = 1868
+queues[1].peek() -> (2229) < low(1868)
+queues[0].peek() -> (2230) < low(576735)
+***low = 2230
+queues[1].peek() -> (2229) < low(2230)
+***low = 2229
+queues[0].peek() -> (2674) < low(576735)
+***low = 2674
+queues[1].peek() -> (2229) < low(2674)
+***low = 2229
+queues[0].peek() -> (2674) < low(576735)
+***low = 2674
+queues[1].peek() -> (2229) < low(2674)
+***low = 2229
+queues[2].peek() -> (2850) < low(2229)
+queues[0].peek() -> (2674) < low(576735)
+***low = 2674
+queues[1].peek() -> (2229) < low(2674)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (3558) < low(576735)
+***low = 3558
+queues[1].peek() -> (2229) < low(3558)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (3637) < low(576735)
+***low = 3637
+queues[1].peek() -> (2229) < low(3637)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (3670) < low(576735)
+***low = 3670
+queues[1].peek() -> (2229) < low(3670)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (3760) < low(576735)
+***low = 3760
+queues[1].peek() -> (2229) < low(3760)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (3985) < low(576735)
+***low = 3985
+queues[1].peek() -> (2229) < low(3985)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (4275) < low(576735)
+***low = 4275
+queues[1].peek() -> (2229) < low(4275)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (5009) < low(576735)
+***low = 5009
+queues[1].peek() -> (2229) < low(5009)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (5387) < low(576735)
+***low = 5387
+queues[1].peek() -> (2229) < low(5387)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (5506) < low(576735)
+***low = 5506
+queues[1].peek() -> (2229) < low(5506)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (6178) < low(576735)
+***low = 6178
+queues[1].peek() -> (2229) < low(6178)
+***low = 2229
+queues[2].peek() -> (2941) < low(2229)
+queues[0].peek() -> (6178) < low(576735)
+***low = 6178
+queues[1].peek() -> (6691) < low(6178)
+queues[2].peek() -> (2941) < low(6178)
+***low = 2941
+queues[0].peek() -> (6178) < low(576735)
+***low = 6178
+queues[1].peek() -> (6881) < low(6178)
+queues[2].peek() -> (2941) < low(6178)
+***low = 2941
+queues[0].peek() -> (7044) < low(576735)
+***low = 7044
+queues[1].peek() -> (6881) < low(7044)
+***low = 6881
+queues[2].peek() -> (2941) < low(6881)
+***low = 2941
+queues[0].peek() -> (7044) < low(576735)
+***low = 7044
+queues[1].peek() -> (8027) < low(7044)
+queues[2].peek() -> (2941) < low(7044)
+***low = 2941
+queues[0].peek() -> (7044) < low(576735)
+***low = 7044
+queues[1].peek() -> (8246) < low(7044)
+queues[2].peek() -> (2941) < low(7044)
+***low = 2941
+queues[0].peek() -> (7044) < low(576735)
+***low = 7044
+queues[1].peek() -> (8477) < low(7044)
+queues[2].peek() -> (2941) < low(7044)
+***low = 2941
+queues[0].peek() -> (7044) < low(576735)
+***low = 7044
+queues[1].peek() -> (8868) < low(7044)
+queues[2].peek() -> (2941) < low(7044)
+***low = 2941
+queues[0].peek() -> (7044) < low(576735)
+***low = 7044
+queues[1].peek() -> (9129) < low(7044)
+queues[2].peek() -> (2941) < low(7044)
+***low = 2941
+queues[0].peek() -> (7044) < low(576735)
+***low = 7044
+queues[1].peek() -> (9246) < low(7044)
+queues[2].peek() -> (2941) < low(7044)
+***low = 2941
+queues[0].peek() -> (9690) < low(576735)
+***low = 9690
+queues[1].peek() -> (9246) < low(9690)
+***low = 9246
+queues[2].peek() -> (2941) < low(9246)
+***low = 2941
+queues[0].peek() -> (10121) < low(576735)
+***low = 10121
+queues[1].peek() -> (9246) < low(10121)
+***low = 9246
+queues[2].peek() -> (2941) < low(9246)
+***low = 2941
+queues[0].peek() -> (11571) < low(576735)
+***low = 11571
+queues[1].peek() -> (9246) < low(11571)
+***low = 9246
+queues[2].peek() -> (2941) < low(9246)
+***low = 2941
+queues[0].peek() -> (12182) < low(576735)
+***low = 12182
+queues[1].peek() -> (9246) < low(12182)
+***low = 9246
+queues[2].peek() -> (2941) < low(9246)
+***low = 2941
+queues[0].peek() -> (12797) < low(576735)
+***low = 12797
+queues[1].peek() -> (9246) < low(12797)
+***low = 9246
+queues[2].peek() -> (2941) < low(9246)
+***low = 2941
+queues[0].peek() -> (14045) < low(576735)
+***low = 14045
+queues[1].peek() -> (9246) < low(14045)
+***low = 9246
+queues[2].peek() -> (2941) < low(9246)
+***low = 2941
+queues[0].peek() -> (14697) < low(576735)
+***low = 14697
+queues[1].peek() -> (9246) < low(14697)
+***low = 9246
+queues[2].peek() -> (2941) < low(9246)
+***low = 2941
+queues[0].peek() -> (14697) < low(576735)
+***low = 14697
+queues[1].peek() -> (14698) < low(14697)
+queues[2].peek() -> (2941) < low(14697)
+***low = 2941
+queues[0].peek() -> (14703) < low(576735)
+***low = 14703
+queues[1].peek() -> (14698) < low(14703)
+***low = 14698
+queues[2].peek() -> (2941) < low(14698)
+***low = 2941
+queues[0].peek() -> (14703) < low(576735)
+***low = 14703
+queues[1].peek() -> (14705) < low(14703)
+queues[2].peek() -> (2941) < low(14703)
+***low = 2941
+queues[0].peek() -> (14703) < low(576735)
+***low = 14703
+queues[1].peek() -> (14705) < low(14703)
+queues[2].peek() -> (14980) < low(14703)
+queues[0].peek() -> (14703) < low(576735)
+***low = 14703
+queues[1].peek() -> (14705) < low(14703)
+queues[2].peek() -> (14987) < low(14703)
+queues[0].peek() -> (14988) < low(576735)
+***low = 14988
+queues[1].peek() -> (14705) < low(14988)
+***low = 14705
+queues[2].peek() -> (14987) < low(14705)
+queues[0].peek() -> (14988) < low(576735)
+***low = 14988
+queues[1].peek() -> (14989) < low(14988)
+queues[2].peek() -> (14987) < low(14988)
+***low = 14987
+queues[0].peek() -> (15069) < low(576735)
+***low = 15069
+queues[1].peek() -> (14989) < low(15069)
+***low = 14989
+queues[2].peek() -> (14987) < low(14989)
+***low = 14987
+queues[0].peek() -> (15069) < low(576735)
+***low = 15069
+queues[1].peek() -> (15102) < low(15069)
+queues[2].peek() -> (14987) < low(15069)
+***low = 14987
+queues[0].peek() -> (15069) < low(576735)
+***low = 15069
+queues[1].peek() -> (15104) < low(15069)
+queues[2].peek() -> (14987) < low(15069)
+***low = 14987
+queues[0].peek() -> (15721) < low(576735)
+***low = 15721
+queues[1].peek() -> (15104) < low(15721)
+***low = 15104
+queues[2].peek() -> (14987) < low(15104)
+***low = 14987
+queues[0].peek() -> (16376) < low(576735)
+***low = 16376
+queues[1].peek() -> (15104) < low(16376)
+***low = 15104
+queues[2].peek() -> (14987) < low(15104)
+***low = 14987
+queues[0].peek() -> (16376) < low(576735)
+***low = 16376
+queues[1].peek() -> (17156) < low(16376)
+queues[2].peek() -> (14987) < low(16376)
+***low = 14987
+queues[0].peek() -> (17247) < low(576735)
+***low = 17247
+queues[1].peek() -> (17156) < low(17247)
+***low = 17156
+queues[2].peek() -> (14987) < low(17156)
+***low = 14987
+queues[0].peek() -> (17247) < low(576735)
+***low = 17247
+queues[1].peek() -> (17273) < low(17247)
+queues[2].peek() -> (14987) < low(17247)
+***low = 14987
+queues[0].peek() -> (17463) < low(576735)
+***low = 17463
+queues[1].peek() -> (17273) < low(17463)
+***low = 17273
+queues[2].peek() -> (14987) < low(17273)
+***low = 14987
+queues[0].peek() -> (17849) < low(576735)
+***low = 17849
+queues[1].peek() -> (17273) < low(17849)
+***low = 17273
+queues[2].peek() -> (14987) < low(17273)
+***low = 14987
+queues[0].peek() -> (17849) < low(576735)
+***low = 17849
+queues[1].peek() -> (18086) < low(17849)
+queues[2].peek() -> (14987) < low(17849)
+***low = 14987
+queues[0].peek() -> (18131) < low(576735)
+***low = 18131
+queues[1].peek() -> (18086) < low(18131)
+***low = 18086
+queues[2].peek() -> (14987) < low(18086)
+***low = 14987
+queues[0].peek() -> (18305) < low(576735)
+***low = 18305
+queues[1].peek() -> (18086) < low(18305)
+***low = 18086
+queues[2].peek() -> (14987) < low(18086)
+***low = 14987
+queues[0].peek() -> (18305) < low(576735)
+***low = 18305
+queues[1].peek() -> (18546) < low(18305)
+queues[2].peek() -> (14987) < low(18305)
+***low = 14987
+queues[0].peek() -> (18305) < low(576735)
+***low = 18305
+queues[1].peek() -> (18671) < low(18305)
+queues[2].peek() -> (14987) < low(18305)
+***low = 14987
+queues[0].peek() -> (18675) < low(576735)
+***low = 18675
+queues[1].peek() -> (18671) < low(18675)
+***low = 18671
+queues[2].peek() -> (14987) < low(18671)
+***low = 14987
+queues[0].peek() -> (18694) < low(576735)
+***low = 18694
+queues[1].peek() -> (18671) < low(18694)
+***low = 18671
+queues[2].peek() -> (14987) < low(18671)
+***low = 14987
+queues[0].peek() -> (18694) < low(576735)
+***low = 18694
+queues[1].peek() -> (18718) < low(18694)
+queues[2].peek() -> (14987) < low(18694)
+***low = 14987
+queues[0].peek() -> (18694) < low(576735)
+***low = 18694
+queues[1].peek() -> (18756) < low(18694)
+queues[2].peek() -> (14987) < low(18694)
+***low = 14987
+queues[0].peek() -> (18965) < low(576735)
+***low = 18965
+queues[1].peek() -> (18756) < low(18965)
+***low = 18756
+queues[2].peek() -> (14987) < low(18756)
+***low = 14987
+queues[0].peek() -> (18965) < low(576735)
+***low = 18965
+queues[1].peek() -> (19343) < low(18965)
+queues[2].peek() -> (14987) < low(18965)
+***low = 14987
+queues[0].peek() -> (18965) < low(576735)
+***low = 18965
+queues[1].peek() -> (19701) < low(18965)
+queues[2].peek() -> (14987) < low(18965)
+***low = 14987
+queues[0].peek() -> (18965) < low(576735)
+***low = 18965
+queues[1].peek() -> (20601) < low(18965)
+queues[2].peek() -> (14987) < low(18965)
+***low = 14987
+queues[0].peek() -> (18965) < low(576735)
+***low = 18965
+queues[1].peek() -> (20607) < low(18965)
+queues[2].peek() -> (14987) < low(18965)
+***low = 14987
+queues[0].peek() -> (20869) < low(576735)
+***low = 20869
+queues[1].peek() -> (20607) < low(20869)
+***low = 20607
+queues[2].peek() -> (14987) < low(20607)
+***low = 14987
+queues[0].peek() -> (20869) < low(576735)
+***low = 20869
+queues[1].peek() -> (20607) < low(20869)
+***low = 20607
+queues[2].peek() -> (20909) < low(20607)
+queues[0].peek() -> (20869) < low(576735)
+***low = 20869
+queues[1].peek() -> (20992) < low(20869)
+queues[2].peek() -> (20909) < low(20869)
+queues[0].peek() -> (21354) < low(576735)
+***low = 21354
+queues[1].peek() -> (20992) < low(21354)
+***low = 20992
+queues[2].peek() -> (20909) < low(20992)
+***low = 20909
+queues[0].peek() -> (21354) < low(576735)
+***low = 21354
+queues[1].peek() -> (21428) < low(21354)
+queues[2].peek() -> (20909) < low(21354)
+***low = 20909
+queues[0].peek() -> (21817) < low(576735)
+***low = 21817
+queues[1].peek() -> (21428) < low(21817)
+***low = 21428
+queues[2].peek() -> (20909) < low(21428)
+***low = 20909
+queues[0].peek() -> (22899) < low(576735)
+***low = 22899
+queues[1].peek() -> (21428) < low(22899)
+***low = 21428
+queues[2].peek() -> (20909) < low(21428)
+***low = 20909
+queues[0].peek() -> (22975) < low(576735)
+***low = 22975
+queues[1].peek() -> (21428) < low(22975)
+***low = 21428
+queues[2].peek() -> (20909) < low(21428)
+***low = 20909
+queues[0].peek() -> (23154) < low(576735)
+***low = 23154
+queues[1].peek() -> (21428) < low(23154)
+***low = 21428
+queues[2].peek() -> (20909) < low(21428)
+***low = 20909
+queues[0].peek() -> (23154) < low(576735)
+***low = 23154
+queues[1].peek() -> (21428) < low(23154)
+***low = 21428
+queues[2].peek() -> (25134) < low(21428)
+queues[0].peek() -> (25608) < low(576735)
+***low = 25608
+queues[1].peek() -> (21428) < low(25608)
+***low = 21428
+queues[2].peek() -> (25134) < low(21428)
+queues[0].peek() -> (25608) < low(576735)
+***low = 25608
+queues[1].peek() -> (25902) < low(25608)
+queues[2].peek() -> (25134) < low(25608)
+***low = 25134
+queues[0].peek() -> (25608) < low(576735)
+***low = 25608
+queues[1].peek() -> (26891) < low(25608)
+queues[2].peek() -> (25134) < low(25608)
+***low = 25134
+queues[0].peek() -> (28301) < low(576735)
+***low = 28301
+queues[1].peek() -> (26891) < low(28301)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (28603) < low(576735)
+***low = 28603
+queues[1].peek() -> (26891) < low(28603)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (30231) < low(576735)
+***low = 30231
+queues[1].peek() -> (26891) < low(30231)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (30775) < low(576735)
+***low = 30775
+queues[1].peek() -> (26891) < low(30775)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (30980) < low(576735)
+***low = 30980
+queues[1].peek() -> (26891) < low(30980)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (31421) < low(576735)
+***low = 31421
+queues[1].peek() -> (26891) < low(31421)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (35023) < low(576735)
+***low = 35023
+queues[1].peek() -> (26891) < low(35023)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (36133) < low(576735)
+***low = 36133
+queues[1].peek() -> (26891) < low(36133)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (36312) < low(576735)
+***low = 36312
+queues[1].peek() -> (26891) < low(36312)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (36794) < low(576735)
+***low = 36794
+queues[1].peek() -> (26891) < low(36794)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (37496) < low(576735)
+***low = 37496
+queues[1].peek() -> (26891) < low(37496)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (37973) < low(576735)
+***low = 37973
+queues[1].peek() -> (26891) < low(37973)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (38147) < low(576735)
+***low = 38147
+queues[1].peek() -> (26891) < low(38147)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (39985) < low(576735)
+***low = 39985
+queues[1].peek() -> (26891) < low(39985)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (40423) < low(576735)
+***low = 40423
+queues[1].peek() -> (26891) < low(40423)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (40533) < low(576735)
+***low = 40533
+queues[1].peek() -> (26891) < low(40533)
+***low = 26891
+queues[2].peek() -> (25134) < low(26891)
+***low = 25134
+queues[0].peek() -> (40533) < low(576735)
+***low = 40533
+queues[1].peek() -> (42353) < low(40533)
+queues[2].peek() -> (25134) < low(40533)
+***low = 25134
+queues[0].peek() -> (40533) < low(576735)
+***low = 40533
+queues[1].peek() -> (42426) < low(40533)
+queues[2].peek() -> (25134) < low(40533)
+***low = 25134
+queues[0].peek() -> (40533) < low(576735)
+***low = 40533
+queues[1].peek() -> (42638) < low(40533)
+queues[2].peek() -> (25134) < low(40533)
+***low = 25134
+queues[0].peek() -> (40533) < low(576735)
+***low = 40533
+queues[1].peek() -> (42694) < low(40533)
+queues[2].peek() -> (25134) < low(40533)
+***low = 25134
+queues[0].peek() -> (47442) < low(576735)
+***low = 47442
+queues[1].peek() -> (42694) < low(47442)
+***low = 42694
+queues[2].peek() -> (25134) < low(42694)
+***low = 25134
+queues[0].peek() -> (47814) < low(576735)
+***low = 47814
+queues[1].peek() -> (42694) < low(47814)
+***low = 42694
+queues[2].peek() -> (25134) < low(42694)
+***low = 25134
+queues[0].peek() -> (47849) < low(576735)
+***low = 47849
+queues[1].peek() -> (42694) < low(47849)
+***low = 42694
+queues[2].peek() -> (25134) < low(42694)
+***low = 25134
+queues[0].peek() -> (47911) < low(576735)
+***low = 47911
+queues[1].peek() -> (42694) < low(47911)
+***low = 42694
+queues[2].peek() -> (25134) < low(42694)
+***low = 25134
+queues[0].peek() -> (48190) < low(576735)
+***low = 48190
+queues[1].peek() -> (42694) < low(48190)
+***low = 42694
+queues[2].peek() -> (25134) < low(42694)
+***low = 25134
+queues[0].peek() -> (49970) < low(576735)
+***low = 49970
+queues[1].peek() -> (42694) < low(49970)
+***low = 42694
+queues[2].peek() -> (25134) < low(42694)
+***low = 25134
+queues[0].peek() -> (50116) < low(576735)
+***low = 50116
+queues[1].peek() -> (42694) < low(50116)
+***low = 42694
+queues[2].peek() -> (25134) < low(42694)
+***low = 25134
+queues[0].peek() -> (50197) < low(576735)
+***low = 50197
+queues[1].peek() -> (42694) < low(50197)
+***low = 42694
+queues[2].peek() -> (25134) < low(42694)
+***low = 25134
+queues[0].peek() -> (50473) < low(576735)
+***low = 50473
+queues[1].peek() -> (42694) < low(50473)
+***low = 42694
+queues[2].peek() -> (25134) < low(42694)
+***low = 25134
+queues[0].peek() -> (50473) < low(576735)
+***low = 50473
+queues[1].peek() -> (42694) < low(50473)
+***low = 42694
+queues[2].peek() -> (50524) < low(42694)
+queues[0].peek() -> (52192) < low(576735)
+***low = 52192
+queues[1].peek() -> (42694) < low(52192)
+***low = 42694
+queues[2].peek() -> (50524) < low(42694)
+queues[0].peek() -> (52192) < low(576735)
+***low = 52192
+queues[1].peek() -> (42694) < low(52192)
+***low = 42694
+queues[2].peek() -> (52683) < low(42694)
+queues[0].peek() -> (53330) < low(576735)
+***low = 53330
+queues[1].peek() -> (42694) < low(53330)
+***low = 42694
+queues[2].peek() -> (52683) < low(42694)
+queues[0].peek() -> (55092) < low(576735)
+***low = 55092
+queues[1].peek() -> (42694) < low(55092)
+***low = 42694
+queues[2].peek() -> (52683) < low(42694)
+queues[0].peek() -> (56092) < low(576735)
+***low = 56092
+queues[1].peek() -> (42694) < low(56092)
+***low = 42694
+queues[2].peek() -> (52683) < low(42694)
+queues[0].peek() -> (56187) < low(576735)
+***low = 56187
+queues[1].peek() -> (42694) < low(56187)
+***low = 42694
+queues[2].peek() -> (52683) < low(42694)
+queues[0].peek() -> (56302) < low(576735)
+***low = 56302
+queues[1].peek() -> (42694) < low(56302)
+***low = 42694
+queues[2].peek() -> (52683) < low(42694)
+queues[0].peek() -> (56433) < low(576735)
+***low = 56433
+queues[1].peek() -> (42694) < low(56433)
+***low = 42694
+queues[2].peek() -> (52683) < low(42694)
+queues[0].peek() -> (57701) < low(576735)
+***low = 57701
+queues[1].peek() -> (42694) < low(57701)
+***low = 42694
+queues[2].peek() -> (52683) < low(42694)
+queues[0].peek() -> (58405) < low(576735)
+***low = 58405
+queues[1].peek() -> (42694) < low(58405)
+***low = 42694
+queues[2].peek() -> (52683) < low(42694)
+queues[0].peek() -> (58405) < low(576735)
+***low = 58405
+queues[1].peek() -> (58905) < low(58405)
+queues[2].peek() -> (52683) < low(58405)
+***low = 52683
+queues[0].peek() -> (58405) < low(576735)
+***low = 58405
+queues[1].peek() -> (59745) < low(58405)
+queues[2].peek() -> (52683) < low(58405)
+***low = 52683
+queues[0].peek() -> (58405) < low(576735)
+***low = 58405
+queues[1].peek() -> (59802) < low(58405)
+queues[2].peek() -> (52683) < low(58405)
+***low = 52683
+queues[0].peek() -> (58405) < low(576735)
+***low = 58405
+queues[1].peek() -> (60235) < low(58405)
+queues[2].peek() -> (52683) < low(58405)
+***low = 52683
+queues[0].peek() -> (58405) < low(576735)
+***low = 58405
+queues[1].peek() -> (61905) < low(58405)
+queues[2].peek() -> (52683) < low(58405)
+***low = 52683
+queues[0].peek() -> (63349) < low(576735)
+***low = 63349
+queues[1].peek() -> (61905) < low(63349)
+***low = 61905
+queues[2].peek() -> (52683) < low(61905)
+***low = 52683
+queues[0].peek() -> (63912) < low(576735)
+***low = 63912
+queues[1].peek() -> (61905) < low(63912)
+***low = 61905
+queues[2].peek() -> (52683) < low(61905)
+***low = 52683
+queues[0].peek() -> (63912) < low(576735)
+***low = 63912
+queues[1].peek() -> (61905) < low(63912)
+***low = 61905
+queues[2].peek() -> (63992) < low(61905)
+queues[0].peek() -> (65364) < low(576735)
+***low = 65364
+queues[1].peek() -> (61905) < low(65364)
+***low = 61905
+queues[2].peek() -> (63992) < low(61905)
+queues[0].peek() -> (65364) < low(576735)
+***low = 65364
+queues[1].peek() -> (61905) < low(65364)
+***low = 61905
+queues[2].peek() -> (65561) < low(61905)
+queues[0].peek() -> (65798) < low(576735)
+***low = 65798
+queues[1].peek() -> (61905) < low(65798)
+***low = 61905
+queues[2].peek() -> (65561) < low(61905)
+queues[0].peek() -> (67300) < low(576735)
+***low = 67300
+queues[1].peek() -> (61905) < low(67300)
+***low = 61905
+queues[2].peek() -> (65561) < low(61905)
+queues[0].peek() -> (68786) < low(576735)
+***low = 68786
+queues[1].peek() -> (61905) < low(68786)
+***low = 61905
+queues[2].peek() -> (65561) < low(61905)
+queues[0].peek() -> (69052) < low(576735)
+***low = 69052
+queues[1].peek() -> (61905) < low(69052)
+***low = 61905
+queues[2].peek() -> (65561) < low(61905)
+queues[0].peek() -> (69535) < low(576735)
+***low = 69535
+queues[1].peek() -> (61905) < low(69535)
+***low = 61905
+queues[2].peek() -> (65561) < low(61905)
+queues[0].peek() -> (69855) < low(576735)
+***low = 69855
+queues[1].peek() -> (61905) < low(69855)
+***low = 61905
+queues[2].peek() -> (65561) < low(61905)
+queues[0].peek() -> (69855) < low(576735)
+***low = 69855
+queues[1].peek() -> (70005) < low(69855)
+queues[2].peek() -> (65561) < low(69855)
+***low = 65561
+queues[0].peek() -> (69855) < low(576735)
+***low = 69855
+queues[1].peek() -> (70411) < low(69855)
+queues[2].peek() -> (65561) < low(69855)
+***low = 65561
+queues[0].peek() -> (69855) < low(576735)
+***low = 69855
+queues[1].peek() -> (70456) < low(69855)
+queues[2].peek() -> (65561) < low(69855)
+***low = 65561
+queues[0].peek() -> (69855) < low(576735)
+***low = 69855
+queues[1].peek() -> (71007) < low(69855)
+queues[2].peek() -> (65561) < low(69855)
+***low = 65561
+queues[0].peek() -> (71690) < low(576735)
+***low = 71690
+queues[1].peek() -> (71007) < low(71690)
+***low = 71007
+queues[2].peek() -> (65561) < low(71007)
+***low = 65561
+queues[0].peek() -> (71690) < low(576735)
+***low = 71690
+queues[1].peek() -> (71007) < low(71690)
+***low = 71007
+queues[2].peek() -> (71913) < low(71007)
+queues[0].peek() -> (71690) < low(576735)
+***low = 71690
+queues[1].peek() -> (71007) < low(71690)
+***low = 71007
+queues[2].peek() -> (75117) < low(71007)
+queues[0].peek() -> (75797) < low(576735)
+***low = 75797
+queues[1].peek() -> (71007) < low(75797)
+***low = 71007
+queues[2].peek() -> (75117) < low(71007)
+queues[0].peek() -> (78287) < low(576735)
+***low = 78287
+queues[1].peek() -> (71007) < low(78287)
+***low = 71007
+queues[2].peek() -> (75117) < low(71007)
+queues[0].peek() -> (78287) < low(576735)
+***low = 78287
+queues[1].peek() -> (79000) < low(78287)
+queues[2].peek() -> (75117) < low(78287)
+***low = 75117
+queues[0].peek() -> (79585) < low(576735)
+***low = 79585
+queues[1].peek() -> (79000) < low(79585)
+***low = 79000
+queues[2].peek() -> (75117) < low(79000)
+***low = 75117
+queues[0].peek() -> (80103) < low(576735)
+***low = 80103
+queues[1].peek() -> (79000) < low(80103)
+***low = 79000
+queues[2].peek() -> (75117) < low(79000)
+***low = 75117
+queues[0].peek() -> (80103) < low(576735)
+***low = 80103
+queues[1].peek() -> (79000) < low(80103)
+***low = 79000
+queues[2].peek() -> (80382) < low(79000)
+queues[0].peek() -> (81894) < low(576735)
+***low = 81894
+queues[1].peek() -> (79000) < low(81894)
+***low = 79000
+queues[2].peek() -> (80382) < low(79000)
+queues[0].peek() -> (82667) < low(576735)
+***low = 82667
+queues[1].peek() -> (79000) < low(82667)
+***low = 79000
+queues[2].peek() -> (80382) < low(79000)
+queues[0].peek() -> (85908) < low(576735)
+***low = 85908
+queues[1].peek() -> (79000) < low(85908)
+***low = 79000
+queues[2].peek() -> (80382) < low(79000)
+queues[0].peek() -> (87587) < low(576735)
+***low = 87587
+queues[1].peek() -> (79000) < low(87587)
+***low = 79000
+queues[2].peek() -> (80382) < low(79000)
+queues[0].peek() -> (87587) < low(576735)
+***low = 87587
+queues[1].peek() -> (79000) < low(87587)
+***low = 79000
+queues[2].peek() -> (88507) < low(79000)
+queues[0].peek() -> (87587) < low(576735)
+***low = 87587
+queues[1].peek() -> (88783) < low(87587)
+queues[2].peek() -> (88507) < low(87587)
+queues[0].peek() -> (87587) < low(576735)
+***low = 87587
+queues[1].peek() -> (88783) < low(87587)
+queues[2].peek() -> (89133) < low(87587)
+queues[0].peek() -> (89690) < low(576735)
+***low = 89690
+queues[1].peek() -> (88783) < low(89690)
+***low = 88783
+queues[2].peek() -> (89133) < low(88783)
+queues[0].peek() -> (89744) < low(576735)
+***low = 89744
+queues[1].peek() -> (88783) < low(89744)
+***low = 88783
+queues[2].peek() -> (89133) < low(88783)
+queues[0].peek() -> (91609) < low(576735)
+***low = 91609
+queues[1].peek() -> (88783) < low(91609)
+***low = 88783
+queues[2].peek() -> (89133) < low(88783)
+queues[0].peek() -> (92151) < low(576735)
+***low = 92151
+queues[1].peek() -> (88783) < low(92151)
+***low = 88783
+queues[2].peek() -> (89133) < low(88783)
+queues[0].peek() -> (92157) < low(576735)
+***low = 92157
+queues[1].peek() -> (88783) < low(92157)
+***low = 88783
+queues[2].peek() -> (89133) < low(88783)
+queues[0].peek() -> (93766) < low(576735)
+***low = 93766
+queues[1].peek() -> (88783) < low(93766)
+***low = 88783
+queues[2].peek() -> (89133) < low(88783)
+queues[0].peek() -> (94090) < low(576735)
+***low = 94090
+queues[1].peek() -> (88783) < low(94090)
+***low = 88783
+queues[2].peek() -> (89133) < low(88783)
+queues[0].peek() -> (94090) < low(576735)
+***low = 94090
+queues[1].peek() -> (94621) < low(94090)
+queues[2].peek() -> (89133) < low(94090)
+***low = 89133
+queues[0].peek() -> (94090) < low(576735)
+***low = 94090
+queues[1].peek() -> (94623) < low(94090)
+queues[2].peek() -> (89133) < low(94090)
+***low = 89133
+queues[0].peek() -> (95368) < low(576735)
+***low = 95368
+queues[1].peek() -> (94623) < low(95368)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (95418) < low(576735)
+***low = 95418
+queues[1].peek() -> (94623) < low(95418)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (95598) < low(576735)
+***low = 95598
+queues[1].peek() -> (94623) < low(95598)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (95661) < low(576735)
+***low = 95661
+queues[1].peek() -> (94623) < low(95661)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (95666) < low(576735)
+***low = 95666
+queues[1].peek() -> (94623) < low(95666)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (96398) < low(576735)
+***low = 96398
+queues[1].peek() -> (94623) < low(96398)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (96622) < low(576735)
+***low = 96622
+queues[1].peek() -> (94623) < low(96622)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (96955) < low(576735)
+***low = 96955
+queues[1].peek() -> (94623) < low(96955)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (96961) < low(576735)
+***low = 96961
+queues[1].peek() -> (94623) < low(96961)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (97527) < low(576735)
+***low = 97527
+queues[1].peek() -> (94623) < low(97527)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (98235) < low(576735)
+***low = 98235
+queues[1].peek() -> (94623) < low(98235)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (98518) < low(576735)
+***low = 98518
+queues[1].peek() -> (94623) < low(98518)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (98903) < low(576735)
+***low = 98903
+queues[1].peek() -> (94623) < low(98903)
+***low = 94623
+queues[2].peek() -> (89133) < low(94623)
+***low = 89133
+queues[0].peek() -> (98903) < low(576735)
+***low = 98903
+queues[1].peek() -> (98962) < low(98903)
+queues[2].peek() -> (89133) < low(98903)
+***low = 89133
+queues[0].peek() -> (99450) < low(576735)
+***low = 99450
+queues[1].peek() -> (98962) < low(99450)
+***low = 98962
+queues[2].peek() -> (89133) < low(98962)
+***low = 89133
+queues[0].peek() -> (99711) < low(576735)
+***low = 99711
+queues[1].peek() -> (98962) < low(99711)
+***low = 98962
+queues[2].peek() -> (89133) < low(98962)
+***low = 89133
+queues[0].peek() -> (100473) < low(576735)
+***low = 100473
+queues[1].peek() -> (98962) < low(100473)
+***low = 98962
+queues[2].peek() -> (89133) < low(98962)
+***low = 89133
+queues[0].peek() -> (100950) < low(576735)
+***low = 100950
+queues[1].peek() -> (98962) < low(100950)
+***low = 98962
+queues[2].peek() -> (89133) < low(98962)
+***low = 89133
+queues[0].peek() -> (100950) < low(576735)
+***low = 100950
+queues[1].peek() -> (98962) < low(100950)
+***low = 98962
+queues[2].peek() -> (102120) < low(98962)
+queues[0].peek() -> (102624) < low(576735)
+***low = 102624
+queues[1].peek() -> (98962) < low(102624)
+***low = 98962
+queues[2].peek() -> (102120) < low(98962)
+queues[0].peek() -> (102655) < low(576735)
+***low = 102655
+queues[1].peek() -> (98962) < low(102655)
+***low = 98962
+queues[2].peek() -> (102120) < low(98962)
+queues[0].peek() -> (103018) < low(576735)
+***low = 103018
+queues[1].peek() -> (98962) < low(103018)
+***low = 98962
+queues[2].peek() -> (102120) < low(98962)
+queues[0].peek() -> (103574) < low(576735)
+***low = 103574
+queues[1].peek() -> (98962) < low(103574)
+***low = 98962
+queues[2].peek() -> (102120) < low(98962)
+queues[0].peek() -> (104418) < low(576735)
+***low = 104418
+queues[1].peek() -> (98962) < low(104418)
+***low = 98962
+queues[2].peek() -> (102120) < low(98962)
+queues[0].peek() -> (104418) < low(576735)
+***low = 104418
+queues[1].peek() -> (105573) < low(104418)
+queues[2].peek() -> (102120) < low(104418)
+***low = 102120
+queues[0].peek() -> (106745) < low(576735)
+***low = 106745
+queues[1].peek() -> (105573) < low(106745)
+***low = 105573
+queues[2].peek() -> (102120) < low(105573)
+***low = 102120
+queues[0].peek() -> (107365) < low(576735)
+***low = 107365
+queues[1].peek() -> (105573) < low(107365)
+***low = 105573
+queues[2].peek() -> (102120) < low(105573)
+***low = 102120
+queues[0].peek() -> (108469) < low(576735)
+***low = 108469
+queues[1].peek() -> (105573) < low(108469)
+***low = 105573
+queues[2].peek() -> (102120) < low(105573)
+***low = 102120
+queues[0].peek() -> (108469) < low(576735)
+***low = 108469
+queues[1].peek() -> (111212) < low(108469)
+queues[2].peek() -> (102120) < low(108469)
+***low = 102120
+queues[0].peek() -> (111630) < low(576735)
+***low = 111630
+queues[1].peek() -> (111212) < low(111630)
+***low = 111212
+queues[2].peek() -> (102120) < low(111212)
+***low = 102120
+queues[0].peek() -> (113275) < low(576735)
+***low = 113275
+queues[1].peek() -> (111212) < low(113275)
+***low = 111212
+queues[2].peek() -> (102120) < low(111212)
+***low = 102120
+queues[0].peek() -> (113777) < low(576735)
+***low = 113777
+queues[1].peek() -> (111212) < low(113777)
+***low = 111212
+queues[2].peek() -> (102120) < low(111212)
+***low = 102120
+queues[0].peek() -> (115321) < low(576735)
+***low = 115321
+queues[1].peek() -> (111212) < low(115321)
+***low = 111212
+queues[2].peek() -> (102120) < low(111212)
+***low = 102120
+queues[0].peek() -> (115972) < low(576735)
+***low = 115972
+queues[1].peek() -> (111212) < low(115972)
+***low = 111212
+queues[2].peek() -> (102120) < low(111212)
+***low = 102120
+queues[0].peek() -> (117101) < low(576735)
+***low = 117101
+queues[1].peek() -> (111212) < low(117101)
+***low = 111212
+queues[2].peek() -> (102120) < low(111212)
+***low = 102120
+queues[0].peek() -> (117101) < low(576735)
+***low = 117101
+queues[1].peek() -> (117780) < low(117101)
+queues[2].peek() -> (102120) < low(117101)
+***low = 102120
+queues[0].peek() -> (117101) < low(576735)
+***low = 117101
+queues[1].peek() -> (117951) < low(117101)
+queues[2].peek() -> (102120) < low(117101)
+***low = 102120
+queues[0].peek() -> (118017) < low(576735)
+***low = 118017
+queues[1].peek() -> (117951) < low(118017)
+***low = 117951
+queues[2].peek() -> (102120) < low(117951)
+***low = 102120
+queues[0].peek() -> (119327) < low(576735)
+***low = 119327
+queues[1].peek() -> (117951) < low(119327)
+***low = 117951
+queues[2].peek() -> (102120) < low(117951)
+***low = 102120
+queues[0].peek() -> (119582) < low(576735)
+***low = 119582
+queues[1].peek() -> (117951) < low(119582)
+***low = 117951
+queues[2].peek() -> (102120) < low(117951)
+***low = 102120
+queues[0].peek() -> (119879) < low(576735)
+***low = 119879
+queues[1].peek() -> (117951) < low(119879)
+***low = 117951
+queues[2].peek() -> (102120) < low(117951)
+***low = 102120
+queues[0].peek() -> (119959) < low(576735)
+***low = 119959
+queues[1].peek() -> (117951) < low(119959)
+***low = 117951
+queues[2].peek() -> (102120) < low(117951)
+***low = 102120
+queues[0].peek() -> (120064) < low(576735)
+***low = 120064
+queues[1].peek() -> (117951) < low(120064)
+***low = 117951
+queues[2].peek() -> (102120) < low(117951)
+***low = 102120
+queues[0].peek() -> (122215) < low(576735)
+***low = 122215
+queues[1].peek() -> (117951) < low(122215)
+***low = 117951
+queues[2].peek() -> (102120) < low(117951)
+***low = 102120
+queues[0].peek() -> (122215) < low(576735)
+***low = 122215
+queues[1].peek() -> (122392) < low(122215)
+queues[2].peek() -> (102120) < low(122215)
+***low = 102120
+queues[0].peek() -> (124193) < low(576735)
+***low = 124193
+queues[1].peek() -> (122392) < low(124193)
+***low = 122392
+queues[2].peek() -> (102120) < low(122392)
+***low = 102120
+queues[0].peek() -> (124433) < low(576735)
+***low = 124433
+queues[1].peek() -> (122392) < low(124433)
+***low = 122392
+queues[2].peek() -> (102120) < low(122392)
+***low = 102120
+queues[0].peek() -> (124900) < low(576735)
+***low = 124900
+queues[1].peek() -> (122392) < low(124900)
+***low = 122392
+queues[2].peek() -> (102120) < low(122392)
+***low = 102120
+queues[0].peek() -> (124900) < low(576735)
+***low = 124900
+queues[1].peek() -> (122392) < low(124900)
+***low = 122392
+queues[2].peek() -> (125769) < low(122392)
+queues[0].peek() -> (124900) < low(576735)
+***low = 124900
+queues[1].peek() -> (125855) < low(124900)
+queues[2].peek() -> (125769) < low(124900)
+queues[0].peek() -> (126706) < low(576735)
+***low = 126706
+queues[1].peek() -> (125855) < low(126706)
+***low = 125855
+queues[2].peek() -> (125769) < low(125855)
+***low = 125769
+queues[0].peek() -> (126706) < low(576735)
+***low = 126706
+queues[1].peek() -> (126718) < low(126706)
+queues[2].peek() -> (125769) < low(126706)
+***low = 125769
+queues[0].peek() -> (130246) < low(576735)
+***low = 130246
+queues[1].peek() -> (126718) < low(130246)
+***low = 126718
+queues[2].peek() -> (125769) < low(126718)
+***low = 125769
+queues[0].peek() -> (132859) < low(576735)
+***low = 132859
+queues[1].peek() -> (126718) < low(132859)
+***low = 126718
+queues[2].peek() -> (125769) < low(126718)
+***low = 125769
+queues[0].peek() -> (133018) < low(576735)
+***low = 133018
+queues[1].peek() -> (126718) < low(133018)
+***low = 126718
+queues[2].peek() -> (125769) < low(126718)
+***low = 125769
+queues[0].peek() -> (136116) < low(576735)
+***low = 136116
+queues[1].peek() -> (126718) < low(136116)
+***low = 126718
+queues[2].peek() -> (125769) < low(126718)
+***low = 125769
+queues[0].peek() -> (137536) < low(576735)
+***low = 137536
+queues[1].peek() -> (126718) < low(137536)
+***low = 126718
+queues[2].peek() -> (125769) < low(126718)
+***low = 125769
+queues[0].peek() -> (137536) < low(576735)
+***low = 137536
+queues[1].peek() -> (138316) < low(137536)
+queues[2].peek() -> (125769) < low(137536)
+***low = 125769
+queues[0].peek() -> (137536) < low(576735)
+***low = 137536
+queues[1].peek() -> (139284) < low(137536)
+queues[2].peek() -> (125769) < low(137536)
+***low = 125769
+queues[0].peek() -> (137536) < low(576735)
+***low = 137536
+queues[1].peek() -> (139985) < low(137536)
+queues[2].peek() -> (125769) < low(137536)
+***low = 125769
+queues[0].peek() -> (137536) < low(576735)
+***low = 137536
+queues[1].peek() -> (140023) < low(137536)
+queues[2].peek() -> (125769) < low(137536)
+***low = 125769
+queues[0].peek() -> (137536) < low(576735)
+***low = 137536
+queues[1].peek() -> (140370) < low(137536)
+queues[2].peek() -> (125769) < low(137536)
+***low = 125769
+queues[0].peek() -> (137536) < low(576735)
+***low = 137536
+queues[1].peek() -> (140437) < low(137536)
+queues[2].peek() -> (125769) < low(137536)
+***low = 125769
+queues[0].peek() -> (137536) < low(576735)
+***low = 137536
+queues[1].peek() -> (140676) < low(137536)
+queues[2].peek() -> (125769) < low(137536)
+***low = 125769
+queues[0].peek() -> (140885) < low(576735)
+***low = 140885
+queues[1].peek() -> (140676) < low(140885)
+***low = 140676
+queues[2].peek() -> (125769) < low(140676)
+***low = 125769
+queues[0].peek() -> (141082) < low(576735)
+***low = 141082
+queues[1].peek() -> (140676) < low(141082)
+***low = 140676
+queues[2].peek() -> (125769) < low(140676)
+***low = 125769
+queues[0].peek() -> (141818) < low(576735)
+***low = 141818
+queues[1].peek() -> (140676) < low(141818)
+***low = 140676
+queues[2].peek() -> (125769) < low(140676)
+***low = 125769
+queues[0].peek() -> (141995) < low(576735)
+***low = 141995
+queues[1].peek() -> (140676) < low(141995)
+***low = 140676
+queues[2].peek() -> (125769) < low(140676)
+***low = 125769
+queues[0].peek() -> (142503) < low(576735)
+***low = 142503
+queues[1].peek() -> (140676) < low(142503)
+***low = 140676
+queues[2].peek() -> (125769) < low(140676)
+***low = 125769
+queues[0].peek() -> (142952) < low(576735)
+***low = 142952
+queues[1].peek() -> (140676) < low(142952)
+***low = 140676
+queues[2].peek() -> (125769) < low(140676)
+***low = 125769
+queues[0].peek() -> (142952) < low(576735)
+***low = 142952
+queues[1].peek() -> (143398) < low(142952)
+queues[2].peek() -> (125769) < low(142952)
+***low = 125769
+queues[0].peek() -> (143716) < low(576735)
+***low = 143716
+queues[1].peek() -> (143398) < low(143716)
+***low = 143398
+queues[2].peek() -> (125769) < low(143398)
+***low = 125769
+queues[0].peek() -> (143716) < low(576735)
+***low = 143716
+queues[1].peek() -> (144563) < low(143716)
+queues[2].peek() -> (125769) < low(143716)
+***low = 125769
+queues[0].peek() -> (144824) < low(576735)
+***low = 144824
+queues[1].peek() -> (144563) < low(144824)
+***low = 144563
+queues[2].peek() -> (125769) < low(144563)
+***low = 125769
+queues[0].peek() -> (144824) < low(576735)
+***low = 144824
+queues[1].peek() -> (145039) < low(144824)
+queues[2].peek() -> (125769) < low(144824)
+***low = 125769
+queues[0].peek() -> (145216) < low(576735)
+***low = 145216
+queues[1].peek() -> (145039) < low(145216)
+***low = 145039
+queues[2].peek() -> (125769) < low(145039)
+***low = 125769
+queues[0].peek() -> (145420) < low(576735)
+***low = 145420
+queues[1].peek() -> (145039) < low(145420)
+***low = 145039
+queues[2].peek() -> (125769) < low(145039)
+***low = 125769
+queues[0].peek() -> (145526) < low(576735)
+***low = 145526
+queues[1].peek() -> (145039) < low(145526)
+***low = 145039
+queues[2].peek() -> (125769) < low(145039)
+***low = 125769
+queues[0].peek() -> (145579) < low(576735)
+***low = 145579
+queues[1].peek() -> (145039) < low(145579)
+***low = 145039
+queues[2].peek() -> (125769) < low(145039)
+***low = 125769
+queues[0].peek() -> (145579) < low(576735)
+***low = 145579
+queues[1].peek() -> (146407) < low(145579)
+queues[2].peek() -> (125769) < low(145579)
+***low = 125769
+queues[0].peek() -> (145579) < low(576735)
+***low = 145579
+queues[1].peek() -> (146637) < low(145579)
+queues[2].peek() -> (125769) < low(145579)
+***low = 125769
+queues[0].peek() -> (145579) < low(576735)
+***low = 145579
+queues[1].peek() -> (147388) < low(145579)
+queues[2].peek() -> (125769) < low(145579)
+***low = 125769
+queues[0].peek() -> (147619) < low(576735)
+***low = 147619
+queues[1].peek() -> (147388) < low(147619)
+***low = 147388
+queues[2].peek() -> (125769) < low(147388)
+***low = 125769
+queues[0].peek() -> (147998) < low(576735)
+***low = 147998
+queues[1].peek() -> (147388) < low(147998)
+***low = 147388
+queues[2].peek() -> (125769) < low(147388)
+***low = 125769
+queues[0].peek() -> (147998) < low(576735)
+***low = 147998
+queues[1].peek() -> (148235) < low(147998)
+queues[2].peek() -> (125769) < low(147998)
+***low = 125769
+queues[0].peek() -> (148370) < low(576735)
+***low = 148370
+queues[1].peek() -> (148235) < low(148370)
+***low = 148235
+queues[2].peek() -> (125769) < low(148235)
+***low = 125769
+queues[0].peek() -> (148415) < low(576735)
+***low = 148415
+queues[1].peek() -> (148235) < low(148415)
+***low = 148235
+queues[2].peek() -> (125769) < low(148235)
+***low = 125769
+queues[0].peek() -> (148415) < low(576735)
+***low = 148415
+queues[1].peek() -> (148417) < low(148415)
+queues[2].peek() -> (125769) < low(148415)
+***low = 125769
+queues[0].peek() -> (148602) < low(576735)
+***low = 148602
+queues[1].peek() -> (148417) < low(148602)
+***low = 148417
+queues[2].peek() -> (125769) < low(148417)
+***low = 125769
+queues[0].peek() -> (149430) < low(576735)
+***low = 149430
+queues[1].peek() -> (148417) < low(149430)
+***low = 148417
+queues[2].peek() -> (125769) < low(148417)
+***low = 125769
+queues[0].peek() -> (150195) < low(576735)
+***low = 150195
+queues[1].peek() -> (148417) < low(150195)
+***low = 148417
+queues[2].peek() -> (125769) < low(148417)
+***low = 125769
+queues[0].peek() -> (150545) < low(576735)
+***low = 150545
+queues[1].peek() -> (148417) < low(150545)
+***low = 148417
+queues[2].peek() -> (125769) < low(148417)
+***low = 125769
+queues[0].peek() -> (150943) < low(576735)
+***low = 150943
+queues[1].peek() -> (148417) < low(150943)
+***low = 148417
+queues[2].peek() -> (125769) < low(148417)
+***low = 125769
+queues[0].peek() -> (151105) < low(576735)
+***low = 151105
+queues[1].peek() -> (148417) < low(151105)
+***low = 148417
+queues[2].peek() -> (125769) < low(148417)
+***low = 125769
+queues[0].peek() -> (151105) < low(576735)
+***low = 151105
+queues[1].peek() -> (153200) < low(151105)
+queues[2].peek() -> (125769) < low(151105)
+***low = 125769
+queues[0].peek() -> (153323) < low(576735)
+***low = 153323
+queues[1].peek() -> (153200) < low(153323)
+***low = 153200
+queues[2].peek() -> (125769) < low(153200)
+***low = 125769
+queues[0].peek() -> (153323) < low(576735)
+***low = 153323
+queues[1].peek() -> (153200) < low(153323)
+***low = 153200
+queues[2].peek() -> (153903) < low(153200)
+queues[0].peek() -> (153323) < low(576735)
+***low = 153323
+queues[1].peek() -> (153200) < low(153323)
+***low = 153200
+queues[2].peek() -> (155504) < low(153200)
+queues[0].peek() -> (153323) < low(576735)
+***low = 153323
+queues[1].peek() -> (155554) < low(153323)
+queues[2].peek() -> (155504) < low(153323)
+queues[0].peek() -> (153323) < low(576735)
+***low = 153323
+queues[1].peek() -> (155564) < low(153323)
+queues[2].peek() -> (155504) < low(153323)
+queues[0].peek() -> (156266) < low(576735)
+***low = 156266
+queues[1].peek() -> (155564) < low(156266)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (159578) < low(576735)
+***low = 159578
+queues[1].peek() -> (155564) < low(159578)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (160147) < low(576735)
+***low = 160147
+queues[1].peek() -> (155564) < low(160147)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (161424) < low(576735)
+***low = 161424
+queues[1].peek() -> (155564) < low(161424)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (162692) < low(576735)
+***low = 162692
+queues[1].peek() -> (155564) < low(162692)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (162796) < low(576735)
+***low = 162796
+queues[1].peek() -> (155564) < low(162796)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (163119) < low(576735)
+***low = 163119
+queues[1].peek() -> (155564) < low(163119)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (164969) < low(576735)
+***low = 164969
+queues[1].peek() -> (155564) < low(164969)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (169881) < low(576735)
+***low = 169881
+queues[1].peek() -> (155564) < low(169881)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (173193) < low(576735)
+***low = 173193
+queues[1].peek() -> (155564) < low(173193)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (175143) < low(576735)
+***low = 175143
+queues[1].peek() -> (155564) < low(175143)
+***low = 155564
+queues[2].peek() -> (155504) < low(155564)
+***low = 155504
+queues[0].peek() -> (175143) < low(576735)
+***low = 175143
+queues[1].peek() -> (176408) < low(175143)
+queues[2].peek() -> (155504) < low(175143)
+***low = 155504
+queues[0].peek() -> (175143) < low(576735)
+***low = 175143
+queues[1].peek() -> (176532) < low(175143)
+queues[2].peek() -> (155504) < low(175143)
+***low = 155504
+queues[0].peek() -> (175143) < low(576735)
+***low = 175143
+queues[1].peek() -> (177089) < low(175143)
+queues[2].peek() -> (155504) < low(175143)
+***low = 155504
+queues[0].peek() -> (178297) < low(576735)
+***low = 178297
+queues[1].peek() -> (177089) < low(178297)
+***low = 177089
+queues[2].peek() -> (155504) < low(177089)
+***low = 155504
+queues[0].peek() -> (178596) < low(576735)
+***low = 178596
+queues[1].peek() -> (177089) < low(178596)
+***low = 177089
+queues[2].peek() -> (155504) < low(177089)
+***low = 155504
+queues[0].peek() -> (179377) < low(576735)
+***low = 179377
+queues[1].peek() -> (177089) < low(179377)
+***low = 177089
+queues[2].peek() -> (155504) < low(177089)
+***low = 155504
+queues[0].peek() -> (180967) < low(576735)
+***low = 180967
+queues[1].peek() -> (177089) < low(180967)
+***low = 177089
+queues[2].peek() -> (155504) < low(177089)
+***low = 155504
+queues[0].peek() -> (181686) < low(576735)
+***low = 181686
+queues[1].peek() -> (177089) < low(181686)
+***low = 177089
+queues[2].peek() -> (155504) < low(177089)
+***low = 155504
+queues[0].peek() -> (181686) < low(576735)
+***low = 181686
+queues[1].peek() -> (177089) < low(181686)
+***low = 177089
+queues[2].peek() -> (181787) < low(177089)
+queues[0].peek() -> (182697) < low(576735)
+***low = 182697
+queues[1].peek() -> (177089) < low(182697)
+***low = 177089
+queues[2].peek() -> (181787) < low(177089)
+queues[0].peek() -> (184382) < low(576735)
+***low = 184382
+queues[1].peek() -> (177089) < low(184382)
+***low = 177089
+queues[2].peek() -> (181787) < low(177089)
+queues[0].peek() -> (184382) < low(576735)
+***low = 184382
+queues[1].peek() -> (186239) < low(184382)
+queues[2].peek() -> (181787) < low(184382)
+***low = 181787
+queues[0].peek() -> (188394) < low(576735)
+***low = 188394
+queues[1].peek() -> (186239) < low(188394)
+***low = 186239
+queues[2].peek() -> (181787) < low(186239)
+***low = 181787
+queues[0].peek() -> (188394) < low(576735)
+***low = 188394
+queues[1].peek() -> (188533) < low(188394)
+queues[2].peek() -> (181787) < low(188394)
+***low = 181787
+queues[0].peek() -> (190672) < low(576735)
+***low = 190672
+queues[1].peek() -> (188533) < low(190672)
+***low = 188533
+queues[2].peek() -> (181787) < low(188533)
+***low = 181787
+queues[0].peek() -> (190672) < low(576735)
+***low = 190672
+queues[1].peek() -> (190948) < low(190672)
+queues[2].peek() -> (181787) < low(190672)
+***low = 181787
+queues[0].peek() -> (190672) < low(576735)
+***low = 190672
+queues[1].peek() -> (192203) < low(190672)
+queues[2].peek() -> (181787) < low(190672)
+***low = 181787
+queues[0].peek() -> (190672) < low(576735)
+***low = 190672
+queues[1].peek() -> (192890) < low(190672)
+queues[2].peek() -> (181787) < low(190672)
+***low = 181787
+queues[0].peek() -> (193973) < low(576735)
+***low = 193973
+queues[1].peek() -> (192890) < low(193973)
+***low = 192890
+queues[2].peek() -> (181787) < low(192890)
+***low = 181787
+queues[0].peek() -> (194134) < low(576735)
+***low = 194134
+queues[1].peek() -> (192890) < low(194134)
+***low = 192890
+queues[2].peek() -> (181787) < low(192890)
+***low = 181787
+queues[0].peek() -> (194134) < low(576735)
+***low = 194134
+queues[1].peek() -> (195770) < low(194134)
+queues[2].peek() -> (181787) < low(194134)
+***low = 181787
+queues[0].peek() -> (196084) < low(576735)
+***low = 196084
+queues[1].peek() -> (195770) < low(196084)
+***low = 195770
+queues[2].peek() -> (181787) < low(195770)
+***low = 181787
+queues[0].peek() -> (196084) < low(576735)
+***low = 196084
+queues[1].peek() -> (196426) < low(196084)
+queues[2].peek() -> (181787) < low(196084)
+***low = 181787
+queues[0].peek() -> (198042) < low(576735)
+***low = 198042
+queues[1].peek() -> (196426) < low(198042)
+***low = 196426
+queues[2].peek() -> (181787) < low(196426)
+***low = 181787
+queues[0].peek() -> (198911) < low(576735)
+***low = 198911
+queues[1].peek() -> (196426) < low(198911)
+***low = 196426
+queues[2].peek() -> (181787) < low(196426)
+***low = 181787
+queues[0].peek() -> (199114) < low(576735)
+***low = 199114
+queues[1].peek() -> (196426) < low(199114)
+***low = 196426
+queues[2].peek() -> (181787) < low(196426)
+***low = 181787
+queues[0].peek() -> (199567) < low(576735)
+***low = 199567
+queues[1].peek() -> (196426) < low(199567)
+***low = 196426
+queues[2].peek() -> (181787) < low(196426)
+***low = 181787
+queues[0].peek() -> (199736) < low(576735)
+***low = 199736
+queues[1].peek() -> (196426) < low(199736)
+***low = 196426
+queues[2].peek() -> (181787) < low(196426)
+***low = 181787
+queues[0].peek() -> (201466) < low(576735)
+***low = 201466
+queues[1].peek() -> (196426) < low(201466)
+***low = 196426
+queues[2].peek() -> (181787) < low(196426)
+***low = 181787
+queues[0].peek() -> (201466) < low(576735)
+***low = 201466
+queues[1].peek() -> (202666) < low(201466)
+queues[2].peek() -> (181787) < low(201466)
+***low = 181787
+queues[0].peek() -> (204131) < low(576735)
+***low = 204131
+queues[1].peek() -> (202666) < low(204131)
+***low = 202666
+queues[2].peek() -> (181787) < low(202666)
+***low = 181787
+queues[0].peek() -> (205925) < low(576735)
+***low = 205925
+queues[1].peek() -> (202666) < low(205925)
+***low = 202666
+queues[2].peek() -> (181787) < low(202666)
+***low = 181787
+queues[0].peek() -> (205925) < low(576735)
+***low = 205925
+queues[1].peek() -> (206148) < low(205925)
+queues[2].peek() -> (181787) < low(205925)
+***low = 181787
+queues[0].peek() -> (206153) < low(576735)
+***low = 206153
+queues[1].peek() -> (206148) < low(206153)
+***low = 206148
+queues[2].peek() -> (181787) < low(206148)
+***low = 181787
+queues[0].peek() -> (206153) < low(576735)
+***low = 206153
+queues[1].peek() -> (206148) < low(206153)
+***low = 206148
+queues[2].peek() -> (207016) < low(206148)
+queues[0].peek() -> (206153) < low(576735)
+***low = 206153
+queues[1].peek() -> (207282) < low(206153)
+queues[2].peek() -> (207016) < low(206153)
+queues[0].peek() -> (206153) < low(576735)
+***low = 206153
+queues[1].peek() -> (207478) < low(206153)
+queues[2].peek() -> (207016) < low(206153)
+queues[0].peek() -> (206153) < low(576735)
+***low = 206153
+queues[1].peek() -> (207478) < low(206153)
+queues[2].peek() -> (210322) < low(206153)
+queues[0].peek() -> (206153) < low(576735)
+***low = 206153
+queues[1].peek() -> (210794) < low(206153)
+queues[2].peek() -> (210322) < low(206153)
+queues[0].peek() -> (206153) < low(576735)
+***low = 206153
+queues[1].peek() -> (211497) < low(206153)
+queues[2].peek() -> (210322) < low(206153)
+queues[0].peek() -> (212351) < low(576735)
+***low = 212351
+queues[1].peek() -> (211497) < low(212351)
+***low = 211497
+queues[2].peek() -> (210322) < low(211497)
+***low = 210322
+queues[0].peek() -> (212878) < low(576735)
+***low = 212878
+queues[1].peek() -> (211497) < low(212878)
+***low = 211497
+queues[2].peek() -> (210322) < low(211497)
+***low = 210322
+queues[0].peek() -> (212878) < low(576735)
+***low = 212878
+queues[1].peek() -> (213351) < low(212878)
+queues[2].peek() -> (210322) < low(212878)
+***low = 210322
+queues[0].peek() -> (213486) < low(576735)
+***low = 213486
+queues[1].peek() -> (213351) < low(213486)
+***low = 213351
+queues[2].peek() -> (210322) < low(213351)
+***low = 210322
+queues[0].peek() -> (214141) < low(576735)
+***low = 214141
+queues[1].peek() -> (213351) < low(214141)
+***low = 213351
+queues[2].peek() -> (210322) < low(213351)
+***low = 210322
+queues[0].peek() -> (214141) < low(576735)
+***low = 214141
+queues[1].peek() -> (215105) < low(214141)
+queues[2].peek() -> (210322) < low(214141)
+***low = 210322
+queues[0].peek() -> (215806) < low(576735)
+***low = 215806
+queues[1].peek() -> (215105) < low(215806)
+***low = 215105
+queues[2].peek() -> (210322) < low(215105)
+***low = 210322
+queues[0].peek() -> (216108) < low(576735)
+***low = 216108
+queues[1].peek() -> (215105) < low(216108)
+***low = 215105
+queues[2].peek() -> (210322) < low(215105)
+***low = 210322
+queues[0].peek() -> (216108) < low(576735)
+***low = 216108
+queues[1].peek() -> (216110) < low(216108)
+queues[2].peek() -> (210322) < low(216108)
+***low = 210322
+queues[0].peek() -> (216108) < low(576735)
+***low = 216108
+queues[1].peek() -> (216183) < low(216108)
+queues[2].peek() -> (210322) < low(216108)
+***low = 210322
+queues[0].peek() -> (216108) < low(576735)
+***low = 216108
+queues[1].peek() -> (216257) < low(216108)
+queues[2].peek() -> (210322) < low(216108)
+***low = 210322
+queues[0].peek() -> (216108) < low(576735)
+***low = 216108
+queues[1].peek() -> (216743) < low(216108)
+queues[2].peek() -> (210322) < low(216108)
+***low = 210322
+queues[0].peek() -> (216108) < low(576735)
+***low = 216108
+queues[1].peek() -> (216743) < low(216108)
+queues[2].peek() -> (217468) < low(216108)
+queues[0].peek() -> (216108) < low(576735)
+***low = 216108
+queues[1].peek() -> (217783) < low(216108)
+queues[2].peek() -> (217468) < low(216108)
+queues[0].peek() -> (218482) < low(576735)
+***low = 218482
+queues[1].peek() -> (217783) < low(218482)
+***low = 217783
+queues[2].peek() -> (217468) < low(217783)
+***low = 217468
+queues[0].peek() -> (218765) < low(576735)
+***low = 218765
+queues[1].peek() -> (217783) < low(218765)
+***low = 217783
+queues[2].peek() -> (217468) < low(217783)
+***low = 217468
+queues[0].peek() -> (219023) < low(576735)
+***low = 219023
+queues[1].peek() -> (217783) < low(219023)
+***low = 217783
+queues[2].peek() -> (217468) < low(217783)
+***low = 217468
+queues[0].peek() -> (219376) < low(576735)
+***low = 219376
+queues[1].peek() -> (217783) < low(219376)
+***low = 217783
+queues[2].peek() -> (217468) < low(217783)
+***low = 217468
+queues[0].peek() -> (220264) < low(576735)
+***low = 220264
+queues[1].peek() -> (217783) < low(220264)
+***low = 217783
+queues[2].peek() -> (217468) < low(217783)
+***low = 217468
+queues[0].peek() -> (221243) < low(576735)
+***low = 221243
+queues[1].peek() -> (217783) < low(221243)
+***low = 217783
+queues[2].peek() -> (217468) < low(217783)
+***low = 217468
+queues[0].peek() -> (222103) < low(576735)
+***low = 222103
+queues[1].peek() -> (217783) < low(222103)
+***low = 217783
+queues[2].peek() -> (217468) < low(217783)
+***low = 217468
+queues[0].peek() -> (222107) < low(576735)
+***low = 222107
+queues[1].peek() -> (217783) < low(222107)
+***low = 217783
+queues[2].peek() -> (217468) < low(217783)
+***low = 217468
+queues[0].peek() -> (222787) < low(576735)
+***low = 222787
+queues[1].peek() -> (217783) < low(222787)
+***low = 217783
+queues[2].peek() -> (217468) < low(217783)
+***low = 217468
+queues[0].peek() -> (222787) < low(576735)
+***low = 222787
+queues[1].peek() -> (217783) < low(222787)
+***low = 217783
+queues[2].peek() -> (223036) < low(217783)
+queues[0].peek() -> (222787) < low(576735)
+***low = 222787
+queues[1].peek() -> (223161) < low(222787)
+queues[2].peek() -> (223036) < low(222787)
+queues[0].peek() -> (223163) < low(576735)
+***low = 223163
+queues[1].peek() -> (223161) < low(223163)
+***low = 223161
+queues[2].peek() -> (223036) < low(223161)
+***low = 223036
+queues[0].peek() -> (223163) < low(576735)
+***low = 223163
+queues[1].peek() -> (223787) < low(223163)
+queues[2].peek() -> (223036) < low(223163)
+***low = 223036
+queues[0].peek() -> (223895) < low(576735)
+***low = 223895
+queues[1].peek() -> (223787) < low(223895)
+***low = 223787
+queues[2].peek() -> (223036) < low(223787)
+***low = 223036
+queues[0].peek() -> (224017) < low(576735)
+***low = 224017
+queues[1].peek() -> (223787) < low(224017)
+***low = 223787
+queues[2].peek() -> (223036) < low(223787)
+***low = 223036
+queues[0].peek() -> (224989) < low(576735)
+***low = 224989
+queues[1].peek() -> (223787) < low(224989)
+***low = 223787
+queues[2].peek() -> (223036) < low(223787)
+***low = 223036
+queues[0].peek() -> (224989) < low(576735)
+***low = 224989
+queues[1].peek() -> (225628) < low(224989)
+queues[2].peek() -> (223036) < low(224989)
+***low = 223036
+queues[0].peek() -> (226154) < low(576735)
+***low = 226154
+queues[1].peek() -> (225628) < low(226154)
+***low = 225628
+queues[2].peek() -> (223036) < low(225628)
+***low = 223036
+queues[0].peek() -> (228447) < low(576735)
+***low = 228447
+queues[1].peek() -> (225628) < low(228447)
+***low = 225628
+queues[2].peek() -> (223036) < low(225628)
+***low = 223036
+queues[0].peek() -> (228617) < low(576735)
+***low = 228617
+queues[1].peek() -> (225628) < low(228617)
+***low = 225628
+queues[2].peek() -> (223036) < low(225628)
+***low = 223036
+queues[0].peek() -> (228829) < low(576735)
+***low = 228829
+queues[1].peek() -> (225628) < low(228829)
+***low = 225628
+queues[2].peek() -> (223036) < low(225628)
+***low = 223036
+queues[0].peek() -> (228829) < low(576735)
+***low = 228829
+queues[1].peek() -> (229139) < low(228829)
+queues[2].peek() -> (223036) < low(228829)
+***low = 223036
+queues[0].peek() -> (228829) < low(576735)
+***low = 228829
+queues[1].peek() -> (229504) < low(228829)
+queues[2].peek() -> (223036) < low(228829)
+***low = 223036
+queues[0].peek() -> (228829) < low(576735)
+***low = 228829
+queues[1].peek() -> (230498) < low(228829)
+queues[2].peek() -> (223036) < low(228829)
+***low = 223036
+queues[0].peek() -> (228829) < low(576735)
+***low = 228829
+queues[1].peek() -> (230498) < low(228829)
+queues[2].peek() -> (232059) < low(228829)
+queues[0].peek() -> (228829) < low(576735)
+***low = 228829
+queues[1].peek() -> (233389) < low(228829)
+queues[2].peek() -> (232059) < low(228829)
+queues[0].peek() -> (235237) < low(576735)
+***low = 235237
+queues[1].peek() -> (233389) < low(235237)
+***low = 233389
+queues[2].peek() -> (232059) < low(233389)
+***low = 232059
+queues[0].peek() -> (235237) < low(576735)
+***low = 235237
+queues[1].peek() -> (233389) < low(235237)
+***low = 233389
+queues[2].peek() -> (236778) < low(233389)
+queues[0].peek() -> (237059) < low(576735)
+***low = 237059
+queues[1].peek() -> (233389) < low(237059)
+***low = 233389
+queues[2].peek() -> (236778) < low(233389)
+queues[0].peek() -> (237675) < low(576735)
+***low = 237675
+queues[1].peek() -> (233389) < low(237675)
+***low = 233389
+queues[2].peek() -> (236778) < low(233389)
+queues[0].peek() -> (237675) < low(576735)
+***low = 237675
+queues[1].peek() -> (233389) < low(237675)
+***low = 233389
+queues[2].peek() -> (237980) < low(233389)
+queues[0].peek() -> (238552) < low(576735)
+***low = 238552
+queues[1].peek() -> (233389) < low(238552)
+***low = 233389
+queues[2].peek() -> (237980) < low(233389)
+queues[0].peek() -> (238552) < low(576735)
+***low = 238552
+queues[1].peek() -> (239504) < low(238552)
+queues[2].peek() -> (237980) < low(238552)
+***low = 237980
+queues[0].peek() -> (241133) < low(576735)
+***low = 241133
+queues[1].peek() -> (239504) < low(241133)
+***low = 239504
+queues[2].peek() -> (237980) < low(239504)
+***low = 237980
+queues[0].peek() -> (241186) < low(576735)
+***low = 241186
+queues[1].peek() -> (239504) < low(241186)
+***low = 239504
+queues[2].peek() -> (237980) < low(239504)
+***low = 237980
+queues[0].peek() -> (243103) < low(576735)
+***low = 243103
+queues[1].peek() -> (239504) < low(243103)
+***low = 239504
+queues[2].peek() -> (237980) < low(239504)
+***low = 237980
+queues[0].peek() -> (243661) < low(576735)
+***low = 243661
+queues[1].peek() -> (239504) < low(243661)
+***low = 239504
+queues[2].peek() -> (237980) < low(239504)
+***low = 237980
+queues[0].peek() -> (243969) < low(576735)
+***low = 243969
+queues[1].peek() -> (239504) < low(243969)
+***low = 239504
+queues[2].peek() -> (237980) < low(239504)
+***low = 237980
+queues[0].peek() -> (244797) < low(576735)
+***low = 244797
+queues[1].peek() -> (239504) < low(244797)
+***low = 239504
+queues[2].peek() -> (237980) < low(239504)
+***low = 237980
+queues[0].peek() -> (248554) < low(576735)
+***low = 248554
+queues[1].peek() -> (239504) < low(248554)
+***low = 239504
+queues[2].peek() -> (237980) < low(239504)
+***low = 237980
+queues[0].peek() -> (248574) < low(576735)
+***low = 248574
+queues[1].peek() -> (239504) < low(248574)
+***low = 239504
+queues[2].peek() -> (237980) < low(239504)
+***low = 237980
+queues[0].peek() -> (249241) < low(576735)
+***low = 249241
+queues[1].peek() -> (239504) < low(249241)
+***low = 239504
+queues[2].peek() -> (237980) < low(239504)
+***low = 237980
+queues[0].peek() -> (249241) < low(576735)
+***low = 249241
+queues[1].peek() -> (249842) < low(249241)
+queues[2].peek() -> (237980) < low(249241)
+***low = 237980
+queues[0].peek() -> (249241) < low(576735)
+***low = 249241
+queues[1].peek() -> (250148) < low(249241)
+queues[2].peek() -> (237980) < low(249241)
+***low = 237980
+queues[0].peek() -> (250204) < low(576735)
+***low = 250204
+queues[1].peek() -> (250148) < low(250204)
+***low = 250148
+queues[2].peek() -> (237980) < low(250148)
+***low = 237980
+queues[0].peek() -> (253815) < low(576735)
+***low = 253815
+queues[1].peek() -> (250148) < low(253815)
+***low = 250148
+queues[2].peek() -> (237980) < low(250148)
+***low = 237980
+queues[0].peek() -> (254817) < low(576735)
+***low = 254817
+queues[1].peek() -> (250148) < low(254817)
+***low = 250148
+queues[2].peek() -> (237980) < low(250148)
+***low = 237980
+queues[0].peek() -> (254817) < low(576735)
+***low = 254817
+queues[1].peek() -> (255263) < low(254817)
+queues[2].peek() -> (237980) < low(254817)
+***low = 237980
+queues[0].peek() -> (254817) < low(576735)
+***low = 254817
+queues[1].peek() -> (255860) < low(254817)
+queues[2].peek() -> (237980) < low(254817)
+***low = 237980
+queues[0].peek() -> (254817) < low(576735)
+***low = 254817
+queues[1].peek() -> (255860) < low(254817)
+queues[2].peek() -> (257442) < low(254817)
+queues[0].peek() -> (254817) < low(576735)
+***low = 254817
+queues[1].peek() -> (259127) < low(254817)
+queues[2].peek() -> (257442) < low(254817)
+queues[0].peek() -> (254817) < low(576735)
+***low = 254817
+queues[1].peek() -> (259980) < low(254817)
+queues[2].peek() -> (257442) < low(254817)
+queues[0].peek() -> (261275) < low(576735)
+***low = 261275
+queues[1].peek() -> (259980) < low(261275)
+***low = 259980
+queues[2].peek() -> (257442) < low(259980)
+***low = 257442
+queues[0].peek() -> (261275) < low(576735)
+***low = 261275
+queues[1].peek() -> (259980) < low(261275)
+***low = 259980
+queues[2].peek() -> (262255) < low(259980)
+queues[0].peek() -> (261275) < low(576735)
+***low = 261275
+queues[1].peek() -> (263125) < low(261275)
+queues[2].peek() -> (262255) < low(261275)
+queues[0].peek() -> (261275) < low(576735)
+***low = 261275
+queues[1].peek() -> (263125) < low(261275)
+queues[2].peek() -> (264284) < low(261275)
+queues[0].peek() -> (261275) < low(576735)
+***low = 261275
+queues[1].peek() -> (266099) < low(261275)
+queues[2].peek() -> (264284) < low(261275)
+queues[0].peek() -> (266779) < low(576735)
+***low = 266779
+queues[1].peek() -> (266099) < low(266779)
+***low = 266099
+queues[2].peek() -> (264284) < low(266099)
+***low = 264284
+queues[0].peek() -> (266779) < low(576735)
+***low = 266779
+queues[1].peek() -> (266973) < low(266779)
+queues[2].peek() -> (264284) < low(266779)
+***low = 264284
+queues[0].peek() -> (266779) < low(576735)
+***low = 266779
+queues[1].peek() -> (266992) < low(266779)
+queues[2].peek() -> (264284) < low(266779)
+***low = 264284
+queues[0].peek() -> (268911) < low(576735)
+***low = 268911
+queues[1].peek() -> (266992) < low(268911)
+***low = 266992
+queues[2].peek() -> (264284) < low(266992)
+***low = 264284
+queues[0].peek() -> (269250) < low(576735)
+***low = 269250
+queues[1].peek() -> (266992) < low(269250)
+***low = 266992
+queues[2].peek() -> (264284) < low(266992)
+***low = 264284
+queues[0].peek() -> (270303) < low(576735)
+***low = 270303
+queues[1].peek() -> (266992) < low(270303)
+***low = 266992
+queues[2].peek() -> (264284) < low(266992)
+***low = 264284
+queues[0].peek() -> (270303) < low(576735)
+***low = 270303
+queues[1].peek() -> (271691) < low(270303)
+queues[2].peek() -> (264284) < low(270303)
+***low = 264284
+queues[0].peek() -> (270303) < low(576735)
+***low = 270303
+queues[1].peek() -> (271700) < low(270303)
+queues[2].peek() -> (264284) < low(270303)
+***low = 264284
+queues[0].peek() -> (271933) < low(576735)
+***low = 271933
+queues[1].peek() -> (271700) < low(271933)
+***low = 271700
+queues[2].peek() -> (264284) < low(271700)
+***low = 264284
+queues[0].peek() -> (271933) < low(576735)
+***low = 271933
+queues[1].peek() -> (271700) < low(271933)
+***low = 271700
+queues[2].peek() -> (273800) < low(271700)
+queues[0].peek() -> (274470) < low(576735)
+***low = 274470
+queues[1].peek() -> (271700) < low(274470)
+***low = 271700
+queues[2].peek() -> (273800) < low(271700)
+queues[0].peek() -> (275144) < low(576735)
+***low = 275144
+queues[1].peek() -> (271700) < low(275144)
+***low = 271700
+queues[2].peek() -> (273800) < low(271700)
+queues[0].peek() -> (275179) < low(576735)
+***low = 275179
+queues[1].peek() -> (271700) < low(275179)
+***low = 271700
+queues[2].peek() -> (273800) < low(271700)
+queues[0].peek() -> (275910) < low(576735)
+***low = 275910
+queues[1].peek() -> (271700) < low(275910)
+***low = 271700
+queues[2].peek() -> (273800) < low(271700)
+queues[0].peek() -> (277098) < low(576735)
+***low = 277098
+queues[1].peek() -> (271700) < low(277098)
+***low = 271700
+queues[2].peek() -> (273800) < low(271700)
+queues[0].peek() -> (277098) < low(576735)
+***low = 277098
+queues[1].peek() -> (278290) < low(277098)
+queues[2].peek() -> (273800) < low(277098)
+***low = 273800
+queues[0].peek() -> (279118) < low(576735)
+***low = 279118
+queues[1].peek() -> (278290) < low(279118)
+***low = 278290
+queues[2].peek() -> (273800) < low(278290)
+***low = 273800
+queues[0].peek() -> (279123) < low(576735)
+***low = 279123
+queues[1].peek() -> (278290) < low(279123)
+***low = 278290
+queues[2].peek() -> (273800) < low(278290)
+***low = 273800
+queues[0].peek() -> (281463) < low(576735)
+***low = 281463
+queues[1].peek() -> (278290) < low(281463)
+***low = 278290
+queues[2].peek() -> (273800) < low(278290)
+***low = 273800
+queues[0].peek() -> (281510) < low(576735)
+***low = 281510
+queues[1].peek() -> (278290) < low(281510)
+***low = 278290
+queues[2].peek() -> (273800) < low(278290)
+***low = 273800
+queues[0].peek() -> (282751) < low(576735)
+***low = 282751
+queues[1].peek() -> (278290) < low(282751)
+***low = 278290
+queues[2].peek() -> (273800) < low(278290)
+***low = 273800
+queues[0].peek() -> (284278) < low(576735)
+***low = 284278
+queues[1].peek() -> (278290) < low(284278)
+***low = 278290
+queues[2].peek() -> (273800) < low(278290)
+***low = 273800
+queues[0].peek() -> (284772) < low(576735)
+***low = 284772
+queues[1].peek() -> (278290) < low(284772)
+***low = 278290
+queues[2].peek() -> (273800) < low(278290)
+***low = 273800
+queues[0].peek() -> (284772) < low(576735)
+***low = 284772
+queues[1].peek() -> (278290) < low(284772)
+***low = 278290
+queues[2].peek() -> (285915) < low(278290)
+queues[0].peek() -> (286384) < low(576735)
+***low = 286384
+queues[1].peek() -> (278290) < low(286384)
+***low = 278290
+queues[2].peek() -> (285915) < low(278290)
+queues[0].peek() -> (286391) < low(576735)
+***low = 286391
+queues[1].peek() -> (278290) < low(286391)
+***low = 278290
+queues[2].peek() -> (285915) < low(278290)
+queues[0].peek() -> (286391) < low(576735)
+***low = 286391
+queues[1].peek() -> (278290) < low(286391)
+***low = 278290
+queues[2].peek() -> (286558) < low(278290)
+queues[0].peek() -> (286947) < low(576735)
+***low = 286947
+queues[1].peek() -> (278290) < low(286947)
+***low = 278290
+queues[2].peek() -> (286558) < low(278290)
+queues[0].peek() -> (287050) < low(576735)
+***low = 287050
+queues[1].peek() -> (278290) < low(287050)
+***low = 278290
+queues[2].peek() -> (286558) < low(278290)
+queues[0].peek() -> (287607) < low(576735)
+***low = 287607
+queues[1].peek() -> (278290) < low(287607)
+***low = 278290
+queues[2].peek() -> (286558) < low(278290)
+queues[0].peek() -> (287607) < low(576735)
+***low = 287607
+queues[1].peek() -> (278290) < low(287607)
+***low = 278290
+queues[2].peek() -> (288474) < low(278290)
+queues[0].peek() -> (287607) < low(576735)
+***low = 287607
+queues[1].peek() -> (278290) < low(287607)
+***low = 278290
+queues[2].peek() -> (288587) < low(278290)
+queues[0].peek() -> (288983) < low(576735)
+***low = 288983
+queues[1].peek() -> (278290) < low(288983)
+***low = 278290
+queues[2].peek() -> (288587) < low(278290)
+queues[0].peek() -> (289449) < low(576735)
+***low = 289449
+queues[1].peek() -> (278290) < low(289449)
+***low = 278290
+queues[2].peek() -> (288587) < low(278290)
+queues[0].peek() -> (290698) < low(576735)
+***low = 290698
+queues[1].peek() -> (278290) < low(290698)
+***low = 278290
+queues[2].peek() -> (288587) < low(278290)
+queues[0].peek() -> (291171) < low(576735)
+***low = 291171
+queues[1].peek() -> (278290) < low(291171)
+***low = 278290
+queues[2].peek() -> (288587) < low(278290)
+queues[0].peek() -> (291425) < low(576735)
+***low = 291425
+queues[1].peek() -> (278290) < low(291425)
+***low = 278290
+queues[2].peek() -> (288587) < low(278290)
+queues[0].peek() -> (291425) < low(576735)
+***low = 291425
+queues[1].peek() -> (294642) < low(291425)
+queues[2].peek() -> (288587) < low(291425)
+***low = 288587
+queues[0].peek() -> (291425) < low(576735)
+***low = 291425
+queues[1].peek() -> (296433) < low(291425)
+queues[2].peek() -> (288587) < low(291425)
+***low = 288587
+queues[0].peek() -> (291425) < low(576735)
+***low = 291425
+queues[1].peek() -> (296512) < low(291425)
+queues[2].peek() -> (288587) < low(291425)
+***low = 288587
+queues[0].peek() -> (298026) < low(576735)
+***low = 298026
+queues[1].peek() -> (296512) < low(298026)
+***low = 296512
+queues[2].peek() -> (288587) < low(296512)
+***low = 288587
+queues[0].peek() -> (298632) < low(576735)
+***low = 298632
+queues[1].peek() -> (296512) < low(298632)
+***low = 296512
+queues[2].peek() -> (288587) < low(296512)
+***low = 288587
+queues[0].peek() -> (300475) < low(576735)
+***low = 300475
+queues[1].peek() -> (296512) < low(300475)
+***low = 296512
+queues[2].peek() -> (288587) < low(296512)
+***low = 288587
+queues[0].peek() -> (300707) < low(576735)
+***low = 300707
+queues[1].peek() -> (296512) < low(300707)
+***low = 296512
+queues[2].peek() -> (288587) < low(296512)
+***low = 288587
+queues[0].peek() -> (301566) < low(576735)
+***low = 301566
+queues[1].peek() -> (296512) < low(301566)
+***low = 296512
+queues[2].peek() -> (288587) < low(296512)
+***low = 288587
+queues[0].peek() -> (302079) < low(576735)
+***low = 302079
+queues[1].peek() -> (296512) < low(302079)
+***low = 296512
+queues[2].peek() -> (288587) < low(296512)
+***low = 288587
+queues[0].peek() -> (303123) < low(576735)
+***low = 303123
+queues[1].peek() -> (296512) < low(303123)
+***low = 296512
+queues[2].peek() -> (288587) < low(296512)
+***low = 288587
+queues[0].peek() -> (303664) < low(576735)
+***low = 303664
+queues[1].peek() -> (296512) < low(303664)
+***low = 296512
+queues[2].peek() -> (288587) < low(296512)
+***low = 288587
+queues[0].peek() -> (303718) < low(576735)
+***low = 303718
+queues[1].peek() -> (296512) < low(303718)
+***low = 296512
+queues[2].peek() -> (288587) < low(296512)
+***low = 288587
+queues[0].peek() -> (303718) < low(576735)
+***low = 303718
+queues[1].peek() -> (313265) < low(303718)
+queues[2].peek() -> (288587) < low(303718)
+***low = 288587
+queues[0].peek() -> (317058) < low(576735)
+***low = 317058
+queues[1].peek() -> (313265) < low(317058)
+***low = 313265
+queues[2].peek() -> (288587) < low(313265)
+***low = 288587
+queues[0].peek() -> (317586) < low(576735)
+***low = 317586
+queues[1].peek() -> (313265) < low(317586)
+***low = 313265
+queues[2].peek() -> (288587) < low(313265)
+***low = 288587
+queues[0].peek() -> (319410) < low(576735)
+***low = 319410
+queues[1].peek() -> (313265) < low(319410)
+***low = 313265
+queues[2].peek() -> (288587) < low(313265)
+***low = 288587
+queues[0].peek() -> (319927) < low(576735)
+***low = 319927
+queues[1].peek() -> (313265) < low(319927)
+***low = 313265
+queues[2].peek() -> (288587) < low(313265)
+***low = 288587
+queues[0].peek() -> (321525) < low(576735)
+***low = 321525
+queues[1].peek() -> (313265) < low(321525)
+***low = 313265
+queues[2].peek() -> (288587) < low(313265)
+***low = 288587
+queues[0].peek() -> (321527) < low(576735)
+***low = 321527
+queues[1].peek() -> (313265) < low(321527)
+***low = 313265
+queues[2].peek() -> (288587) < low(313265)
+***low = 288587
+queues[0].peek() -> (323127) < low(576735)
+***low = 323127
+queues[1].peek() -> (313265) < low(323127)
+***low = 313265
+queues[2].peek() -> (288587) < low(313265)
+***low = 288587
+queues[0].peek() -> (323127) < low(576735)
+***low = 323127
+queues[1].peek() -> (313265) < low(323127)
+***low = 313265
+queues[2].peek() -> (323976) < low(313265)
+queues[0].peek() -> (324054) < low(576735)
+***low = 324054
+queues[1].peek() -> (313265) < low(324054)
+***low = 313265
+queues[2].peek() -> (323976) < low(313265)
+queues[0].peek() -> (324065) < low(576735)
+***low = 324065
+queues[1].peek() -> (313265) < low(324065)
+***low = 313265
+queues[2].peek() -> (323976) < low(313265)
+queues[0].peek() -> (325192) < low(576735)
+***low = 325192
+queues[1].peek() -> (313265) < low(325192)
+***low = 313265
+queues[2].peek() -> (323976) < low(313265)
+queues[0].peek() -> (325192) < low(576735)
+***low = 325192
+queues[1].peek() -> (313265) < low(325192)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (325941) < low(576735)
+***low = 325941
+queues[1].peek() -> (313265) < low(325941)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (325983) < low(576735)
+***low = 325983
+queues[1].peek() -> (313265) < low(325983)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (326092) < low(576735)
+***low = 326092
+queues[1].peek() -> (313265) < low(326092)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (326098) < low(576735)
+***low = 326098
+queues[1].peek() -> (313265) < low(326098)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (326515) < low(576735)
+***low = 326515
+queues[1].peek() -> (313265) < low(326515)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (326520) < low(576735)
+***low = 326520
+queues[1].peek() -> (313265) < low(326520)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (326637) < low(576735)
+***low = 326637
+queues[1].peek() -> (313265) < low(326637)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (326994) < low(576735)
+***low = 326994
+queues[1].peek() -> (313265) < low(326994)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (327119) < low(576735)
+***low = 327119
+queues[1].peek() -> (313265) < low(327119)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (329122) < low(576735)
+***low = 329122
+queues[1].peek() -> (313265) < low(329122)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (329217) < low(576735)
+***low = 329217
+queues[1].peek() -> (313265) < low(329217)
+***low = 313265
+queues[2].peek() -> (325543) < low(313265)
+queues[0].peek() -> (329217) < low(576735)
+***low = 329217
+queues[1].peek() -> (329251) < low(329217)
+queues[2].peek() -> (325543) < low(329217)
+***low = 325543
+queues[0].peek() -> (329217) < low(576735)
+***low = 329217
+queues[1].peek() -> (329370) < low(329217)
+queues[2].peek() -> (325543) < low(329217)
+***low = 325543
+queues[0].peek() -> (329457) < low(576735)
+***low = 329457
+queues[1].peek() -> (329370) < low(329457)
+***low = 329370
+queues[2].peek() -> (325543) < low(329370)
+***low = 325543
+queues[0].peek() -> (330659) < low(576735)
+***low = 330659
+queues[1].peek() -> (329370) < low(330659)
+***low = 329370
+queues[2].peek() -> (325543) < low(329370)
+***low = 325543
+queues[0].peek() -> (332809) < low(576735)
+***low = 332809
+queues[1].peek() -> (329370) < low(332809)
+***low = 329370
+queues[2].peek() -> (325543) < low(329370)
+***low = 325543
+queues[0].peek() -> (333920) < low(576735)
+***low = 333920
+queues[1].peek() -> (329370) < low(333920)
+***low = 329370
+queues[2].peek() -> (325543) < low(329370)
+***low = 325543
+queues[0].peek() -> (333920) < low(576735)
+***low = 333920
+queues[1].peek() -> (329370) < low(333920)
+***low = 329370
+queues[2].peek() -> (335618) < low(329370)
+queues[0].peek() -> (333920) < low(576735)
+***low = 333920
+queues[1].peek() -> (336193) < low(333920)
+queues[2].peek() -> (335618) < low(333920)
+queues[0].peek() -> (338833) < low(576735)
+***low = 338833
+queues[1].peek() -> (336193) < low(338833)
+***low = 336193
+queues[2].peek() -> (335618) < low(336193)
+***low = 335618
+queues[0].peek() -> (339887) < low(576735)
+***low = 339887
+queues[1].peek() -> (336193) < low(339887)
+***low = 336193
+queues[2].peek() -> (335618) < low(336193)
+***low = 335618
+queues[0].peek() -> (339887) < low(576735)
+***low = 339887
+queues[1].peek() -> (336193) < low(339887)
+***low = 336193
+queues[2].peek() -> (340392) < low(336193)
+queues[0].peek() -> (340457) < low(576735)
+***low = 340457
+queues[1].peek() -> (336193) < low(340457)
+***low = 336193
+queues[2].peek() -> (340392) < low(336193)
+queues[0].peek() -> (341118) < low(576735)
+***low = 341118
+queues[1].peek() -> (336193) < low(341118)
+***low = 336193
+queues[2].peek() -> (340392) < low(336193)
+queues[0].peek() -> (342273) < low(576735)
+***low = 342273
+queues[1].peek() -> (336193) < low(342273)
+***low = 336193
+queues[2].peek() -> (340392) < low(336193)
+queues[0].peek() -> (343281) < low(576735)
+***low = 343281
+queues[1].peek() -> (336193) < low(343281)
+***low = 336193
+queues[2].peek() -> (340392) < low(336193)
+queues[0].peek() -> (344757) < low(576735)
+***low = 344757
+queues[1].peek() -> (336193) < low(344757)
+***low = 336193
+queues[2].peek() -> (340392) < low(336193)
+queues[0].peek() -> (345455) < low(576735)
+***low = 345455
+queues[1].peek() -> (336193) < low(345455)
+***low = 336193
+queues[2].peek() -> (340392) < low(336193)
+queues[0].peek() -> (345455) < low(576735)
+***low = 345455
+queues[1].peek() -> (346313) < low(345455)
+queues[2].peek() -> (340392) < low(345455)
+***low = 340392
+queues[0].peek() -> (345455) < low(576735)
+***low = 345455
+queues[1].peek() -> (348477) < low(345455)
+queues[2].peek() -> (340392) < low(345455)
+***low = 340392
+queues[0].peek() -> (350108) < low(576735)
+***low = 350108
+queues[1].peek() -> (348477) < low(350108)
+***low = 348477
+queues[2].peek() -> (340392) < low(348477)
+***low = 340392
+queues[0].peek() -> (350816) < low(576735)
+***low = 350816
+queues[1].peek() -> (348477) < low(350816)
+***low = 348477
+queues[2].peek() -> (340392) < low(348477)
+***low = 340392
+queues[0].peek() -> (350816) < low(576735)
+***low = 350816
+queues[1].peek() -> (350818) < low(350816)
+queues[2].peek() -> (340392) < low(350816)
+***low = 340392
+queues[0].peek() -> (350816) < low(576735)
+***low = 350816
+queues[1].peek() -> (350852) < low(350816)
+queues[2].peek() -> (340392) < low(350816)
+***low = 340392
+queues[0].peek() -> (351320) < low(576735)
+***low = 351320
+queues[1].peek() -> (350852) < low(351320)
+***low = 350852
+queues[2].peek() -> (340392) < low(350852)
+***low = 340392
+queues[0].peek() -> (351781) < low(576735)
+***low = 351781
+queues[1].peek() -> (350852) < low(351781)
+***low = 350852
+queues[2].peek() -> (340392) < low(350852)
+***low = 340392
+queues[0].peek() -> (352149) < low(576735)
+***low = 352149
+queues[1].peek() -> (350852) < low(352149)
+***low = 350852
+queues[2].peek() -> (340392) < low(350852)
+***low = 340392
+queues[0].peek() -> (352785) < low(576735)
+***low = 352785
+queues[1].peek() -> (350852) < low(352785)
+***low = 350852
+queues[2].peek() -> (340392) < low(350852)
+***low = 340392
+queues[0].peek() -> (354747) < low(576735)
+***low = 354747
+queues[1].peek() -> (350852) < low(354747)
+***low = 350852
+queues[2].peek() -> (340392) < low(350852)
+***low = 340392
+queues[0].peek() -> (356043) < low(576735)
+***low = 356043
+queues[1].peek() -> (350852) < low(356043)
+***low = 350852
+queues[2].peek() -> (340392) < low(350852)
+***low = 340392
+queues[0].peek() -> (356534) < low(576735)
+***low = 356534
+queues[1].peek() -> (350852) < low(356534)
+***low = 350852
+queues[2].peek() -> (340392) < low(350852)
+***low = 340392
+queues[0].peek() -> (356677) < low(576735)
+***low = 356677
+queues[1].peek() -> (350852) < low(356677)
+***low = 350852
+queues[2].peek() -> (340392) < low(350852)
+***low = 340392
+queues[0].peek() -> (357552) < low(576735)
+***low = 357552
+queues[1].peek() -> (350852) < low(357552)
+***low = 350852
+queues[2].peek() -> (340392) < low(350852)
+***low = 340392
+queues[0].peek() -> (357552) < low(576735)
+***low = 357552
+queues[1].peek() -> (358662) < low(357552)
+queues[2].peek() -> (340392) < low(357552)
+***low = 340392
+queues[0].peek() -> (359850) < low(576735)
+***low = 359850
+queues[1].peek() -> (358662) < low(359850)
+***low = 358662
+queues[2].peek() -> (340392) < low(358662)
+***low = 340392
+queues[0].peek() -> (360428) < low(576735)
+***low = 360428
+queues[1].peek() -> (358662) < low(360428)
+***low = 358662
+queues[2].peek() -> (340392) < low(358662)
+***low = 340392
+queues[0].peek() -> (360823) < low(576735)
+***low = 360823
+queues[1].peek() -> (358662) < low(360823)
+***low = 358662
+queues[2].peek() -> (340392) < low(358662)
+***low = 340392
+queues[0].peek() -> (363761) < low(576735)
+***low = 363761
+queues[1].peek() -> (358662) < low(363761)
+***low = 358662
+queues[2].peek() -> (340392) < low(358662)
+***low = 340392
+queues[0].peek() -> (363877) < low(576735)
+***low = 363877
+queues[1].peek() -> (358662) < low(363877)
+***low = 358662
+queues[2].peek() -> (340392) < low(358662)
+***low = 340392
+queues[0].peek() -> (366057) < low(576735)
+***low = 366057
+queues[1].peek() -> (358662) < low(366057)
+***low = 358662
+queues[2].peek() -> (340392) < low(358662)
+***low = 340392
+queues[0].peek() -> (367092) < low(576735)
+***low = 367092
+queues[1].peek() -> (358662) < low(367092)
+***low = 358662
+queues[2].peek() -> (340392) < low(358662)
+***low = 340392
+queues[0].peek() -> (367566) < low(576735)
+***low = 367566
+queues[1].peek() -> (358662) < low(367566)
+***low = 358662
+queues[2].peek() -> (340392) < low(358662)
+***low = 340392
+queues[0].peek() -> (367566) < low(576735)
+***low = 367566
+queues[1].peek() -> (368192) < low(367566)
+queues[2].peek() -> (340392) < low(367566)
+***low = 340392
+queues[0].peek() -> (367566) < low(576735)
+***low = 367566
+queues[1].peek() -> (368192) < low(367566)
+queues[2].peek() -> (368370) < low(367566)
+queues[0].peek() -> (368383) < low(576735)
+***low = 368383
+queues[1].peek() -> (368192) < low(368383)
+***low = 368192
+queues[2].peek() -> (368370) < low(368192)
+queues[0].peek() -> (368383) < low(576735)
+***low = 368383
+queues[1].peek() -> (368716) < low(368383)
+queues[2].peek() -> (368370) < low(368383)
+***low = 368370
+queues[0].peek() -> (368383) < low(576735)
+***low = 368383
+queues[1].peek() -> (369583) < low(368383)
+queues[2].peek() -> (368370) < low(368383)
+***low = 368370
+queues[0].peek() -> (369901) < low(576735)
+***low = 369901
+queues[1].peek() -> (369583) < low(369901)
+***low = 369583
+queues[2].peek() -> (368370) < low(369583)
+***low = 368370
+queues[0].peek() -> (369901) < low(576735)
+***low = 369901
+queues[1].peek() -> (370059) < low(369901)
+queues[2].peek() -> (368370) < low(369901)
+***low = 368370
+queues[0].peek() -> (371414) < low(576735)
+***low = 371414
+queues[1].peek() -> (370059) < low(371414)
+***low = 370059
+queues[2].peek() -> (368370) < low(370059)
+***low = 368370
+queues[0].peek() -> (371701) < low(576735)
+***low = 371701
+queues[1].peek() -> (370059) < low(371701)
+***low = 370059
+queues[2].peek() -> (368370) < low(370059)
+***low = 368370
+queues[0].peek() -> (372581) < low(576735)
+***low = 372581
+queues[1].peek() -> (370059) < low(372581)
+***low = 370059
+queues[2].peek() -> (368370) < low(370059)
+***low = 368370
+queues[0].peek() -> (373296) < low(576735)
+***low = 373296
+queues[1].peek() -> (370059) < low(373296)
+***low = 370059
+queues[2].peek() -> (368370) < low(370059)
+***low = 368370
+queues[0].peek() -> (373557) < low(576735)
+***low = 373557
+queues[1].peek() -> (370059) < low(373557)
+***low = 370059
+queues[2].peek() -> (368370) < low(370059)
+***low = 368370
+queues[0].peek() -> (374712) < low(576735)
+***low = 374712
+queues[1].peek() -> (370059) < low(374712)
+***low = 370059
+queues[2].peek() -> (368370) < low(370059)
+***low = 368370
+queues[0].peek() -> (374712) < low(576735)
+***low = 374712
+queues[1].peek() -> (376729) < low(374712)
+queues[2].peek() -> (368370) < low(374712)
+***low = 368370
+queues[0].peek() -> (377750) < low(576735)
+***low = 377750
+queues[1].peek() -> (376729) < low(377750)
+***low = 376729
+queues[2].peek() -> (368370) < low(376729)
+***low = 368370
+queues[0].peek() -> (377972) < low(576735)
+***low = 377972
+queues[1].peek() -> (376729) < low(377972)
+***low = 376729
+queues[2].peek() -> (368370) < low(376729)
+***low = 368370
+queues[0].peek() -> (380154) < low(576735)
+***low = 380154
+queues[1].peek() -> (376729) < low(380154)
+***low = 376729
+queues[2].peek() -> (368370) < low(376729)
+***low = 368370
+queues[0].peek() -> (380755) < low(576735)
+***low = 380755
+queues[1].peek() -> (376729) < low(380755)
+***low = 376729
+queues[2].peek() -> (368370) < low(376729)
+***low = 368370
+queues[0].peek() -> (381365) < low(576735)
+***low = 381365
+queues[1].peek() -> (376729) < low(381365)
+***low = 376729
+queues[2].peek() -> (368370) < low(376729)
+***low = 368370
+queues[0].peek() -> (381383) < low(576735)
+***low = 381383
+queues[1].peek() -> (376729) < low(381383)
+***low = 376729
+queues[2].peek() -> (368370) < low(376729)
+***low = 368370
+queues[0].peek() -> (381469) < low(576735)
+***low = 381469
+queues[1].peek() -> (376729) < low(381469)
+***low = 376729
+queues[2].peek() -> (368370) < low(376729)
+***low = 368370
+queues[0].peek() -> (382236) < low(576735)
+***low = 382236
+queues[1].peek() -> (376729) < low(382236)
+***low = 376729
+queues[2].peek() -> (368370) < low(376729)
+***low = 368370
+queues[0].peek() -> (382236) < low(576735)
+***low = 382236
+queues[1].peek() -> (382789) < low(382236)
+queues[2].peek() -> (368370) < low(382236)
+***low = 368370
+queues[0].peek() -> (385024) < low(576735)
+***low = 385024
+queues[1].peek() -> (382789) < low(385024)
+***low = 382789
+queues[2].peek() -> (368370) < low(382789)
+***low = 368370
+queues[0].peek() -> (385024) < low(576735)
+***low = 385024
+queues[1].peek() -> (382789) < low(385024)
+***low = 382789
+queues[2].peek() -> (387041) < low(382789)
+queues[0].peek() -> (387665) < low(576735)
+***low = 387665
+queues[1].peek() -> (382789) < low(387665)
+***low = 382789
+queues[2].peek() -> (387041) < low(382789)
+queues[0].peek() -> (387675) < low(576735)
+***low = 387675
+queues[1].peek() -> (382789) < low(387675)
+***low = 382789
+queues[2].peek() -> (387041) < low(382789)
+queues[0].peek() -> (387675) < low(576735)
+***low = 387675
+queues[1].peek() -> (388802) < low(387675)
+queues[2].peek() -> (387041) < low(387675)
+***low = 387041
+queues[0].peek() -> (389183) < low(576735)
+***low = 389183
+queues[1].peek() -> (388802) < low(389183)
+***low = 388802
+queues[2].peek() -> (387041) < low(388802)
+***low = 387041
+queues[0].peek() -> (389187) < low(576735)
+***low = 389187
+queues[1].peek() -> (388802) < low(389187)
+***low = 388802
+queues[2].peek() -> (387041) < low(388802)
+***low = 387041
+queues[0].peek() -> (389187) < low(576735)
+***low = 389187
+queues[1].peek() -> (390081) < low(389187)
+queues[2].peek() -> (387041) < low(389187)
+***low = 387041
+queues[0].peek() -> (389187) < low(576735)
+***low = 389187
+queues[1].peek() -> (390603) < low(389187)
+queues[2].peek() -> (387041) < low(389187)
+***low = 387041
+queues[0].peek() -> (392131) < low(576735)
+***low = 392131
+queues[1].peek() -> (390603) < low(392131)
+***low = 390603
+queues[2].peek() -> (387041) < low(390603)
+***low = 387041
+queues[0].peek() -> (392131) < low(576735)
+***low = 392131
+queues[1].peek() -> (392677) < low(392131)
+queues[2].peek() -> (387041) < low(392131)
+***low = 387041
+queues[0].peek() -> (392131) < low(576735)
+***low = 392131
+queues[1].peek() -> (393496) < low(392131)
+queues[2].peek() -> (387041) < low(392131)
+***low = 387041
+queues[0].peek() -> (393866) < low(576735)
+***low = 393866
+queues[1].peek() -> (393496) < low(393866)
+***low = 393496
+queues[2].peek() -> (387041) < low(393496)
+***low = 387041
+queues[0].peek() -> (394454) < low(576735)
+***low = 394454
+queues[1].peek() -> (393496) < low(394454)
+***low = 393496
+queues[2].peek() -> (387041) < low(393496)
+***low = 387041
+queues[0].peek() -> (394546) < low(576735)
+***low = 394546
+queues[1].peek() -> (393496) < low(394546)
+***low = 393496
+queues[2].peek() -> (387041) < low(393496)
+***low = 387041
+queues[0].peek() -> (394546) < low(576735)
+***low = 394546
+queues[1].peek() -> (394746) < low(394546)
+queues[2].peek() -> (387041) < low(394546)
+***low = 387041
+queues[0].peek() -> (395790) < low(576735)
+***low = 395790
+queues[1].peek() -> (394746) < low(395790)
+***low = 394746
+queues[2].peek() -> (387041) < low(394746)
+***low = 387041
+queues[0].peek() -> (397573) < low(576735)
+***low = 397573
+queues[1].peek() -> (394746) < low(397573)
+***low = 394746
+queues[2].peek() -> (387041) < low(394746)
+***low = 387041
+queues[0].peek() -> (398757) < low(576735)
+***low = 398757
+queues[1].peek() -> (394746) < low(398757)
+***low = 394746
+queues[2].peek() -> (387041) < low(394746)
+***low = 387041
+queues[0].peek() -> (398757) < low(576735)
+***low = 398757
+queues[1].peek() -> (400525) < low(398757)
+queues[2].peek() -> (387041) < low(398757)
+***low = 387041
+queues[0].peek() -> (401083) < low(576735)
+***low = 401083
+queues[1].peek() -> (400525) < low(401083)
+***low = 400525
+queues[2].peek() -> (387041) < low(400525)
+***low = 387041
+queues[0].peek() -> (401125) < low(576735)
+***low = 401125
+queues[1].peek() -> (400525) < low(401125)
+***low = 400525
+queues[2].peek() -> (387041) < low(400525)
+***low = 387041
+queues[0].peek() -> (401125) < low(576735)
+***low = 401125
+queues[1].peek() -> (400525) < low(401125)
+***low = 400525
+queues[2].peek() -> (401168) < low(400525)
+queues[0].peek() -> (402980) < low(576735)
+***low = 402980
+queues[1].peek() -> (400525) < low(402980)
+***low = 400525
+queues[2].peek() -> (401168) < low(400525)
+queues[0].peek() -> (403062) < low(576735)
+***low = 403062
+queues[1].peek() -> (400525) < low(403062)
+***low = 400525
+queues[2].peek() -> (401168) < low(400525)
+queues[0].peek() -> (403214) < low(576735)
+***low = 403214
+queues[1].peek() -> (400525) < low(403214)
+***low = 400525
+queues[2].peek() -> (401168) < low(400525)
+queues[0].peek() -> (403332) < low(576735)
+***low = 403332
+queues[1].peek() -> (400525) < low(403332)
+***low = 400525
+queues[2].peek() -> (401168) < low(400525)
+queues[0].peek() -> (403332) < low(576735)
+***low = 403332
+queues[1].peek() -> (403561) < low(403332)
+queues[2].peek() -> (401168) < low(403332)
+***low = 401168
+queues[0].peek() -> (403332) < low(576735)
+***low = 403332
+queues[1].peek() -> (403751) < low(403332)
+queues[2].peek() -> (401168) < low(403332)
+***low = 401168
+queues[0].peek() -> (404204) < low(576735)
+***low = 404204
+queues[1].peek() -> (403751) < low(404204)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (404214) < low(576735)
+***low = 404214
+queues[1].peek() -> (403751) < low(404214)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (404218) < low(576735)
+***low = 404218
+queues[1].peek() -> (403751) < low(404218)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (404459) < low(576735)
+***low = 404459
+queues[1].peek() -> (403751) < low(404459)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (404706) < low(576735)
+***low = 404706
+queues[1].peek() -> (403751) < low(404706)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (405132) < low(576735)
+***low = 405132
+queues[1].peek() -> (403751) < low(405132)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (408056) < low(576735)
+***low = 408056
+queues[1].peek() -> (403751) < low(408056)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (409124) < low(576735)
+***low = 409124
+queues[1].peek() -> (403751) < low(409124)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (409307) < low(576735)
+***low = 409307
+queues[1].peek() -> (403751) < low(409307)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (409977) < low(576735)
+***low = 409977
+queues[1].peek() -> (403751) < low(409977)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (410462) < low(576735)
+***low = 410462
+queues[1].peek() -> (403751) < low(410462)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (410547) < low(576735)
+***low = 410547
+queues[1].peek() -> (403751) < low(410547)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (410552) < low(576735)
+***low = 410552
+queues[1].peek() -> (403751) < low(410552)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (411754) < low(576735)
+***low = 411754
+queues[1].peek() -> (403751) < low(411754)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (411761) < low(576735)
+***low = 411761
+queues[1].peek() -> (403751) < low(411761)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (411975) < low(576735)
+***low = 411975
+queues[1].peek() -> (403751) < low(411975)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (411986) < low(576735)
+***low = 411986
+queues[1].peek() -> (403751) < low(411986)
+***low = 403751
+queues[2].peek() -> (401168) < low(403751)
+***low = 401168
+queues[0].peek() -> (411986) < low(576735)
+***low = 411986
+queues[1].peek() -> (412201) < low(411986)
+queues[2].peek() -> (401168) < low(411986)
+***low = 401168
+queues[0].peek() -> (412213) < low(576735)
+***low = 412213
+queues[1].peek() -> (412201) < low(412213)
+***low = 412201
+queues[2].peek() -> (401168) < low(412201)
+***low = 401168
+queues[0].peek() -> (412213) < low(576735)
+***low = 412213
+queues[1].peek() -> (412988) < low(412213)
+queues[2].peek() -> (401168) < low(412213)
+***low = 401168
+queues[0].peek() -> (414224) < low(576735)
+***low = 414224
+queues[1].peek() -> (412988) < low(414224)
+***low = 412988
+queues[2].peek() -> (401168) < low(412988)
+***low = 401168
+queues[0].peek() -> (414232) < low(576735)
+***low = 414232
+queues[1].peek() -> (412988) < low(414232)
+***low = 412988
+queues[2].peek() -> (401168) < low(412988)
+***low = 401168
+queues[0].peek() -> (414232) < low(576735)
+***low = 414232
+queues[1].peek() -> (414737) < low(414232)
+queues[2].peek() -> (401168) < low(414232)
+***low = 401168
+queues[0].peek() -> (414232) < low(576735)
+***low = 414232
+queues[1].peek() -> (414954) < low(414232)
+queues[2].peek() -> (401168) < low(414232)
+***low = 401168
+queues[0].peek() -> (415020) < low(576735)
+***low = 415020
+queues[1].peek() -> (414954) < low(415020)
+***low = 414954
+queues[2].peek() -> (401168) < low(414954)
+***low = 401168
+queues[0].peek() -> (415020) < low(576735)
+***low = 415020
+queues[1].peek() -> (415115) < low(415020)
+queues[2].peek() -> (401168) < low(415020)
+***low = 401168
+queues[0].peek() -> (415020) < low(576735)
+***low = 415020
+queues[1].peek() -> (415154) < low(415020)
+queues[2].peek() -> (401168) < low(415020)
+***low = 401168
+queues[0].peek() -> (415020) < low(576735)
+***low = 415020
+queues[1].peek() -> (415174) < low(415020)
+queues[2].peek() -> (401168) < low(415020)
+***low = 401168
+queues[0].peek() -> (415020) < low(576735)
+***low = 415020
+queues[1].peek() -> (415985) < low(415020)
+queues[2].peek() -> (401168) < low(415020)
+***low = 401168
+queues[0].peek() -> (415020) < low(576735)
+***low = 415020
+queues[1].peek() -> (417286) < low(415020)
+queues[2].peek() -> (401168) < low(415020)
+***low = 401168
+queues[0].peek() -> (417829) < low(576735)
+***low = 417829
+queues[1].peek() -> (417286) < low(417829)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (418208) < low(576735)
+***low = 418208
+queues[1].peek() -> (417286) < low(418208)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (418673) < low(576735)
+***low = 418673
+queues[1].peek() -> (417286) < low(418673)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (421226) < low(576735)
+***low = 421226
+queues[1].peek() -> (417286) < low(421226)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (421409) < low(576735)
+***low = 421409
+queues[1].peek() -> (417286) < low(421409)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (421488) < low(576735)
+***low = 421488
+queues[1].peek() -> (417286) < low(421488)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (421999) < low(576735)
+***low = 421999
+queues[1].peek() -> (417286) < low(421999)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (422499) < low(576735)
+***low = 422499
+queues[1].peek() -> (417286) < low(422499)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (422921) < low(576735)
+***low = 422921
+queues[1].peek() -> (417286) < low(422921)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (424469) < low(576735)
+***low = 424469
+queues[1].peek() -> (417286) < low(424469)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (425685) < low(576735)
+***low = 425685
+queues[1].peek() -> (417286) < low(425685)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (426868) < low(576735)
+***low = 426868
+queues[1].peek() -> (417286) < low(426868)
+***low = 417286
+queues[2].peek() -> (401168) < low(417286)
+***low = 401168
+queues[0].peek() -> (426868) < low(576735)
+***low = 426868
+queues[1].peek() -> (427893) < low(426868)
+queues[2].peek() -> (401168) < low(426868)
+***low = 401168
+queues[0].peek() -> (428737) < low(576735)
+***low = 428737
+queues[1].peek() -> (427893) < low(428737)
+***low = 427893
+queues[2].peek() -> (401168) < low(427893)
+***low = 401168
+queues[0].peek() -> (428737) < low(576735)
+***low = 428737
+queues[1].peek() -> (429788) < low(428737)
+queues[2].peek() -> (401168) < low(428737)
+***low = 401168
+queues[0].peek() -> (431535) < low(576735)
+***low = 431535
+queues[1].peek() -> (429788) < low(431535)
+***low = 429788
+queues[2].peek() -> (401168) < low(429788)
+***low = 401168
+queues[0].peek() -> (435725) < low(576735)
+***low = 435725
+queues[1].peek() -> (429788) < low(435725)
+***low = 429788
+queues[2].peek() -> (401168) < low(429788)
+***low = 401168
+queues[0].peek() -> (436205) < low(576735)
+***low = 436205
+queues[1].peek() -> (429788) < low(436205)
+***low = 429788
+queues[2].peek() -> (401168) < low(429788)
+***low = 401168
+queues[0].peek() -> (436205) < low(576735)
+***low = 436205
+queues[1].peek() -> (436792) < low(436205)
+queues[2].peek() -> (401168) < low(436205)
+***low = 401168
+queues[0].peek() -> (436205) < low(576735)
+***low = 436205
+queues[1].peek() -> (436914) < low(436205)
+queues[2].peek() -> (401168) < low(436205)
+***low = 401168
+queues[0].peek() -> (437100) < low(576735)
+***low = 437100
+queues[1].peek() -> (436914) < low(437100)
+***low = 436914
+queues[2].peek() -> (401168) < low(436914)
+***low = 401168
+queues[0].peek() -> (437100) < low(576735)
+***low = 437100
+queues[1].peek() -> (437178) < low(437100)
+queues[2].peek() -> (401168) < low(437100)
+***low = 401168
+queues[0].peek() -> (437409) < low(576735)
+***low = 437409
+queues[1].peek() -> (437178) < low(437409)
+***low = 437178
+queues[2].peek() -> (401168) < low(437178)
+***low = 401168
+queues[0].peek() -> (438015) < low(576735)
+***low = 438015
+queues[1].peek() -> (437178) < low(438015)
+***low = 437178
+queues[2].peek() -> (401168) < low(437178)
+***low = 401168
+queues[0].peek() -> (438015) < low(576735)
+***low = 438015
+queues[1].peek() -> (438950) < low(438015)
+queues[2].peek() -> (401168) < low(438015)
+***low = 401168
+queues[0].peek() -> (438015) < low(576735)
+***low = 438015
+queues[1].peek() -> (439061) < low(438015)
+queues[2].peek() -> (401168) < low(438015)
+***low = 401168
+queues[0].peek() -> (438015) < low(576735)
+***low = 438015
+queues[1].peek() -> (439074) < low(438015)
+queues[2].peek() -> (401168) < low(438015)
+***low = 401168
+queues[0].peek() -> (438015) < low(576735)
+***low = 438015
+queues[1].peek() -> (439179) < low(438015)
+queues[2].peek() -> (401168) < low(438015)
+***low = 401168
+queues[0].peek() -> (438015) < low(576735)
+***low = 438015
+queues[1].peek() -> (439981) < low(438015)
+queues[2].peek() -> (401168) < low(438015)
+***low = 401168
+queues[0].peek() -> (440171) < low(576735)
+***low = 440171
+queues[1].peek() -> (439981) < low(440171)
+***low = 439981
+queues[2].peek() -> (401168) < low(439981)
+***low = 401168
+queues[0].peek() -> (440199) < low(576735)
+***low = 440199
+queues[1].peek() -> (439981) < low(440199)
+***low = 439981
+queues[2].peek() -> (401168) < low(439981)
+***low = 401168
+queues[0].peek() -> (440431) < low(576735)
+***low = 440431
+queues[1].peek() -> (439981) < low(440431)
+***low = 439981
+queues[2].peek() -> (401168) < low(439981)
+***low = 401168
+queues[0].peek() -> (440440) < low(576735)
+***low = 440440
+queues[1].peek() -> (439981) < low(440440)
+***low = 439981
+queues[2].peek() -> (401168) < low(439981)
+***low = 401168
+queues[0].peek() -> (440448) < low(576735)
+***low = 440448
+queues[1].peek() -> (439981) < low(440448)
+***low = 439981
+queues[2].peek() -> (401168) < low(439981)
+***low = 401168
+queues[0].peek() -> (440463) < low(576735)
+***low = 440463
+queues[1].peek() -> (439981) < low(440463)
+***low = 439981
+queues[2].peek() -> (401168) < low(439981)
+***low = 401168
+queues[0].peek() -> (440463) < low(576735)
+***low = 440463
+queues[1].peek() -> (440637) < low(440463)
+queues[2].peek() -> (401168) < low(440463)
+***low = 401168
+queues[0].peek() -> (441138) < low(576735)
+***low = 441138
+queues[1].peek() -> (440637) < low(441138)
+***low = 440637
+queues[2].peek() -> (401168) < low(440637)
+***low = 401168
+queues[0].peek() -> (441167) < low(576735)
+***low = 441167
+queues[1].peek() -> (440637) < low(441167)
+***low = 440637
+queues[2].peek() -> (401168) < low(440637)
+***low = 401168
+queues[0].peek() -> (441170) < low(576735)
+***low = 441170
+queues[1].peek() -> (440637) < low(441170)
+***low = 440637
+queues[2].peek() -> (401168) < low(440637)
+***low = 401168
+queues[0].peek() -> (441170) < low(576735)
+***low = 441170
+queues[1].peek() -> (442802) < low(441170)
+queues[2].peek() -> (401168) < low(441170)
+***low = 401168
+queues[0].peek() -> (441170) < low(576735)
+***low = 441170
+queues[1].peek() -> (443339) < low(441170)
+queues[2].peek() -> (401168) < low(441170)
+***low = 401168
+queues[0].peek() -> (441170) < low(576735)
+***low = 441170
+queues[1].peek() -> (443401) < low(441170)
+queues[2].peek() -> (401168) < low(441170)
+***low = 401168
+queues[0].peek() -> (441170) < low(576735)
+***low = 441170
+queues[1].peek() -> (443718) < low(441170)
+queues[2].peek() -> (401168) < low(441170)
+***low = 401168
+queues[0].peek() -> (441170) < low(576735)
+***low = 441170
+queues[1].peek() -> (444298) < low(441170)
+queues[2].peek() -> (401168) < low(441170)
+***low = 401168
+queues[0].peek() -> (444489) < low(576735)
+***low = 444489
+queues[1].peek() -> (444298) < low(444489)
+***low = 444298
+queues[2].peek() -> (401168) < low(444298)
+***low = 401168
+queues[0].peek() -> (445086) < low(576735)
+***low = 445086
+queues[1].peek() -> (444298) < low(445086)
+***low = 444298
+queues[2].peek() -> (401168) < low(444298)
+***low = 401168
+queues[0].peek() -> (445096) < low(576735)
+***low = 445096
+queues[1].peek() -> (444298) < low(445096)
+***low = 444298
+queues[2].peek() -> (401168) < low(444298)
+***low = 401168
+queues[0].peek() -> (445096) < low(576735)
+***low = 445096
+queues[1].peek() -> (445708) < low(445096)
+queues[2].peek() -> (401168) < low(445096)
+***low = 401168
+queues[0].peek() -> (445096) < low(576735)
+***low = 445096
+queues[1].peek() -> (445844) < low(445096)
+queues[2].peek() -> (401168) < low(445096)
+***low = 401168
+queues[0].peek() -> (445845) < low(576735)
+***low = 445845
+queues[1].peek() -> (445844) < low(445845)
+***low = 445844
+queues[2].peek() -> (401168) < low(445844)
+***low = 401168
+queues[0].peek() -> (445976) < low(576735)
+***low = 445976
+queues[1].peek() -> (445844) < low(445976)
+***low = 445844
+queues[2].peek() -> (401168) < low(445844)
+***low = 401168
+queues[0].peek() -> (445976) < low(576735)
+***low = 445976
+queues[1].peek() -> (447038) < low(445976)
+queues[2].peek() -> (401168) < low(445976)
+***low = 401168
+queues[0].peek() -> (445976) < low(576735)
+***low = 445976
+queues[1].peek() -> (447248) < low(445976)
+queues[2].peek() -> (401168) < low(445976)
+***low = 401168
+queues[0].peek() -> (447545) < low(576735)
+***low = 447545
+queues[1].peek() -> (447248) < low(447545)
+***low = 447248
+queues[2].peek() -> (401168) < low(447248)
+***low = 401168
+queues[0].peek() -> (447545) < low(576735)
+***low = 447545
+queues[1].peek() -> (447847) < low(447545)
+queues[2].peek() -> (401168) < low(447545)
+***low = 401168
+queues[0].peek() -> (447545) < low(576735)
+***low = 447545
+queues[1].peek() -> (447995) < low(447545)
+queues[2].peek() -> (401168) < low(447545)
+***low = 401168
+queues[0].peek() -> (447545) < low(576735)
+***low = 447545
+queues[1].peek() -> (448083) < low(447545)
+queues[2].peek() -> (401168) < low(447545)
+***low = 401168
+queues[0].peek() -> (447545) < low(576735)
+***low = 447545
+queues[1].peek() -> (448104) < low(447545)
+queues[2].peek() -> (401168) < low(447545)
+***low = 401168
+queues[0].peek() -> (449219) < low(576735)
+***low = 449219
+queues[1].peek() -> (448104) < low(449219)
+***low = 448104
+queues[2].peek() -> (401168) < low(448104)
+***low = 401168
+queues[0].peek() -> (449809) < low(576735)
+***low = 449809
+queues[1].peek() -> (448104) < low(449809)
+***low = 448104
+queues[2].peek() -> (401168) < low(448104)
+***low = 401168
+queues[0].peek() -> (449809) < low(576735)
+***low = 449809
+queues[1].peek() -> (448104) < low(449809)
+***low = 448104
+queues[2].peek() -> (451287) < low(448104)
+queues[0].peek() -> (451750) < low(576735)
+***low = 451750
+queues[1].peek() -> (448104) < low(451750)
+***low = 448104
+queues[2].peek() -> (451287) < low(448104)
+queues[0].peek() -> (452498) < low(576735)
+***low = 452498
+queues[1].peek() -> (448104) < low(452498)
+***low = 448104
+queues[2].peek() -> (451287) < low(448104)
+queues[0].peek() -> (452528) < low(576735)
+***low = 452528
+queues[1].peek() -> (448104) < low(452528)
+***low = 448104
+queues[2].peek() -> (451287) < low(448104)
+queues[0].peek() -> (453275) < low(576735)
+***low = 453275
+queues[1].peek() -> (448104) < low(453275)
+***low = 448104
+queues[2].peek() -> (451287) < low(448104)
+queues[0].peek() -> (453499) < low(576735)
+***low = 453499
+queues[1].peek() -> (448104) < low(453499)
+***low = 448104
+queues[2].peek() -> (451287) < low(448104)
+queues[0].peek() -> (453499) < low(576735)
+***low = 453499
+queues[1].peek() -> (453805) < low(453499)
+queues[2].peek() -> (451287) < low(453499)
+***low = 451287
+queues[0].peek() -> (453499) < low(576735)
+***low = 453499
+queues[1].peek() -> (453860) < low(453499)
+queues[2].peek() -> (451287) < low(453499)
+***low = 451287
+queues[0].peek() -> (453912) < low(576735)
+***low = 453912
+queues[1].peek() -> (453860) < low(453912)
+***low = 453860
+queues[2].peek() -> (451287) < low(453860)
+***low = 451287
+queues[0].peek() -> (454137) < low(576735)
+***low = 454137
+queues[1].peek() -> (453860) < low(454137)
+***low = 453860
+queues[2].peek() -> (451287) < low(453860)
+***low = 451287
+queues[0].peek() -> (455337) < low(576735)
+***low = 455337
+queues[1].peek() -> (453860) < low(455337)
+***low = 453860
+queues[2].peek() -> (451287) < low(453860)
+***low = 451287
+queues[0].peek() -> (455401) < low(576735)
+***low = 455401
+queues[1].peek() -> (453860) < low(455401)
+***low = 453860
+queues[2].peek() -> (451287) < low(453860)
+***low = 451287
+queues[0].peek() -> (455401) < low(576735)
+***low = 455401
+queues[1].peek() -> (458105) < low(455401)
+queues[2].peek() -> (451287) < low(455401)
+***low = 451287
+queues[0].peek() -> (455401) < low(576735)
+***low = 455401
+queues[1].peek() -> (458595) < low(455401)
+queues[2].peek() -> (451287) < low(455401)
+***low = 451287
+queues[0].peek() -> (458730) < low(576735)
+***low = 458730
+queues[1].peek() -> (458595) < low(458730)
+***low = 458595
+queues[2].peek() -> (451287) < low(458595)
+***low = 451287
+queues[0].peek() -> (458730) < low(576735)
+***low = 458730
+queues[1].peek() -> (459864) < low(458730)
+queues[2].peek() -> (451287) < low(458730)
+***low = 451287
+queues[0].peek() -> (458730) < low(576735)
+***low = 458730
+queues[1].peek() -> (460509) < low(458730)
+queues[2].peek() -> (451287) < low(458730)
+***low = 451287
+queues[0].peek() -> (460657) < low(576735)
+***low = 460657
+queues[1].peek() -> (460509) < low(460657)
+***low = 460509
+queues[2].peek() -> (451287) < low(460509)
+***low = 451287
+queues[0].peek() -> (460764) < low(576735)
+***low = 460764
+queues[1].peek() -> (460509) < low(460764)
+***low = 460509
+queues[2].peek() -> (451287) < low(460509)
+***low = 451287
+queues[0].peek() -> (460764) < low(576735)
+***low = 460764
+queues[1].peek() -> (460804) < low(460764)
+queues[2].peek() -> (451287) < low(460764)
+***low = 451287
+queues[0].peek() -> (462676) < low(576735)
+***low = 462676
+queues[1].peek() -> (460804) < low(462676)
+***low = 460804
+queues[2].peek() -> (451287) < low(460804)
+***low = 451287
+queues[0].peek() -> (462676) < low(576735)
+***low = 462676
+queues[1].peek() -> (462860) < low(462676)
+queues[2].peek() -> (451287) < low(462676)
+***low = 451287
+queues[0].peek() -> (462676) < low(576735)
+***low = 462676
+queues[1].peek() -> (463414) < low(462676)
+queues[2].peek() -> (451287) < low(462676)
+***low = 451287
+queues[0].peek() -> (462676) < low(576735)
+***low = 462676
+queues[1].peek() -> (464683) < low(462676)
+queues[2].peek() -> (451287) < low(462676)
+***low = 451287
+queues[0].peek() -> (462676) < low(576735)
+***low = 462676
+queues[1].peek() -> (464829) < low(462676)
+queues[2].peek() -> (451287) < low(462676)
+***low = 451287
+queues[0].peek() -> (462676) < low(576735)
+***low = 462676
+queues[1].peek() -> (465108) < low(462676)
+queues[2].peek() -> (451287) < low(462676)
+***low = 451287
+queues[0].peek() -> (465418) < low(576735)
+***low = 465418
+queues[1].peek() -> (465108) < low(465418)
+***low = 465108
+queues[2].peek() -> (451287) < low(465108)
+***low = 451287
+queues[0].peek() -> (465418) < low(576735)
+***low = 465418
+queues[1].peek() -> (466159) < low(465418)
+queues[2].peek() -> (451287) < low(465418)
+***low = 451287
+queues[0].peek() -> (466386) < low(576735)
+***low = 466386
+queues[1].peek() -> (466159) < low(466386)
+***low = 466159
+queues[2].peek() -> (451287) < low(466159)
+***low = 451287
+queues[0].peek() -> (466511) < low(576735)
+***low = 466511
+queues[1].peek() -> (466159) < low(466511)
+***low = 466159
+queues[2].peek() -> (451287) < low(466159)
+***low = 451287
+queues[0].peek() -> (466511) < low(576735)
+***low = 466511
+queues[1].peek() -> (468439) < low(466511)
+queues[2].peek() -> (451287) < low(466511)
+***low = 451287
+queues[0].peek() -> (466511) < low(576735)
+***low = 466511
+queues[1].peek() -> (471159) < low(466511)
+queues[2].peek() -> (451287) < low(466511)
+***low = 451287
+queues[0].peek() -> (471487) < low(576735)
+***low = 471487
+queues[1].peek() -> (471159) < low(471487)
+***low = 471159
+queues[2].peek() -> (451287) < low(471159)
+***low = 451287
+queues[0].peek() -> (474177) < low(576735)
+***low = 474177
+queues[1].peek() -> (471159) < low(474177)
+***low = 471159
+queues[2].peek() -> (451287) < low(471159)
+***low = 451287
+queues[0].peek() -> (474177) < low(576735)
+***low = 474177
+queues[1].peek() -> (474195) < low(474177)
+queues[2].peek() -> (451287) < low(474177)
+***low = 451287
+queues[0].peek() -> (474940) < low(576735)
+***low = 474940
+queues[1].peek() -> (474195) < low(474940)
+***low = 474195
+queues[2].peek() -> (451287) < low(474195)
+***low = 451287
+queues[0].peek() -> (474940) < low(576735)
+***low = 474940
+queues[1].peek() -> (475489) < low(474940)
+queues[2].peek() -> (451287) < low(474940)
+***low = 451287
+queues[0].peek() -> (474940) < low(576735)
+***low = 474940
+queues[1].peek() -> (476508) < low(474940)
+queues[2].peek() -> (451287) < low(474940)
+***low = 451287
+queues[0].peek() -> (476979) < low(576735)
+***low = 476979
+queues[1].peek() -> (476508) < low(476979)
+***low = 476508
+queues[2].peek() -> (451287) < low(476508)
+***low = 451287
+queues[0].peek() -> (477463) < low(576735)
+***low = 477463
+queues[1].peek() -> (476508) < low(477463)
+***low = 476508
+queues[2].peek() -> (451287) < low(476508)
+***low = 451287
+queues[0].peek() -> (477463) < low(576735)
+***low = 477463
+queues[1].peek() -> (478477) < low(477463)
+queues[2].peek() -> (451287) < low(477463)
+***low = 451287
+queues[0].peek() -> (479034) < low(576735)
+***low = 479034
+queues[1].peek() -> (478477) < low(479034)
+***low = 478477
+queues[2].peek() -> (451287) < low(478477)
+***low = 451287
+queues[0].peek() -> (479034) < low(576735)
+***low = 479034
+queues[1].peek() -> (479063) < low(479034)
+queues[2].peek() -> (451287) < low(479034)
+***low = 451287
+queues[0].peek() -> (479034) < low(576735)
+***low = 479034
+queues[1].peek() -> (479364) < low(479034)
+queues[2].peek() -> (451287) < low(479034)
+***low = 451287
+queues[0].peek() -> (479655) < low(576735)
+***low = 479655
+queues[1].peek() -> (479364) < low(479655)
+***low = 479364
+queues[2].peek() -> (451287) < low(479364)
+***low = 451287
+queues[0].peek() -> (479702) < low(576735)
+***low = 479702
+queues[1].peek() -> (479364) < low(479702)
+***low = 479364
+queues[2].peek() -> (451287) < low(479364)
+***low = 451287
+queues[0].peek() -> (479702) < low(576735)
+***low = 479702
+queues[1].peek() -> (480296) < low(479702)
+queues[2].peek() -> (451287) < low(479702)
+***low = 451287
+queues[0].peek() -> (479702) < low(576735)
+***low = 479702
+queues[1].peek() -> (480506) < low(479702)
+queues[2].peek() -> (451287) < low(479702)
+***low = 451287
+queues[0].peek() -> (479702) < low(576735)
+***low = 479702
+queues[1].peek() -> (481117) < low(479702)
+queues[2].peek() -> (451287) < low(479702)
+***low = 451287
+queues[0].peek() -> (479702) < low(576735)
+***low = 479702
+queues[1].peek() -> (481455) < low(479702)
+queues[2].peek() -> (451287) < low(479702)
+***low = 451287
+queues[0].peek() -> (481535) < low(576735)
+***low = 481535
+queues[1].peek() -> (481455) < low(481535)
+***low = 481455
+queues[2].peek() -> (451287) < low(481455)
+***low = 451287
+queues[0].peek() -> (481679) < low(576735)
+***low = 481679
+queues[1].peek() -> (481455) < low(481679)
+***low = 481455
+queues[2].peek() -> (451287) < low(481455)
+***low = 451287
+queues[0].peek() -> (481679) < low(576735)
+***low = 481679
+queues[1].peek() -> (481455) < low(481679)
+***low = 481455
+queues[2].peek() -> (481689) < low(481455)
+queues[0].peek() -> (481679) < low(576735)
+***low = 481679
+queues[1].peek() -> (481889) < low(481679)
+queues[2].peek() -> (481689) < low(481679)
+queues[0].peek() -> (482745) < low(576735)
+***low = 482745
+queues[1].peek() -> (481889) < low(482745)
+***low = 481889
+queues[2].peek() -> (481689) < low(481889)
+***low = 481689
+queues[0].peek() -> (482745) < low(576735)
+***low = 482745
+queues[1].peek() -> (483606) < low(482745)
+queues[2].peek() -> (481689) < low(482745)
+***low = 481689
+queues[0].peek() -> (484298) < low(576735)
+***low = 484298
+queues[1].peek() -> (483606) < low(484298)
+***low = 483606
+queues[2].peek() -> (481689) < low(483606)
+***low = 481689
+queues[0].peek() -> (484298) < low(576735)
+***low = 484298
+queues[1].peek() -> (484370) < low(484298)
+queues[2].peek() -> (481689) < low(484298)
+***low = 481689
+queues[0].peek() -> (484298) < low(576735)
+***low = 484298
+queues[1].peek() -> (484398) < low(484298)
+queues[2].peek() -> (481689) < low(484298)
+***low = 481689
+queues[0].peek() -> (484437) < low(576735)
+***low = 484437
+queues[1].peek() -> (484398) < low(484437)
+***low = 484398
+queues[2].peek() -> (481689) < low(484398)
+***low = 481689
+queues[0].peek() -> (484437) < low(576735)
+***low = 484437
+queues[1].peek() -> (486374) < low(484437)
+queues[2].peek() -> (481689) < low(484437)
+***low = 481689
+queues[0].peek() -> (484437) < low(576735)
+***low = 484437
+queues[1].peek() -> (486440) < low(484437)
+queues[2].peek() -> (481689) < low(484437)
+***low = 481689
+queues[0].peek() -> (486685) < low(576735)
+***low = 486685
+queues[1].peek() -> (486440) < low(486685)
+***low = 486440
+queues[2].peek() -> (481689) < low(486440)
+***low = 481689
+queues[0].peek() -> (486685) < low(576735)
+***low = 486685
+queues[1].peek() -> (486863) < low(486685)
+queues[2].peek() -> (481689) < low(486685)
+***low = 481689
+queues[0].peek() -> (486685) < low(576735)
+***low = 486685
+queues[1].peek() -> (487300) < low(486685)
+queues[2].peek() -> (481689) < low(486685)
+***low = 481689
+queues[0].peek() -> (487403) < low(576735)
+***low = 487403
+queues[1].peek() -> (487300) < low(487403)
+***low = 487300
+queues[2].peek() -> (481689) < low(487300)
+***low = 481689
+queues[0].peek() -> (487403) < low(576735)
+***low = 487403
+queues[1].peek() -> (487734) < low(487403)
+queues[2].peek() -> (481689) < low(487403)
+***low = 481689
+queues[0].peek() -> (487403) < low(576735)
+***low = 487403
+queues[1].peek() -> (488862) < low(487403)
+queues[2].peek() -> (481689) < low(487403)
+***low = 481689
+queues[0].peek() -> (489424) < low(576735)
+***low = 489424
+queues[1].peek() -> (488862) < low(489424)
+***low = 488862
+queues[2].peek() -> (481689) < low(488862)
+***low = 481689
+queues[0].peek() -> (489897) < low(576735)
+***low = 489897
+queues[1].peek() -> (488862) < low(489897)
+***low = 488862
+queues[2].peek() -> (481689) < low(488862)
+***low = 481689
+queues[0].peek() -> (489897) < low(576735)
+***low = 489897
+queues[1].peek() -> (491054) < low(489897)
+queues[2].peek() -> (481689) < low(489897)
+***low = 481689
+queues[0].peek() -> (492396) < low(576735)
+***low = 492396
+queues[1].peek() -> (491054) < low(492396)
+***low = 491054
+queues[2].peek() -> (481689) < low(491054)
+***low = 481689
+queues[0].peek() -> (492396) < low(576735)
+***low = 492396
+queues[1].peek() -> (494242) < low(492396)
+queues[2].peek() -> (481689) < low(492396)
+***low = 481689
+queues[0].peek() -> (495104) < low(576735)
+***low = 495104
+queues[1].peek() -> (494242) < low(495104)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (495851) < low(576735)
+***low = 495851
+queues[1].peek() -> (494242) < low(495851)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (495882) < low(576735)
+***low = 495882
+queues[1].peek() -> (494242) < low(495882)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (495916) < low(576735)
+***low = 495916
+queues[1].peek() -> (494242) < low(495916)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (495951) < low(576735)
+***low = 495951
+queues[1].peek() -> (494242) < low(495951)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (495983) < low(576735)
+***low = 495983
+queues[1].peek() -> (494242) < low(495983)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (496011) < low(576735)
+***low = 496011
+queues[1].peek() -> (494242) < low(496011)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (496037) < low(576735)
+***low = 496037
+queues[1].peek() -> (494242) < low(496037)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (496056) < low(576735)
+***low = 496056
+queues[1].peek() -> (494242) < low(496056)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (496071) < low(576735)
+***low = 496071
+queues[1].peek() -> (494242) < low(496071)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (496509) < low(576735)
+***low = 496509
+queues[1].peek() -> (494242) < low(496509)
+***low = 494242
+queues[2].peek() -> (481689) < low(494242)
+***low = 481689
+queues[0].peek() -> (496509) < low(576735)
+***low = 496509
+queues[1].peek() -> (497222) < low(496509)
+queues[2].peek() -> (481689) < low(496509)
+***low = 481689
+queues[0].peek() -> (497465) < low(576735)
+***low = 497465
+queues[1].peek() -> (497222) < low(497465)
+***low = 497222
+queues[2].peek() -> (481689) < low(497222)
+***low = 481689
+queues[0].peek() -> (497733) < low(576735)
+***low = 497733
+queues[1].peek() -> (497222) < low(497733)
+***low = 497222
+queues[2].peek() -> (481689) < low(497222)
+***low = 481689
+queues[0].peek() -> (497747) < low(576735)
+***low = 497747
+queues[1].peek() -> (497222) < low(497747)
+***low = 497222
+queues[2].peek() -> (481689) < low(497222)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (497222) < low(502813)
+***low = 497222
+queues[2].peek() -> (481689) < low(497222)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (504658) < low(502813)
+queues[2].peek() -> (481689) < low(502813)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (504669) < low(502813)
+queues[2].peek() -> (481689) < low(502813)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (504680) < low(502813)
+queues[2].peek() -> (481689) < low(502813)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (504764) < low(502813)
+queues[2].peek() -> (481689) < low(502813)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (504796) < low(502813)
+queues[2].peek() -> (481689) < low(502813)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (504854) < low(502813)
+queues[2].peek() -> (481689) < low(502813)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (504896) < low(502813)
+queues[2].peek() -> (481689) < low(502813)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (504956) < low(502813)
+queues[2].peek() -> (481689) < low(502813)
+***low = 481689
+queues[0].peek() -> (502813) < low(576735)
+***low = 502813
+queues[1].peek() -> (505499) < low(502813)
+queues[2].peek() -> (481689) < low(502813)
+***low = 481689
+queues[0].peek() -> (506366) < low(576735)
+***low = 506366
+queues[1].peek() -> (505499) < low(506366)
+***low = 505499
+queues[2].peek() -> (481689) < low(505499)
+***low = 481689
+queues[0].peek() -> (506977) < low(576735)
+***low = 506977
+queues[1].peek() -> (505499) < low(506977)
+***low = 505499
+queues[2].peek() -> (481689) < low(505499)
+***low = 481689
+queues[0].peek() -> (507099) < low(576735)
+***low = 507099
+queues[1].peek() -> (505499) < low(507099)
+***low = 505499
+queues[2].peek() -> (481689) < low(505499)
+***low = 481689
+queues[0].peek() -> (507099) < low(576735)
+***low = 507099
+queues[1].peek() -> (507222) < low(507099)
+queues[2].peek() -> (481689) < low(507099)
+***low = 481689
+queues[0].peek() -> (508049) < low(576735)
+***low = 508049
+queues[1].peek() -> (507222) < low(508049)
+***low = 507222
+queues[2].peek() -> (481689) < low(507222)
+***low = 481689
+queues[0].peek() -> (508276) < low(576735)
+***low = 508276
+queues[1].peek() -> (507222) < low(508276)
+***low = 507222
+queues[2].peek() -> (481689) < low(507222)
+***low = 481689
+queues[0].peek() -> (508828) < low(576735)
+***low = 508828
+queues[1].peek() -> (507222) < low(508828)
+***low = 507222
+queues[2].peek() -> (481689) < low(507222)
+***low = 481689
+queues[0].peek() -> (509678) < low(576735)
+***low = 509678
+queues[1].peek() -> (507222) < low(509678)
+***low = 507222
+queues[2].peek() -> (481689) < low(507222)
+***low = 481689
+queues[0].peek() -> (509919) < low(576735)
+***low = 509919
+queues[1].peek() -> (507222) < low(509919)
+***low = 507222
+queues[2].peek() -> (481689) < low(507222)
+***low = 481689
+queues[0].peek() -> (510418) < low(576735)
+***low = 510418
+queues[1].peek() -> (507222) < low(510418)
+***low = 507222
+queues[2].peek() -> (481689) < low(507222)
+***low = 481689
+queues[0].peek() -> (511495) < low(576735)
+***low = 511495
+queues[1].peek() -> (507222) < low(511495)
+***low = 507222
+queues[2].peek() -> (481689) < low(507222)
+***low = 481689
+queues[0].peek() -> (511495) < low(576735)
+***low = 511495
+queues[1].peek() -> (511534) < low(511495)
+queues[2].peek() -> (481689) < low(511495)
+***low = 481689
+queues[0].peek() -> (512166) < low(576735)
+***low = 512166
+queues[1].peek() -> (511534) < low(512166)
+***low = 511534
+queues[2].peek() -> (481689) < low(511534)
+***low = 481689
+queues[0].peek() -> (512166) < low(576735)
+***low = 512166
+queues[1].peek() -> (513337) < low(512166)
+queues[2].peek() -> (481689) < low(512166)
+***low = 481689
+queues[0].peek() -> (512166) < low(576735)
+***low = 512166
+queues[1].peek() -> (513818) < low(512166)
+queues[2].peek() -> (481689) < low(512166)
+***low = 481689
+queues[0].peek() -> (514108) < low(576735)
+***low = 514108
+queues[1].peek() -> (513818) < low(514108)
+***low = 513818
+queues[2].peek() -> (481689) < low(513818)
+***low = 481689
+queues[0].peek() -> (514108) < low(576735)
+***low = 514108
+queues[1].peek() -> (514293) < low(514108)
+queues[2].peek() -> (481689) < low(514108)
+***low = 481689
+queues[0].peek() -> (515213) < low(576735)
+***low = 515213
+queues[1].peek() -> (514293) < low(515213)
+***low = 514293
+queues[2].peek() -> (481689) < low(514293)
+***low = 481689
+queues[0].peek() -> (515213) < low(576735)
+***low = 515213
+queues[1].peek() -> (515547) < low(515213)
+queues[2].peek() -> (481689) < low(515213)
+***low = 481689
+queues[0].peek() -> (515213) < low(576735)
+***low = 515213
+queues[1].peek() -> (515547) < low(515213)
+queues[2].peek() -> (516367) < low(515213)
+queues[0].peek() -> (515213) < low(576735)
+***low = 515213
+queues[1].peek() -> (515547) < low(515213)
+queues[2].peek() -> (517263) < low(515213)
+queues[0].peek() -> (515213) < low(576735)
+***low = 515213
+queues[1].peek() -> (515547) < low(515213)
+queues[2].peek() -> (517405) < low(515213)
+queues[0].peek() -> (518322) < low(576735)
+***low = 518322
+queues[1].peek() -> (515547) < low(518322)
+***low = 515547
+queues[2].peek() -> (517405) < low(515547)
+queues[0].peek() -> (519226) < low(576735)
+***low = 519226
+queues[1].peek() -> (515547) < low(519226)
+***low = 515547
+queues[2].peek() -> (517405) < low(515547)
+queues[0].peek() -> (519503) < low(576735)
+***low = 519503
+queues[1].peek() -> (515547) < low(519503)
+***low = 515547
+queues[2].peek() -> (517405) < low(515547)
+queues[0].peek() -> (520396) < low(576735)
+***low = 520396
+queues[1].peek() -> (515547) < low(520396)
+***low = 515547
+queues[2].peek() -> (517405) < low(515547)
+queues[0].peek() -> (520774) < low(576735)
+***low = 520774
+queues[1].peek() -> (515547) < low(520774)
+***low = 515547
+queues[2].peek() -> (517405) < low(515547)
+queues[0].peek() -> (521593) < low(576735)
+***low = 521593
+queues[1].peek() -> (515547) < low(521593)
+***low = 515547
+queues[2].peek() -> (517405) < low(515547)
+queues[0].peek() -> (522590) < low(576735)
+***low = 522590
+queues[1].peek() -> (515547) < low(522590)
+***low = 515547
+queues[2].peek() -> (517405) < low(515547)
+queues[0].peek() -> (524812) < low(576735)
+***low = 524812
+queues[1].peek() -> (515547) < low(524812)
+***low = 515547
+queues[2].peek() -> (517405) < low(515547)
+queues[0].peek() -> (525203) < low(576735)
+***low = 525203
+queues[1].peek() -> (515547) < low(525203)
+***low = 515547
+queues[2].peek() -> (517405) < low(515547)
+queues[0].peek() -> (525203) < low(576735)
+***low = 525203
+queues[1].peek() -> (525205) < low(525203)
+queues[2].peek() -> (517405) < low(525203)
+***low = 517405
+queues[0].peek() -> (525546) < low(576735)
+***low = 525546
+queues[1].peek() -> (525205) < low(525546)
+***low = 525205
+queues[2].peek() -> (517405) < low(525205)
+***low = 517405
+queues[0].peek() -> (526005) < low(576735)
+***low = 526005
+queues[1].peek() -> (525205) < low(526005)
+***low = 525205
+queues[2].peek() -> (517405) < low(525205)
+***low = 517405
+queues[0].peek() -> (527325) < low(576735)
+***low = 527325
+queues[1].peek() -> (525205) < low(527325)
+***low = 525205
+queues[2].peek() -> (517405) < low(525205)
+***low = 517405
+queues[0].peek() -> (527325) < low(576735)
+***low = 527325
+queues[1].peek() -> (527717) < low(527325)
+queues[2].peek() -> (517405) < low(527325)
+***low = 517405
+queues[0].peek() -> (530580) < low(576735)
+***low = 530580
+queues[1].peek() -> (527717) < low(530580)
+***low = 527717
+queues[2].peek() -> (517405) < low(527717)
+***low = 517405
+queues[0].peek() -> (530580) < low(576735)
+***low = 530580
+queues[1].peek() -> (530622) < low(530580)
+queues[2].peek() -> (517405) < low(530580)
+***low = 517405
+queues[0].peek() -> (533602) < low(576735)
+***low = 533602
+queues[1].peek() -> (530622) < low(533602)
+***low = 530622
+queues[2].peek() -> (517405) < low(530622)
+***low = 517405
+queues[0].peek() -> (533602) < low(576735)
+***low = 533602
+queues[1].peek() -> (530622) < low(533602)
+***low = 530622
+queues[2].peek() -> (535364) < low(530622)
+queues[0].peek() -> (535456) < low(576735)
+***low = 535456
+queues[1].peek() -> (530622) < low(535456)
+***low = 530622
+queues[2].peek() -> (535364) < low(530622)
+queues[0].peek() -> (535469) < low(576735)
+***low = 535469
+queues[1].peek() -> (530622) < low(535469)
+***low = 530622
+queues[2].peek() -> (535364) < low(530622)
+queues[0].peek() -> (535481) < low(576735)
+***low = 535481
+queues[1].peek() -> (530622) < low(535481)
+***low = 530622
+queues[2].peek() -> (535364) < low(530622)
+queues[0].peek() -> (535486) < low(576735)
+***low = 535486
+queues[1].peek() -> (530622) < low(535486)
+***low = 530622
+queues[2].peek() -> (535364) < low(530622)
+queues[0].peek() -> (536106) < low(576735)
+***low = 536106
+queues[1].peek() -> (530622) < low(536106)
+***low = 530622
+queues[2].peek() -> (535364) < low(530622)
+queues[0].peek() -> (536106) < low(576735)
+***low = 536106
+queues[1].peek() -> (530622) < low(536106)
+***low = 530622
+queues[2].peek() -> (537697) < low(530622)
+queues[0].peek() -> (536106) < low(576735)
+***low = 536106
+queues[1].peek() -> (530622) < low(536106)
+***low = 530622
+queues[2].peek() -> (537727) < low(530622)
+queues[0].peek() -> (538403) < low(576735)
+***low = 538403
+queues[1].peek() -> (530622) < low(538403)
+***low = 530622
+queues[2].peek() -> (537727) < low(530622)
+queues[0].peek() -> (538806) < low(576735)
+***low = 538806
+queues[1].peek() -> (530622) < low(538806)
+***low = 530622
+queues[2].peek() -> (537727) < low(530622)
+queues[0].peek() -> (539657) < low(576735)
+***low = 539657
+queues[1].peek() -> (530622) < low(539657)
+***low = 530622
+queues[2].peek() -> (537727) < low(530622)
+queues[0].peek() -> (539924) < low(576735)
+***low = 539924
+queues[1].peek() -> (530622) < low(539924)
+***low = 530622
+queues[2].peek() -> (537727) < low(530622)
+queues[0].peek() -> (539927) < low(576735)
+***low = 539927
+queues[1].peek() -> (530622) < low(539927)
+***low = 530622
+queues[2].peek() -> (537727) < low(530622)
+queues[0].peek() -> (540012) < low(576735)
+***low = 540012
+queues[1].peek() -> (530622) < low(540012)
+***low = 530622
+queues[2].peek() -> (537727) < low(530622)
+queues[0].peek() -> (540012) < low(576735)
+***low = 540012
+queues[1].peek() -> (540792) < low(540012)
+queues[2].peek() -> (537727) < low(540012)
+***low = 537727
+queues[0].peek() -> (541628) < low(576735)
+***low = 541628
+queues[1].peek() -> (540792) < low(541628)
+***low = 540792
+queues[2].peek() -> (537727) < low(540792)
+***low = 537727
+queues[0].peek() -> (545429) < low(576735)
+***low = 545429
+queues[1].peek() -> (540792) < low(545429)
+***low = 540792
+queues[2].peek() -> (537727) < low(540792)
+***low = 537727
+queues[0].peek() -> (545429) < low(576735)
+***low = 545429
+queues[1].peek() -> (540792) < low(545429)
+***low = 540792
+queues[2].peek() -> (546085) < low(540792)
+queues[0].peek() -> (545429) < low(576735)
+***low = 545429
+queues[1].peek() -> (546220) < low(545429)
+queues[2].peek() -> (546085) < low(545429)
+queues[0].peek() -> (549521) < low(576735)
+***low = 549521
+queues[1].peek() -> (546220) < low(549521)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (550673) < low(576735)
+***low = 550673
+queues[1].peek() -> (546220) < low(550673)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (550902) < low(576735)
+***low = 550902
+queues[1].peek() -> (546220) < low(550902)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (551014) < low(576735)
+***low = 551014
+queues[1].peek() -> (546220) < low(551014)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (551053) < low(576735)
+***low = 551053
+queues[1].peek() -> (546220) < low(551053)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (554337) < low(576735)
+***low = 554337
+queues[1].peek() -> (546220) < low(554337)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (554383) < low(576735)
+***low = 554383
+queues[1].peek() -> (546220) < low(554383)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (554392) < low(576735)
+***low = 554392
+queues[1].peek() -> (546220) < low(554392)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (555457) < low(576735)
+***low = 555457
+queues[1].peek() -> (546220) < low(555457)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (557642) < low(576735)
+***low = 557642
+queues[1].peek() -> (546220) < low(557642)
+***low = 546220
+queues[2].peek() -> (546085) < low(546220)
+***low = 546085
+queues[0].peek() -> (557642) < low(576735)
+***low = 557642
+queues[1].peek() -> (558583) < low(557642)
+queues[2].peek() -> (546085) < low(557642)
+***low = 546085
+queues[0].peek() -> (558963) < low(576735)
+***low = 558963
+queues[1].peek() -> (558583) < low(558963)
+***low = 558583
+queues[2].peek() -> (546085) < low(558583)
+***low = 546085
+queues[0].peek() -> (559785) < low(576735)
+***low = 559785
+queues[1].peek() -> (558583) < low(559785)
+***low = 558583
+queues[2].peek() -> (546085) < low(558583)
+***low = 546085
+queues[0].peek() -> (559785) < low(576735)
+***low = 559785
+queues[1].peek() -> (562019) < low(559785)
+queues[2].peek() -> (546085) < low(559785)
+***low = 546085
+queues[0].peek() -> (562910) < low(576735)
+***low = 562910
+queues[1].peek() -> (562019) < low(562910)
+***low = 562019
+queues[2].peek() -> (546085) < low(562019)
+***low = 546085
+queues[0].peek() -> (563698) < low(576735)
+***low = 563698
+queues[1].peek() -> (562019) < low(563698)
+***low = 562019
+queues[2].peek() -> (546085) < low(562019)
+***low = 546085
+queues[0].peek() -> (565150) < low(576735)
+***low = 565150
+queues[1].peek() -> (562019) < low(565150)
+***low = 562019
+queues[2].peek() -> (546085) < low(562019)
+***low = 546085
+queues[0].peek() -> (565870) < low(576735)
+***low = 565870
+queues[1].peek() -> (562019) < low(565870)
+***low = 562019
+queues[2].peek() -> (546085) < low(562019)
+***low = 546085
+queues[0].peek() -> (566265) < low(576735)
+***low = 566265
+queues[1].peek() -> (562019) < low(566265)
+***low = 562019
+queues[2].peek() -> (546085) < low(562019)
+***low = 546085
+queues[0].peek() -> (567083) < low(576735)
+***low = 567083
+queues[1].peek() -> (562019) < low(567083)
+***low = 562019
+queues[2].peek() -> (546085) < low(562019)
+***low = 546085
+queues[0].peek() -> (567088) < low(576735)
+***low = 567088
+queues[1].peek() -> (562019) < low(567088)
+***low = 562019
+queues[2].peek() -> (546085) < low(562019)
+***low = 546085
+queues[0].peek() -> (567088) < low(576735)
+***low = 567088
+queues[1].peek() -> (568213) < low(567088)
+queues[2].peek() -> (546085) < low(567088)
+***low = 546085
+queues[0].peek() -> (567088) < low(576735)
+***low = 567088
+queues[1].peek() -> (568555) < low(567088)
+queues[2].peek() -> (546085) < low(567088)
+***low = 546085
+queues[0].peek() -> (568738) < low(576735)
+***low = 568738
+queues[1].peek() -> (568555) < low(568738)
+***low = 568555
+queues[2].peek() -> (546085) < low(568555)
+***low = 546085
+queues[0].peek() -> (568738) < low(576735)
+***low = 568738
+queues[1].peek() -> (569008) < low(568738)
+queues[2].peek() -> (546085) < low(568738)
+***low = 546085
+queues[0].peek() -> (568738) < low(576735)
+***low = 568738
+queues[1].peek() -> (569104) < low(568738)
+queues[2].peek() -> (546085) < low(568738)
+***low = 546085
+queues[0].peek() -> (568738) < low(576735)
+***low = 568738
+queues[1].peek() -> (570346) < low(568738)
+queues[2].peek() -> (546085) < low(568738)
+***low = 546085
+queues[0].peek() -> (568738) < low(576735)
+***low = 568738
+queues[1].peek() -> (571290) < low(568738)
+queues[2].peek() -> (546085) < low(568738)
+***low = 546085
+queues[0].peek() -> (572381) < low(576735)
+***low = 572381
+queues[1].peek() -> (571290) < low(572381)
+***low = 571290
+queues[2].peek() -> (546085) < low(571290)
+***low = 546085
+besthi(14989) && bestlo(14987)
+- - q[0] : 572381 
+- - q[1] : 571290 
+- - q[2] : 546085 
+
+
+
+exist after death 

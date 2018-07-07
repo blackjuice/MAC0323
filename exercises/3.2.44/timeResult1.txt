@@ -1,0 +1,9 @@
+args[0] = 8
+Mean (298252 values): 10.10746
+**      st height = 24
+**      stHeight height = 14349
+business 122
+distinct = 5131
+words    = 14350
+time = 522.828
+

@@ -1,0 +1,155 @@
+***********BEGIN: n_words = 12
+1 - q[0] : 0 5 11 
+1 - q[1] : 1 4 9 
+1 - q[2] : 2 6 10 
+1 - q[3] : 3 7 8 
+
+2 - q[0] : 0 5 11 
+2 - q[1] : 1 4 9 
+2 - q[2] : 2 6 10 
+2 - q[3] : 3 7 8 
+dequeue -> lo = hi = 0
+*2 - q[0] : 5 11 
+*2 - q[1] : 1 4 9 
+*2 - q[2] : 2 6 10 
+*2 - q[3] : 3 7 8 
+
+for (int j = 1; j < n_args; j++)     &&    queues[1].peek() (1) <= hi(0)
+
+    if(!queues[1].isEmpty())
+        hi = 1 | lo = 0 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[1]
+     &&    queues[2].peek() (2) <= hi(1)
+
+    if(!queues[2].isEmpty())
+        hi = 2 | lo = 0 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[2]
+     &&    queues[3].peek() (3) <= hi(2)
+
+    if(!queues[3].isEmpty())
+        hi = 3 | lo = 0 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[3]
+
+hi(3) - lo(0) < besthi(12) - bestlo(-1))
+    besthi = 12| bestlo = -1 | 
+
+if (!done && hi(3) - lo(0) < besthi(3) - bestlo(0))
+    besthi = 3| bestlo = 0 | 
+
+3 - q[0] : 5 11 
+3 - q[1] : 1 4 9 
+3 - q[2] : 2 6 10 
+3 - q[3] : 3 7 8 
+///////end of while///////
+
+2 - q[0] : 5 11 
+2 - q[1] : 1 4 9 
+2 - q[2] : 2 6 10 
+2 - q[3] : 3 7 8 
+dequeue -> lo = hi = 5
+*2 - q[0] : 11 
+*2 - q[1] : 1 4 9 
+*2 - q[2] : 2 6 10 
+*2 - q[3] : 3 7 8 
+
+for (int j = 1; j < n_args; j++)     &&    queues[1].peek() (1) <= hi(5)
+    while (!queues[1].isEmpty() && queues[1].peek() <= hi(5))      /**temos queues[1].peek() (1) <= hi(5)
+        queues[1].dequeue();
+after dequeue() -> 2 - q[0] : 11 
+after dequeue() -> 2 - q[1] : 4 9 
+after dequeue() -> 2 - q[2] : 2 6 10 
+after dequeue() -> 2 - q[3] : 3 7 8 
+
+    while (!queues[1].isEmpty() && queues[1].peek() <= hi(5))      /**temos queues[1].peek() (4) <= hi(5)
+        queues[1].dequeue();
+after dequeue() -> 2 - q[0] : 11 
+after dequeue() -> 2 - q[1] : 9 
+after dequeue() -> 2 - q[2] : 2 6 10 
+after dequeue() -> 2 - q[3] : 3 7 8 
+
+
+    if(!queues[1].isEmpty())
+        hi = 9 | lo = 5 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[1]
+     &&    queues[2].peek() (2) <= hi(9)
+    while (!queues[2].isEmpty() && queues[2].peek() <= hi(9))      /**temos queues[2].peek() (2) <= hi(9)
+        queues[2].dequeue();
+after dequeue() -> 2 - q[0] : 11 
+after dequeue() -> 2 - q[1] : 9 
+after dequeue() -> 2 - q[2] : 6 10 
+after dequeue() -> 2 - q[3] : 3 7 8 
+
+    while (!queues[2].isEmpty() && queues[2].peek() <= hi(9))      /**temos queues[2].peek() (6) <= hi(9)
+        queues[2].dequeue();
+after dequeue() -> 2 - q[0] : 11 
+after dequeue() -> 2 - q[1] : 9 
+after dequeue() -> 2 - q[2] : 10 
+after dequeue() -> 2 - q[3] : 3 7 8 
+
+
+    if(!queues[2].isEmpty())
+        hi = 10 | lo = 5 (lo sempre eh o 1st element de q[0] ja retirado) |     /**atualiza hi como 1st element de q[2]
+     &&    queues[3].peek() (3) <= hi(10)
+    while (!queues[3].isEmpty() && queues[3].peek() <= hi(10))      /**temos queues[3].peek() (3) <= hi(10)
+        queues[3].dequeue();
+after dequeue() -> 2 - q[0] : 11 
+after dequeue() -> 2 - q[1] : 9 
+after dequeue() -> 2 - q[2] : 10 
+after dequeue() -> 2 - q[3] : 7 8 
+
+    while (!queues[3].isEmpty() && queues[3].peek() <= hi(10))      /**temos queues[3].peek() (7) <= hi(10)
+        queues[3].dequeue();
+after dequeue() -> 2 - q[0] : 11 
+after dequeue() -> 2 - q[1] : 9 
+after dequeue() -> 2 - q[2] : 10 
+after dequeue() -> 2 - q[3] : 8 
+
+    while (!queues[3].isEmpty() && queues[3].peek() <= hi(10))      /**temos queues[3].peek() (8) <= hi(10)
+        queues[3].dequeue();
+after dequeue() -> 2 - q[0] : 11 
+after dequeue() -> 2 - q[1] : 9 
+after dequeue() -> 2 - q[2] : 10 
+after dequeue() -> 2 - q[3] : 
+
+    if(queues[3].isEmpty())   ----> break
+
+hi(10) - lo(5) < besthi(3) - bestlo(0))
+    besthi = 3| bestlo = 0 | 
+
+
+3 - q[0] : 11 
+3 - q[1] : 9 
+3 - q[2] : 10 
+3 - q[3] : 
+///////end of while///////
+
+2 - q[0] : 11 
+2 - q[1] : 9 
+2 - q[2] : 10 
+2 - q[3] : 
+dequeue -> lo = hi = 11
+*2 - q[0] : 
+*2 - q[1] : 9 
+*2 - q[2] : 10 
+*2 - q[3] : 
+
+for (int j = 1; j < n_args; j++)     &&    queues[1].peek() (9) <= hi(11)
+    while (!queues[1].isEmpty() && queues[1].peek() <= hi(11))      /**temos queues[1].peek() (9) <= hi(11)
+        queues[1].dequeue();
+after dequeue() -> 2 - q[0] : 
+after dequeue() -> 2 - q[1] : 
+after dequeue() -> 2 - q[2] : 10 
+after dequeue() -> 2 - q[3] : 
+
+    if(queues[1].isEmpty())   ----> break
+
+hi(11) - lo(11) < besthi(3) - bestlo(0))
+    besthi = 3| bestlo = 0 | 
+
+
+3 - q[0] : 
+3 - q[1] : 
+3 - q[2] : 10 
+3 - q[3] : 
+///////end of while///////
+
+bestlo(0)| besthi(3)
+0 1 2 3 
+time = 0.038
+timeCPU = 0.027758879

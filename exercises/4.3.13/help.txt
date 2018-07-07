@@ -1,0 +1,6 @@
+links
+=====
+
+http://introcs.cs.princeton.edu/java/43stack/
+
+http://www.ime.usp.br/~yoshi/2013ii/ccm118/Sedgewick/Slides/43stack.pdf

@@ -1,0 +1,418 @@
+on which the phrase project gutenberg appears or with which the phrase project gutenberg is associated is accessed displayed performed viewed copied or distributed this ebook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever you may copy it give it away or re use it under the terms of the project gutenberg license included with this ebook or online 
+time = 0.039
+timeCPU = 0.037427627
+on which the phrase project gutenberg appears or with which the phrase project gutenberg is associated is accessed displayed performed viewed copied or distributed this ebook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever you may copy it give it away or re use it under the terms of the project gutenberg license included with this ebook or online 
+time = 0.039
+timeCPU = 0.037189208
+n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+dequeue lo = 1
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+dequeue lo = 7
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+on test jeans 
+time = 0.133
+timeCPU = 0.023435427
+n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+dequeue lo = 1 | hi = queues[1].peek() = 6 |  besthi = 6bestlo = 1 | 2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+dequeue lo = 7 | hi = queues[1].peek() = 9 |  besthi = 9bestlo = 7 | 2.5 - q[0] : 
+2.5 - q[1] : 9 
+on test jeans 
+time = 0.047
+timeCPU = 0.022709638
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+dequeue lo = 1 | hi = queues[1].peek() = 6 |  besthi = 6bestlo = 1 | 2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+dequeue lo = 7 | hi = queues[1].peek() = 9 |  besthi = 9bestlo = 7 | 2.5 - q[0] : 
+2.5 - q[1] : 9 
+on test jeans 
+time = 0.044
+timeCPU = 0.022734895
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+dequeue lo = 1 | hi = queues[1].peek() = 6 |  besthi = 6bestlo = 1 | 
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+dequeue lo = 7 | hi = queues[1].peek() = 9 |  besthi = 9bestlo = 7 | 
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+on test jeans 
+time = 0.043
+timeCPU = 0.022412463
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | hi = queues[1].peek() = 6 |  besthi = 6bestlo = 1 | 
+2.5 - q[0] : 7 
+
+2.5 - q[1] : 6 9 
+
+2 - q[0] : 7 
+
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | hi = queues[1].peek() = 9 |  besthi = 9bestlo = 7 | 
+2.5 - q[0] : 
+
+2.5 - q[1] : 9 
+
+on test jeans 
+time = 0.066
+timeCPU = 0.023234708
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | hi = queues[1].peek() = 6 |  besthi = 6bestlo = 1 | 
+2.5 - q[0] : 7 
+
+2.5 - q[1] : 6 9 
+
+2 - q[0] : 7 
+
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | hi = queues[1].peek() = 9 |  besthi = 9bestlo = 7 | 
+2.5 - q[0] : 
+
+2.5 - q[1] : 9 
+
+on test jeans 
+time = 0.062
+timeCPU = 0.023161299
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | hi = queues[1].peek() = 6 |  besthi = 6bestlo = 1 | 
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | hi = queues[1].peek() = 9 |  besthi = 9bestlo = 7 | 
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+
+on test jeans 
+time = 0.043
+timeCPU = 0.022492006
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | if(!queues[j].isEmpty())
+hi = queues[1].peek() = 6 | if (!done && hi - lo < besthi - bestlo)
+ besthi = 6| bestlo = 1 | 
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | if(!queues[j].isEmpty())
+hi = queues[1].peek() = 9 | if (!done && hi - lo < besthi - bestlo)
+ besthi = 9| bestlo = 7 | 
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+
+on test jeans 
+time = 0.067
+timeCPU = 0.023369991
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | if(!queues[j].isEmpty())
+hi = queues[1].peek() = 6 | 
+if (!done && hi - lo < besthi - bestlo)
+ besthi = 6| bestlo = 1 | 
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | if(!queues[j].isEmpty())
+hi = queues[1].peek() = 9 | 
+if (!done && hi - lo < besthi - bestlo)
+ besthi = 9| bestlo = 7 | 
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+
+on test jeans 
+time = 0.063
+timeCPU = 0.023210929
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | if(!queues[j].isEmpty())
+hi = queues[1].peek() = 6 | 
+if (!done && hi - lo < besthi - bestlo)
+ besthi = 6| bestlo = 1 | 
+
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | if(!queues[j].isEmpty())
+hi = queues[1].peek() = 9 | 
+if (!done && hi - lo < besthi - bestlo)
+ besthi = 9| bestlo = 7 | 
+
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+
+on test jeans 
+time = 0.065
+timeCPU = 0.02337996
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | if(!queues[j].isEmpty())
+hi = queues[1].peek() = 6 | 
+if (!done && hi - lo < besthi - bestlo)
+ besthi = 6| bestlo = 1 | 
+
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+end of while///////
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | if(!queues[j].isEmpty())
+hi = queues[1].peek() = 9 | 
+if (!done && hi - lo < besthi - bestlo)
+ besthi = 9| bestlo = 7 | 
+
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+end of while///////
+
+on test jeans 
+time = 0.065
+timeCPU = 0.023400694
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | 
+if(!queues[j].isEmpty())
+hi = queues[1].peek() = 6 | 
+if (!done && hi - lo < besthi - bestlo)
+ besthi = 6| bestlo = 1 | 
+
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+end of while///////
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | 
+if(!queues[j].isEmpty())
+hi = queues[1].peek() = 9 | 
+if (!done && hi - lo < besthi - bestlo)
+ besthi = 9| bestlo = 7 | 
+
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+end of while///////
+
+on test jeans 
+time = 0.055
+timeCPU = 0.023261328
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | 
+if(!queues[1].isEmpty())
+    hi = queues[1].peek() = 6 | 
+if (!done && hi - lo < besthi - bestlo)
+    besthi = 6| bestlo = 1 | 
+
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+end of while///////
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | 
+if(!queues[1].isEmpty())
+    hi = queues[1].peek() = 9 | 
+if (!done && hi - lo < besthi - bestlo)
+    besthi = 9| bestlo = 7 | 
+
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+end of while///////
+
+on test jeans 
+time = 0.063
+timeCPU = 0.023258224
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | 
+if(!queues[1].isEmpty())
+    hi = queues[1].peek() = 6 | 
+if (!done && hi(6) - lo(1) < besthi(6) - bestlo(1))
+    besthi = 6| bestlo = 1 | 
+
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+end of while///////
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | 
+if(!queues[1].isEmpty())
+    hi = queues[1].peek() = 9 | 
+if (!done && hi(9) - lo(7) < besthi(9) - bestlo(7))
+    besthi = 9| bestlo = 7 | 
+
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+end of while///////
+
+on test jeans 
+time = 0.066
+timeCPU = 0.023514243
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | 
+if(!queues[1].isEmpty())
+    hi = queues[1].peek() = 6 | 
+if (!done && hi(6) - lo(1) < besthi(6) - bestlo(1))
+    besthi = 6| bestlo = 1 | 
+
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+end of while///////
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | 
+if(!queues[1].isEmpty())
+    hi = queues[1].peek() = 9 | 
+if (!done && hi(9) - lo(7) < besthi(9) - bestlo(7))
+    besthi = 9| bestlo = 7 | 
+
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+end of while///////
+
+bestlo(7)
+on test jeans 
+time = 0.066
+timeCPU = 0.023473084
+***********BEGIN: n_words = 10
+1 - q[0] : 1 7 
+1 - q[1] : 6 9 
+
+2 - q[0] : 1 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 1 | 
+if(!queues[1].isEmpty())
+    hi = queues[1].peek() = 6 | 
+if (!done && hi(6) - lo(1) < besthi(6) - bestlo(1))
+    besthi = 6| bestlo = 1 | 
+
+2.5 - q[0] : 7 
+2.5 - q[1] : 6 9 
+end of while///////
+
+2 - q[0] : 7 
+2 - q[1] : 6 9 
+
+dequeue lo = 7 | 
+if(!queues[1].isEmpty())
+    hi = queues[1].peek() = 9 | 
+if (!done && hi(9) - lo(7) < besthi(9) - bestlo(7))
+    besthi = 9| bestlo = 7 | 
+
+2.5 - q[0] : 
+2.5 - q[1] : 9 
+end of while///////
+
+bestlo(7)| besthi(9)
+on test jeans 
+time = 0.044
+timeCPU = 0.023005026

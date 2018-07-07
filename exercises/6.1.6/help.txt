@@ -1,0 +1,4 @@
+Faça  o exercício enunciado em 
+http://www.ime.usp.br/~yoshi/2015i/mac323/html/exx/ex6.1.06.html
+baseado no Exercício 6.1.6 de Algs4th:
+http://algs4.cs.princeton.edu/61event/index.php#6.1
